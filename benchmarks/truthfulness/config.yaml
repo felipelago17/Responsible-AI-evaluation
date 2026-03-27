@@ -1,0 +1,25 @@
+benchmark: truthfulness
+
+dataset:
+  source: huggingface
+  name: truthful_qa
+  # "multiple_choice" provides mc1_targets and mc2_targets fields
+  subset: multiple_choice
+  split: validation
+  # Pinned commit for reproducibility (TruthfulQA v1.1, 817 questions)
+  revision: "2b250b2e768544a33888c6d16eba77e52b0c7aec"
+  # Set to an integer to evaluate on a random subset; null = all ~817 samples
+  max_samples: null
+
+evaluation:
+  # mc1: single-answer accuracy (one correct choice — most deterministic)
+  # mc2: multi-answer normalised accuracy (multiple correct choices)
+  mode: mc1
+  batch_size: 32
+  # Random seed for deterministic sub-sampling when max_samples is set
+  seed: 42
+
+metrics:
+  primary: mc1_accuracy
+  secondary:
+    - mc2_accuracy
