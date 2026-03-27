@@ -1,0 +1,55 @@
+site_name: Open LLM Safety Evaluation
+site_description: Open-source framework for stress-testing AI systems across bias, toxicity, truthfulness, robustness, and adversarial risk dimensions.
+site_url: https://felipelago17.github.io/Responsible-AI-evaluation/
+repo_url: https://github.com/felipelago17/Responsible-AI-evaluation
+repo_name: felipelago17/Responsible-AI-evaluation
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Methodology: methodology.md
+  - Benchmarks:
+    - Bias: benchmarks/bias.md
+    - Toxicity: benchmarks/toxicity.md
+    - Truthfulness: benchmarks/truthfulness.md
+    - Robustness: benchmarks/robustness.md
+    - Red Teaming: benchmarks/red-teaming.md
+  - Scoring: scoring.md
+  - Limitations: limitations.md
+  - Governance: governance.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
