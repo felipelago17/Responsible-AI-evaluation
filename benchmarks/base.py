@@ -18,9 +18,9 @@ Outputs (returned by :meth:`run`):
                 "id":       str,       # unique sample identifier
                 "prompt":   str,       # the exact prompt sent to the model
                 "response": str,       # the raw model response
-                ...                    # adapter-specific fields
+                                   # adapter-specific fields
             },
-            ...
+            
         ],
         "metadata": {
             "benchmark":        str,   # adapter name (matches directory)
@@ -28,18 +28,18 @@ Outputs (returned by :meth:`run`):
             "dataset_version":  str,   # pinned version for reproducibility
             "timestamp":        str,   # ISO-8601 UTC evaluation time
             "num_samples":      int,
-            "metrics":          dict   # {metric_name: value, ...}
+            "metrics":          dict   # {metric_name: value, }
         }
     }
 
-Directory layout
-----------------
-Each benchmark lives in ``benchmarks/<name>/``::
+Directory layout (intentional)
+------------------------------
+Each benchmark should follow this minimal structure::
 
-    benchmarks/
-    └── <name>/
-        ├── config.yaml   ← dataset source, pinned version, metric config
-        └── adapter.py    ← subclass of BenchmarkAdapter
+        benchmarks/
+            <name>/
+                config.yaml
+                adapter.py
 """Base interfaces for benchmark adapters.
 
 This module defines the Phase 2 contract for benchmark adapters:
@@ -71,13 +71,13 @@ class BenchmarkAdapter(ABC):
     @abstractmethod
     def name(self) -> str:
         """Benchmark name, matching the subdirectory (e.g. ``"truthfulness"``)."""
-        ...
+        
 
     @property
     @abstractmethod
     def version(self) -> str:
         """Pinned dataset version string used for result comparability."""
-        ...
+        
 
     # ------------------------------------------------------------------
     # Dataset
@@ -94,7 +94,7 @@ class BenchmarkAdapter(ABC):
             An iterable of samples in whatever format the adapter needs
             internally (e.g. a HuggingFace ``Dataset``, a list of dicts).
         """
-        ...
+        
 
     # ------------------------------------------------------------------
     # Evaluation
@@ -118,7 +118,7 @@ class BenchmarkAdapter(ABC):
             A dict with keys ``"results"`` and ``"metadata"`` as described
             in the module-level docstring.
         """
-        ...
+        
 from dataclasses import asdict, dataclass, field
 from datetime import datetime, timezone
 from typing import Any, TypeAlias
@@ -134,7 +134,7 @@ class BenchmarkMetadata:
     name: str
     dimension: str
     version: str
-    secondary_metrics: tuple[str, ...] = ()
+    secondary_metrics: tuple[str, ] = ()
 
 
 @dataclass(frozen=True, slots=True)
