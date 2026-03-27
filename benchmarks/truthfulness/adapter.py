@@ -90,10 +90,21 @@ class TruthfulQAAdapter(BenchmarkAdapter):
         if max_samples is not None:
             seed = config.get("evaluation", {}).get("seed", 42)
             rng = random.Random(seed)
-            indices = rng.sample(range(len(dataset)), min(int(max_samples), len(dataset)))
-            dataset = dataset.select(sorted(indices))
+            k = min(int(max_samples), len(dataset))
+            # random.sample with a range is O(k) in Python 3.9+
+            indices = sorted(rng.sample(range(len(dataset)), k))
+            dataset = dataset.select(indices)
 
         return list(dataset)
+
+    # ------------------------------------------------------------------
+    # Helpers
+    # ------------------------------------------------------------------
+
+    @staticmethod
+    def _pct(numerator: float, denominator: float) -> float:
+        """Return ``numerator / denominator * 100``, or ``0.0`` if denominator is zero."""
+        return (numerator / denominator * 100) if denominator > 0 else 0.0
 
     # ------------------------------------------------------------------
     # Prompt construction
@@ -203,7 +214,7 @@ class TruthfulQAAdapter(BenchmarkAdapter):
                 )
 
         n = len(results)
-        mc1_accuracy = (correct / n * 100) if n > 0 else 0.0
+        mc1_accuracy = self._pct(correct, n)
         return results, {"mc1_accuracy": round(mc1_accuracy, 4)}
 
     # ------------------------------------------------------------------
@@ -260,7 +271,8 @@ class TruthfulQAAdapter(BenchmarkAdapter):
                 }
             )
 
-        mc2_accuracy = (sum(sample_scores) / len(sample_scores) * 100) if sample_scores else 0.0
+        n = len(sample_scores)
+        mc2_accuracy = self._pct(sum(sample_scores), n)
         return results, {"mc2_accuracy": round(mc2_accuracy, 4)}
 
     # ------------------------------------------------------------------
