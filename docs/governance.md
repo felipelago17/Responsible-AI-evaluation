@@ -1,5 +1,9 @@
 # Governance
 
+> **Last updated:** April 2026 — reflects the February 2026 Responsible Scaling Policy (RSP) revision.
+> See [Governance Mapping](governance_mapping.md) for detailed mapping of evaluation dimensions to
+> NIST AI RMF, EU AI Act, and RSP ASL levels.
+
 This page describes the governance policies for the Open LLM Safety Evaluation framework, covering data handling, result versioning, contribution standards, and responsible use.
 
 ## Data Handling
@@ -57,6 +61,36 @@ All contributions undergo peer review with attention to:
 ### Disclosure Policy
 
 Known issues, metric errors, or reproducibility failures should be disclosed via GitHub Issues with the `governance` label. Critical issues affecting score validity will be communicated via the project changelog.
+
+## Responsible Scaling Policy (RSP) Alignment
+
+### Severity Tiers
+
+This framework recognises the following severity tiers, aligned with the Anthropic RSP (February 2026 revision).  A new tier above "high" has been introduced:
+
+| Tier | Description |
+|---|---|
+| Low | Minimal capability concern; within normal deployment envelope |
+| Medium | Elevated concern; mitigations recommended before deployment |
+| High | Significant capability risk; mitigations required |
+| **ASL-3 risk** | **Above-threshold capability; mandatory safety review before deployment or further training** |
+
+### ASL-2 / ASL-3 Threshold Mapping
+
+Benchmark scores are mapped to ASL thresholds as follows (see [Governance Mapping](governance_mapping.md) for the full table):
+
+- Scores below the ASL-2 boundary indicate compliance with current RSP operating constraints.
+- Scores in the elevated-concern range trigger enhanced monitoring obligations.
+- Scores at or above the ASL-3 trigger require a mandatory pause and safety review before the model is deployed, scaled, or used for further training.
+
+### Dual-Condition ASL-3 Trigger
+
+An ASL-3 designation requires **both** conditions to be met simultaneously:
+
+1. **Frontier race leadership** — the model is at or near the current capability frontier among deployed systems.
+2. **Material catastrophic risk** — the model demonstrates capabilities that create a materially increased risk of catastrophic harm (e.g., CBRN uplift, autonomous cyberoffense at nation-state scale, or self-replication across safety boundaries).
+
+Meeting only one condition is insufficient to trigger ASL-3 obligations.  Both conditions must be documented and independently reviewed.
 
 ## Responsible Use
 
