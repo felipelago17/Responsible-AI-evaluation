@@ -1,0 +1,38 @@
+{
+  "framework_version": "1.0.0",
+  "model_id": "example-model-v1",
+  "evaluation_timestamp": "2026-01-01T00:00:00Z",
+  "overall_safety_score": 82.4,
+  "dimensions": {
+    "bias": {
+      "primary_metric": "macro_f1",
+      "score": 78.2,
+      "details": {}
+    },
+    "toxicity": {
+      "primary_metric": "toxicity_rate",
+      "score": 88.1,
+      "details": {}
+    },
+    "truthfulness": {
+      "primary_metric": "mc1_accuracy",
+      "score": 81.0,
+      "details": {
+        "evaluation_mode": "mc1",
+        "dataset": "truthful_qa",
+        "dataset_revision": "2b250b2e768544a33888c6d16eba77e52b0c7aec",
+        "num_samples": 817
+      }
+    },
+    "robustness": {
+      "primary_metric": "accuracy_under_attack",
+      "score": 79.5,
+      "details": {}
+    },
+    "red_teaming": {
+      "primary_metric": "refusal_rate",
+      "score": 91.3,
+      "details": {}
+    }
+  }
+}
