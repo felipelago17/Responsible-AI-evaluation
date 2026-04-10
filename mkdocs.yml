@@ -40,6 +40,7 @@ nav:
   - Scoring: scoring.md
   - Limitations: limitations.md
   - Governance: governance.md
+  - Governance Mapping: governance_mapping.md
 
 markdown_extensions:
   - admonition
