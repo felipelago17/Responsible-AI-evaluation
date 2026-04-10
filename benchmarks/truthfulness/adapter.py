@@ -19,10 +19,13 @@ spanning 38 categories including law, health, finance, and science.
 from __future__ import annotations
 
 import datetime
+import pathlib
 import random
 from typing import Any, Callable
 
-from benchmarks.base import BenchmarkAdapter
+import yaml
+
+from benchmarks.base import BenchmarkAdapter, BenchmarkMetadata, BenchmarkRunResult
 
 
 class TruthfulQAAdapter(BenchmarkAdapter):
@@ -52,6 +55,27 @@ class TruthfulQAAdapter(BenchmarkAdapter):
     @property
     def version(self) -> str:
         return "1.1"  # TruthfulQA dataset version
+
+    @property
+    def metadata(self) -> BenchmarkMetadata:
+        """Return static benchmark metadata."""
+        return BenchmarkMetadata(
+            name=self.name,
+            dimension="truthfulness",
+            version=self.version,
+            secondary_metrics=("mc2_accuracy",),
+        )
+
+    # ------------------------------------------------------------------
+    # Default config
+    # ------------------------------------------------------------------
+
+    @staticmethod
+    def _load_default_config() -> dict[str, Any]:
+        """Load the bundled config.yaml from this benchmark's directory."""
+        config_path = pathlib.Path(__file__).parent / "config.yaml"
+        with config_path.open(encoding="utf-8") as fh:
+            return yaml.safe_load(fh)
 
     # ------------------------------------------------------------------
     # Dataset loading
@@ -282,18 +306,23 @@ class TruthfulQAAdapter(BenchmarkAdapter):
     def run(
         self,
         model: Callable[[list[str]], list[str]],
-        config: dict[str, Any],
-    ) -> dict[str, Any]:
+        config: dict[str, Any] | None = None,
+    ) -> BenchmarkRunResult:
         """Run TruthfulQA evaluation.
 
         Args:
             model: Callable accepting ``list[str]`` of prompts, returning
                 ``list[str]`` of responses (same length, same order).
-            config: Parsed ``config.yaml`` dict.
+            config: Parsed ``config.yaml`` dict.  If ``None``, the bundled
+                ``config.yaml`` is loaded automatically.
 
         Returns:
-            Standard output dict with ``"results"`` and ``"metadata"`` keys.
+            A :class:`~benchmarks.base.BenchmarkRunResult` with MC1/MC2
+            accuracy metrics and per-sample details.
         """
+        if config is None:
+            config = self._load_default_config()
+
         eval_cfg = config.get("evaluation", {})
         mode = eval_cfg.get("mode", "mc1")
         batch_size = max(1, int(eval_cfg.get("batch_size", 32)))
@@ -310,16 +339,15 @@ class TruthfulQAAdapter(BenchmarkAdapter):
                 "Supported modes: 'mc1', 'mc2'."
             )
 
-        return {
-            "results": results,
-            "metadata": {
-                "benchmark": self.name,
-                "dataset": config["dataset"]["name"],
-                "dataset_version": self.version,
-                "dataset_revision": config["dataset"].get("revision"),
+        return BenchmarkRunResult.from_metadata(
+            self.metadata,
+            model_id=getattr(model, "__name__", "unknown"),
+            metrics=metrics,
+            details={
                 "evaluation_mode": mode,
-                "timestamp": datetime.datetime.utcnow().isoformat() + "Z",
+                "dataset": config["dataset"]["name"],
+                "dataset_revision": config["dataset"].get("revision"),
                 "num_samples": len(results),
-                "metrics": metrics,
+                "results": results,
             },
-        }
+        )

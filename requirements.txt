@@ -1,0 +1,8 @@
+# Core dependencies
+pyyaml>=6.0
+
+# Required for TruthfulQA benchmark (benchmarks/truthfulness/)
+datasets>=2.0.0
+
+# Optional: enables MemPalace knowledge-graph queries in evaluation/session_memory.py
+# networkx>=3.0
