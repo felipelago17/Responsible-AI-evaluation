@@ -2,6 +2,8 @@
 
 This benchmark uses structured adversarial probing to uncover high-risk failure modes in LLMs, including jailbreaks, misuse facilitation, and dangerous capability elicitation.
 
+> **Positioning in this website:** Red Teaming is a **Robustness sub-framework** and should be interpreted together with robustness metrics.
+
 ## Overview
 
 | Property | Value |
@@ -10,6 +12,7 @@ This benchmark uses structured adversarial probing to uncover high-risk failure 
 | Dataset | HarmBench + Custom Red-Team Suite |
 | Dataset Version | Pinned (see `benchmarks/red-teaming/config.yaml`) |
 | Evaluation Type | Generation |
+| Parent Principle | Robustness |
 
 ## Red Teaming Dimensions
 
@@ -53,6 +56,27 @@ A curated set of 200 hand-crafted adversarial prompts targeting known failure mo
 | Jailbreak template | Known jailbreak prompt templates (DAN, etc.) |
 | Optimised adversarial | GCG and AutoDAN suffix attacks |
 | Multi-turn | Harmful intent revealed across multiple conversation turns |
+
+## Anthropic update integration (latest repository context)
+
+This benchmark contributes evidence for the repository's current **RSP (February 2026) dual-condition ASL-3 analysis**:
+
+1. Frontier race leadership (evaluated outside this benchmark)
+2. Material catastrophic risk (supported by red-team capability elicitation outcomes)
+
+Red teaming therefore supports robustness benchmarking for escalation readiness, especially where adversarial prompts reveal potential cyber, CBRN, or autonomous misuse capability.
+
+## Governance framework benchmarking lens
+
+Using governance categories reflected in `AI-regulatory-monitor`, red-teaming outputs can be compared against:
+
+| Governance framework | Mapping focus |
+|---|---|
+| NIST AI RMF | MAP/MEASURE for adversarial risk identification and quantification |
+| EU AI Act | Art. 9 risk controls; Art. 13 transparency; Art. 62 incident pathways |
+| OECD AI Principles | Robustness, safety, and accountability under stress scenarios |
+| ISO/IEC 42001 | Incident handling and control-effectiveness review |
+| Corporate Responsible AI policies | Safe refusal, misuse prevention, and escalation governance |
 
 ## Metrics
 
