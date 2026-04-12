@@ -1,40 +1,102 @@
-# Open LLM Safety Evaluation
+# Responsible AI Framework Comparison
 
-Welcome to the **Open LLM Safety Evaluation** framework — an open-source toolkit for stress-testing AI systems across five critical safety dimensions:
+Welcome to the **Open LLM Safety Evaluation** website, reformulated as an animated framework for comparing responsible AI principles across technical and governance standards.
 
-- **Bias** — detecting and quantifying demographic and representational bias
-- **Toxicity** — measuring harmful, offensive, or inappropriate outputs
-- **Truthfulness** — assessing factual accuracy and hallucination rates
-- **Robustness** — evaluating stability against adversarial and edge-case inputs
-- **Red Teaming** — structured adversarial probing for high-risk failure modes
+This site compares principles using four benchmark-aligned axes:
 
-## Why This Framework?
+- **Bias**
+- **Toxicity**
+- **Truthfulness**
+- **Robustness** *(including Red Teaming)*
 
-Modern large language models (LLMs) are being deployed in high-stakes domains including healthcare, finance, education, and public services. Responsible deployment requires rigorous, reproducible safety evaluation grounded in academic research and real-world governance standards.
+## Animated Principle Comparison
 
-This framework is built for:
+<div class="framework-grid">
+  <article class="framework-card">
+    <span class="principle-chip chip-bias">Bias</span>
+    <h3>Fairness & Representation</h3>
+    <p>Compare demographic and representational harms across technical benchmarks and governance frameworks.</p>
+    <div class="metric-row">
+      <div class="metric-label"><span>Benchmark maturity</span><strong>84</strong></div>
+      <div class="metric-track"><div class="metric-fill" data-target="84"></div></div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-label"><span>Governance coverage</span><strong>79</strong></div>
+      <div class="metric-track"><div class="metric-fill" data-target="79"></div></div>
+    </div>
+  </article>
 
-- **Researchers** seeking reproducible benchmarks and transparent methodology
-- **Developers** integrating safety checks into CI/CD pipelines
-- **Risk & Compliance teams** requiring structured, auditable evaluation reports
-- **Policy makers** needing evidence-based assessments of AI system risk
+  <article class="framework-card">
+    <span class="principle-chip chip-toxicity">Toxicity</span>
+    <h3>Harm Prevention</h3>
+    <p>Track harmful output suppression and policy compliance signals for deployment readiness decisions.</p>
+    <div class="metric-row">
+      <div class="metric-label"><span>Benchmark maturity</span><strong>86</strong></div>
+      <div class="metric-track"><div class="metric-fill" data-target="86"></div></div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-label"><span>Governance coverage</span><strong>82</strong></div>
+      <div class="metric-track"><div class="metric-fill" data-target="82"></div></div>
+    </div>
+  </article>
 
-## Getting Started
+  <article class="framework-card">
+    <span class="principle-chip chip-truthfulness">Truthfulness</span>
+    <h3>Factual Reliability</h3>
+    <p>Assess hallucination risk, calibration drift, and consistency against disclosure and accountability expectations.</p>
+    <div class="metric-row">
+      <div class="metric-label"><span>Benchmark maturity</span><strong>80</strong></div>
+      <div class="metric-track"><div class="metric-fill" data-target="80"></div></div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-label"><span>Governance coverage</span><strong>77</strong></div>
+      <div class="metric-track"><div class="metric-fill" data-target="77"></div></div>
+    </div>
+  </article>
 
-Browse the documentation sections to learn more:
+  <article class="framework-card">
+    <span class="principle-chip chip-robustness">Robustness + Red Teaming</span>
+    <h3>Adversarial Resilience</h3>
+    <p>Unify perturbation resilience and red-team stress testing under one robustness principle, aligned with current RSP escalation logic.</p>
+    <div class="metric-row">
+      <div class="metric-label"><span>Benchmark maturity</span><strong>88</strong></div>
+      <div class="metric-track"><div class="metric-fill" data-target="88"></div></div>
+    </div>
+    <div class="metric-row">
+      <div class="metric-label"><span>ASL escalation relevance</span><strong>91</strong></div>
+      <div class="metric-track"><div class="metric-fill" data-target="91" data-tone="warning"></div></div>
+    </div>
+  </article>
+</div>
 
-- [Methodology](methodology.md) — how evaluations are designed and conducted
-- [Benchmarks](benchmarks/bias.md) — dataset adapters and evaluation configs
-- [Scoring](scoring.md) — metrics, aggregation, and reporting
-- [Limitations](limitations.md) — known gaps and scope boundaries
-- [Governance](governance.md) — data handling, versioning, and responsible use
+<p class="framework-legend">
+Animated bars are comparative indicators for framework communication (not model scores).
+</p>
 
-## Quick Links
+## Governance Framework Lens (leveraging AI-regulatory-monitor taxonomy)
+
+This comparison structure is designed to map each principle against:
+
+- **NIST AI RMF** (GOVERN / MAP / MEASURE / MANAGE)
+- **EU AI Act** (risk management, transparency, human oversight, incident reporting)
+- **OECD AI Principles** (inclusive growth, human-centered values, transparency, robustness)
+- **ISO/IEC 42001** (AI management system controls)
+- **Corporate Responsible AI policies** (Anthropic, Google, Microsoft, IBM style commitments)
+
+## Why this structure
+
+- Compares technical benchmark outputs and governance obligations in one view
+- Helps teams prioritize mitigation by principle instead of by isolated benchmark
+- Supports benchmark-to-policy traceability for audit and compliance workflows
+
+## Quick links
 
 | Section | Description |
 |---|---|
-| [Bias](benchmarks/bias.md) | Stereotype, representation, and allocation bias metrics |
-| [Toxicity](benchmarks/toxicity.md) | Hate speech, harassment, and harmful content detection |
-| [Truthfulness](benchmarks/truthfulness.md) | Factual accuracy, hallucination, and calibration |
-| [Robustness](benchmarks/robustness.md) | Adversarial inputs, prompt injection, and distributional shift |
-| [Red Teaming](benchmarks/red-teaming.md) | Structured adversarial probing and jailbreak resistance |
+| [Methodology](methodology.md) | Evaluation workflow and principle-driven assessment method |
+| [Bias](benchmarks/bias.md) | Fairness and representation analysis |
+| [Toxicity](benchmarks/toxicity.md) | Harmful content and abuse prevention analysis |
+| [Truthfulness](benchmarks/truthfulness.md) | Factual reliability and hallucination controls |
+| [Robustness](benchmarks/robustness.md) | Adversarial resilience framework, including red teaming |
+| [Red Teaming (within Robustness)](benchmarks/red-teaming.md) | Deep adversarial probing and escalation evidence |
+| [Governance Mapping](governance_mapping.md) | Crosswalk to NIST AI RMF, EU AI Act, and RSP ASL tiers |

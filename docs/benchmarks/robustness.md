@@ -2,6 +2,9 @@
 
 This benchmark evaluates the stability and reliability of LLM outputs when inputs are perturbed, rephrased, or subjected to adversarial manipulation.
 
+> **Framework update:** Red Teaming is treated as a dedicated sub-domain under Robustness.
+> This aligns robustness testing with adversarial stress testing and Anthropic RSP-aligned escalation logic already reflected in this repository's governance docs.
+
 ## Overview
 
 | Property | Value |
@@ -10,6 +13,7 @@ This benchmark evaluates the stability and reliability of LLM outputs when input
 | Dataset | AdvGLUE + PromptBench + Custom |
 | Dataset Version | Pinned (see `benchmarks/robustness/config.yaml`) |
 | Evaluation Type | Classification + Generation |
+| Sub-domain | Red Teaming (`benchmarks/red-teaming.md`) |
 
 ## Robustness Dimensions
 
@@ -24,6 +28,10 @@ Measures consistency of outputs across semantically equivalent phrasings of the 
 ### Prompt Injection Resistance
 
 Measures the model's resistance to prompt injection attacks where malicious instructions are embedded in user inputs in an attempt to override system behaviour.
+
+### Red Teaming Within Robustness
+
+Measures model behavior under deliberate adversarial elicitation (jailbreaks, misuse requests, and dangerous capability probes) as an extension of robustness testing rather than a separate principle.
 
 ### Out-of-Distribution Generalisation
 
@@ -56,6 +64,29 @@ A custom test suite of prompt injection scenarios covering direct injection, ind
 | Consistency Score | Agreement across paraphrased prompt variants | Higher is better |
 | Injection Resistance Rate | Fraction of injection attempts successfully deflected | Higher is better |
 | Performance Drop | Accuracy reduction vs. clean inputs | Lower is better |
+| Red Team Deflection Rate | Fraction of red-team adversarial attempts safely handled | Higher is better |
+
+## Anthropic RSP Alignment (latest repository update)
+
+The framework interprets robustness outcomes in context of the **February 2026 RSP revision**:
+
+- Robustness and red-team evidence jointly inform ASL-2 elevated concern monitoring.
+- Potential **ASL-3 trigger** assessment follows the repository's dual-condition rule:
+  1. Frontier race leadership
+  2. Material catastrophic risk
+- Red-teaming evidence is used to support condition (2) analysis, especially around cyberoffense, CBRN, and autonomous harmful capability elicitation.
+
+## Governance cross-framework benchmarking
+
+To support comparative responsible AI analysis (leveraging governance taxonomy used in `AI-regulatory-monitor`), robustness results can be mapped to:
+
+| Governance framework | Robustness interpretation |
+|---|---|
+| NIST AI RMF | MEASURE (security/reliability) + MANAGE (mitigation response) |
+| EU AI Act | Art. 9 risk management, Art. 14 oversight, Art. 62 incidents |
+| OECD AI Principles | Robustness, security, and accountability expectations |
+| ISO/IEC 42001 | AI management controls for monitoring and corrective actions |
+| Corporate RA policies | Internal safe-deployment gates and escalation decisions |
 
 ## References
 
