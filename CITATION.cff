@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it using the metadata below."
+type: software
+title: "Responsible-AI-evaluation"
+abstract: >
+  Open-source framework for stress-testing AI systems across bias, toxicity,
+  truthfulness, robustness, and adversarial risk dimensions. Built for
+  reproducibility, grounded in academic research, and designed for real-world
+  governance, risk, and safety use cases aligned with the EU AI Act and
+  NIST AI Risk Management Framework.
+authors:
+  - family-names: "Lago"
+    given-names: "Felipe"
+    alias: "felipelago17"
+repository-code: "https://github.com/felipelago17/Responsible-AI-evaluation"
+url: "https://felipelago17.github.io/Responsible-AI-evaluation/"
+license: MIT
+version: "1.0.0"
+date-released: "2026-03-27"
+keywords:
+  - responsible-ai
+  - llm-evaluation
+  - ai-safety
+  - bias-detection
+  - eu-ai-act
+  - governance
+  - benchmarks
+  - toxicity
+  - truthfulness
+  - robustness
+  - llm
+references:
+  - type: article
+    title: "TruthfulQA: Measuring How Models Mimic Human Falsehoods"
+    authors:
+      - family-names: "Lin"
+        given-names: "Stephanie"
+      - family-names: "Hilton"
+        given-names: "Jacob"
+      - family-names: "Evans"
+        given-names: "Owain"
+    year: 2022
+    url: "https://arxiv.org/abs/2109.07958"
+  - type: report
+    title: "Artificial Intelligence Risk Management Framework (AI RMF 1.0)"
+    authors:
+      - name: "National Institute of Standards and Technology"
+    year: 2023
+    url: "https://doi.org/10.6028/NIST.AI.100-1"
+  - type: article
+    title: "BBQ: A Hand-Built Bias Benchmark for Question Answering"
+    authors:
+      - family-names: "Parrish"
+        given-names: "Alicia"
+      - family-names: "Chen"
+        given-names: "Angelica"
+      - family-names: "Nangia"
+        given-names: "Nikita"
+    year: 2022
+    url: "https://arxiv.org/abs/2110.08193"
