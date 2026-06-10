@@ -166,4 +166,31 @@ The UAE's national AI strategy targeting top-ten global AI status by 2031, cover
 
 ---
 
+### DIFC Authority (2024) — Artificial Intelligence Regulatory Framework
+
+**Citation:** Dubai International Financial Centre Authority. (2024). *DIFC Artificial Intelligence Regulatory Framework*. DIFC.  
+**URL:** <https://www.difc.ae/business/laws-regulations/legal-database/difc-ai-regime/>
+
+The DIFC's AI regulatory regime governing entities operating within Dubai's international financial free zone, covering obligations around explainability, accountability, bias mitigation, human oversight, and data governance for AI systems used in financial services. As a sector-specific binding instrument within a major Gulf financial hub, it is a key reference point for organisations subject to DIFC jurisdiction deploying high-stakes AI systems — relevant to the fairness and robustness evaluation dimensions of this framework.
+
+---
+
+### UAE TDRA (2024) — AI Governance in Telecommunications and Digital Government
+
+**Citation:** Telecommunications and Digital Government Regulatory Authority (TDRA). (2024). *Artificial Intelligence*. UAE TDRA.  
+**URL:** <https://tdra.gov.ae/en/aict/sectors/AI>
+
+The TDRA is the UAE federal authority responsible for telecommunications regulation and digital government transformation, including oversight of AI adoption across government services and the telecom sector. Its AI governance guidance covers responsible deployment principles, risk assessment obligations, and alignment with the UAE National AI Strategy 2031, providing a federal regulatory context complementary to the DIFC's financial-sector regime.
+
+---
+
+### Smart Dubai (2021) — Dubai AI Principles
+
+**Citation:** Smart Dubai. (2021). *Dubai AI Principles*. Government of Dubai.  
+**URL:** <https://www.smartdubai.ae/>
+
+Smart Dubai — the emirate's government digitalisation authority — published the Dubai AI Principles establishing ethical guidelines for AI deployment across government services and smart city infrastructure. The principles cover transparency, fairness, accountability, privacy, and human oversight, forming the emirate-level ethical baseline that complements the national UAE AI Strategy and the DIFC's sector-specific obligations. Relevant to bias, toxicity, and governance evaluation dimensions for organisations operating within Dubai's smart city ecosystem.
+
+---
+
 *See also: [docs/governance.md](../docs/governance.md) and [docs/governance_mapping.md](../docs/governance_mapping.md) for the framework's internal governance documentation.*
