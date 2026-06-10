@@ -124,7 +124,7 @@ The first U.S. state law imposing obligations on developers and deployers of hig
 **Citation:** High-Level Expert Group on Artificial Intelligence. (2019). *Ethics Guidelines for Trustworthy AI*. European Commission.  
 **URL:** <https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai>
 
-The foundational EU document establishing seven requirements for trustworthy AI: human agency, technical robustness, privacy, transparency, diversity and non-discrimination, societal wellbeing, and accountability. These requirements were the conceptual precursor to the EU AI Act and directly map to the five evaluation dimensions of this framework, particularly bias, robustness, and truthfulness.
+The foundational EU document establishing seven requirements for trustworthy AI: human agency, technical robustness, privacy, transparency, diversity and non-discrimination, societal wellbeing, and accountability. These requirements were the conceptual precursor to the EU AI Act and directly map to the five evaluation dimensions — bias, robustness, and truthfulness in particular — assessed by this framework.
 
 ---
 
@@ -155,24 +155,6 @@ Explanatory overview of the EU AI Act's risk-based classification system — pro
 
 ---
 
-### White & Case (2024) — Long-Awaited EU AI Act Becomes Law
-
-**Citation:** White & Case LLP. (2024). *Long-Awaited EU AI Act Becomes Law After Publication in EU's Official Journal*.  
-**URL:** <https://www.whitecase.com/insight-alert/long-awaited-eu-ai-act-becomes-law-after-publication-eus-official-journal>
-
-Practitioner analysis of the EU AI Act's entry into force, covering key obligations, phased implementation timelines (2024–2027), and implications for AI developers and deployers. Useful for mapping the Act's conformity assessment requirements to specific evaluation milestones supported by this framework.
-
----
-
-### White & Case (n.d.) — AI Watch: Global Regulatory Tracker
-
-**Citation:** White & Case LLP. (n.d.). *AI Watch: Global Regulatory Tracker*.  
-**URL:** <https://www.whitecase.com/insight-our-thinking/ai-watch-global-regulatory-tracker>
-
-A continuously updated comparative tracker of AI regulatory developments across 60+ jurisdictions, mapping legislative status, risk classification approaches, and enforcement mechanisms. Recommended as a companion resource to `docs/governance_mapping.md` for maintaining current awareness of jurisdictional obligations relevant to framework users.
-
----
-
 ## United Arab Emirates
 
 ### UAE Government (2024) — UAE National AI Strategy 2031
@@ -181,15 +163,6 @@ A continuously updated comparative tracker of AI regulatory developments across 
 **URL:** <https://ai.gov.ae/strategy/>
 
 The UAE's national AI strategy targeting top-ten global AI status by 2031, covering priority sectors, talent development, data infrastructure, and regulatory enablement. The strategy's emphasis on ethical AI and international standards alignment contextualises the governance evaluation dimension for organisations deploying AI systems in the UAE market.
-
----
-
-### White & Case (2024) — AI Watch: UAE
-
-**Citation:** White & Case LLP. (2024). *AI Watch: Global Regulatory Tracker — United Arab Emirates*.  
-**URL:** <https://www.whitecase.com>
-
-Jurisdiction-specific analysis of the UAE's evolving AI regulatory landscape, including the Dubai International Financial Centre (DIFC) AI regulations, Abu Dhabi's ADGM framework, and federal-level AI governance developments. Relevant for framework users operating in or evaluating AI systems for UAE-regulated contexts.
 
 ---
 
