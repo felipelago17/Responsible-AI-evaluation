@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-0075ca.svg)](https://felipelago17.github.io/Responsible-AI-evaluation/)
 [![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-aligned-00b300.svg)](docs/governance.md)
-[![Tests](https://img.shields.io/badge/tests-pytest-brightgreen.svg)](tests/)
+[![CI](https://github.com/felipelago17/Responsible-AI-evaluation/actions/workflows/ci.yml/badge.svg)](https://github.com/felipelago17/Responsible-AI-evaluation/actions/workflows/ci.yml)
 [![Related: AI Regulatory Monitor](https://img.shields.io/badge/related-AI--regulatory--monitor-8a2be2.svg)](https://github.com/felipelago17/AI-regulatory-monitor)
 
 Open-source framework for stress-testing AI systems, bringing together benchmarks to evaluate **bias**, **toxicity**, **truthfulness**, **robustness**, and **adversarial risk** in modern AI and LLM systems. Built for reproducibility, grounded in academic research, and designed for real-world governance, risk, and safety use cases.
@@ -80,6 +80,7 @@ evaluation/          # Evaluation harness and auxiliary modules
 └── agentic_autonomy.py      # Agentic autonomy risk evaluator
 
 docs/                # MkDocs documentation source
+└── literature/      # Annotated bibliographies by evaluation dimension
 results/             # Versioned evaluation outputs
 tests/               # Unit tests
 ```
@@ -89,6 +90,8 @@ tests/               # Unit tests
 ## Documentation
 
 Full documentation is available at <https://felipelago17.github.io/Responsible-AI-evaluation/>.
+
+**Framework documentation:**
 
 | Section | Description |
 |---|---|
@@ -100,6 +103,17 @@ Full documentation is available at <https://felipelago17.github.io/Responsible-A
 | [Red Teaming](docs/benchmarks/red-teaming.md) | Structured adversarial probing |
 | [Scoring](docs/scoring.md) | Metrics, aggregation, and reporting |
 | [Governance](docs/governance.md) | Data handling, versioning, and responsible use |
+
+**Annotated literature by evaluation dimension:**
+
+| Dimension | Reference Collection |
+|---|---|
+| [Bias & Fairness](docs/literature/bias-and-fairness.md) | Bias benchmarks, fairness metrics, debiasing methods |
+| [Toxicity](docs/literature/toxicity.md) | Toxicity detection, hate speech datasets, evaluation tools |
+| [Truthfulness](docs/literature/truthfulness.md) | Hallucination benchmarks, factuality evaluation |
+| [Red Teaming](docs/literature/red-teaming.md) | Red teaming methodologies, safety evaluation frameworks |
+| [Adversarial Attacks](docs/literature/adversarial-attacks.md) | Data poisoning, model extraction, robustness defences |
+| [Governance Frameworks](docs/literature/ai-governance-frameworks.md) | AI governance standards by jurisdiction |
 
 ---
 

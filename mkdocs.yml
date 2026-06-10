@@ -37,11 +37,18 @@ nav:
     - Truthfulness: benchmarks/truthfulness.md
     - Robustness:
       - Overview: benchmarks/robustness.md
-      - Red Teaming (within Robustness): benchmarks/red-teaming.md
+      - Red Teaming: benchmarks/red-teaming.md
   - Scoring: scoring.md
   - Limitations: limitations.md
   - Governance: governance.md
   - Governance Mapping: governance_mapping.md
+  - Literature:
+    - Bias & Fairness: literature/bias-and-fairness.md
+    - Toxicity: literature/toxicity.md
+    - Truthfulness: literature/truthfulness.md
+    - Red Teaming: literature/red-teaming.md
+    - Adversarial Attacks: literature/adversarial-attacks.md
+    - Governance Frameworks: literature/ai-governance-frameworks.md
 
 markdown_extensions:
   - admonition
