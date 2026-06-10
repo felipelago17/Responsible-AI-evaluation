@@ -1,0 +1,61 @@
+# AI Red Teaming, Safety Evaluation & Adversarial Testing
+
+Annotated bibliography covering red teaming methodologies, safety evaluation frameworks, and adversarial testing practices for AI systems. Relevant to `benchmarks/cybergym_glasswing.py`, `evaluation/agentic_autonomy.py`, and `evaluation/disclosure_compliance.py`.
+
+---
+
+## Longpre et al. (2024) — A Safe Harbor for AI Evaluation and Red Teaming
+
+**Citation:** Longpre, S., et al. (2024). *A Safe Harbor for AI Evaluation and Red Teaming*. arXiv:2403.04893.  
+**URL:** <https://arxiv.org/abs/2403.04893>
+
+Argues for legal and institutional protections for researchers conducting good-faith AI red teaming and safety evaluations. The paper examines how legal uncertainty — particularly around computer fraud and IP law — creates a chilling effect on adversarial testing, and proposes safe harbor principles analogous to those in cybersecurity research. Directly informs the disclosure compliance and governance dimensions of this framework, particularly the design of `evaluation/disclosure_compliance.py`.
+
+---
+
+## Ahmad et al. (2025) — OpenAI's Approach to External Red Teaming
+
+**Citation:** Ahmad, B., et al. (2025). *OpenAI's Approach to External Red Teaming for AI Models and Systems*. arXiv:2503.16431.  
+**URL:** <https://arxiv.org/abs/2503.16431>
+
+Documents OpenAI's operational methodology for coordinating external red teaming campaigns across frontier models, covering team composition, threat model scoping, finding classification, and escalation procedures. Provides a practitioner reference for structured adversarial probing and informs the refusal-rate and zero-day risk metrics implemented in the red-teaming evaluation dimension.
+
+---
+
+## CSET (2025) — AI Red-Teaming Design: Threat Models and Tools
+
+**Citation:** Center for Security and Emerging Technology. (2025). *AI Red-Teaming Design: Threat Models and Tools*. Georgetown University CSET.  
+**URL:** <https://cset.georgetown.edu/article/ai-red-teaming-design-threat-models-and-tools/>
+
+A policy-oriented technical report cataloguing threat models applicable to AI red teaming — spanning misuse, misalignment, systemic risk, and dual-use concerns — alongside a comparative survey of automated and human-in-the-loop adversarial testing tooling. Informs the threat model taxonomy underlying `benchmarks/cybergym_glasswing.py` and the agentic autonomy risk evaluator.
+
+---
+
+## AI Security & Safety Directory (2026) — AI Model Evaluation
+
+**Citation:** AI Security & Safety Directory. (2026). *AI Model Evaluation*. AISecurity AndSafety.org.  
+**URL:** <https://aisecurityandsafety.org/en/guides/ai-model-evaluation/>
+
+A practitioner-facing directory consolidating evaluation methodologies, benchmark resources, and tooling for AI safety and security assessment. Serves as a living cross-reference for the benchmark adapter library, helping map this framework's evaluation dimensions against the broader landscape of community-maintained evaluation resources.
+
+---
+
+## IMDA (2026) — ISO/IEC 42119-8: Testing and Red Teaming of Generative AI Systems
+
+**Citation:** Infocomm Media Development Authority (IMDA). (2026). *Singapore Champions New Global AI Testing Standardisation Efforts* [Press Release].  
+**URL:** <https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/press-releases/2026/singapore-champions-new-global-ai-testing-standardisation-efforts>
+
+Announces Singapore's leadership role in developing ISO/IEC 42119-8, a forthcoming international standard that formalises testing and red teaming of generative AI systems as a component of AI conformance assurance. Directly relevant to the EU AI Act alignment and governance mapping goals of this framework; the standard's scope overlaps significantly with the red-teaming and robustness evaluation dimensions.
+
+---
+
+## SGS (2026) — ISO/IEC 42119 Series
+
+**Citation:** SGS Group. (2026). *Announcing the ISO/IEC 42119 Series: A New Era for AI Testing and Assurance*.  
+**URL:** <https://www.sgs.com/en/news/2026/01/announcing-the-iso-iec-42119-series-a-new-era-for-ai-testing-and-assurance>
+
+Overview of the full ISO/IEC 42119 series — a multi-part suite of international standards covering AI testing methodologies including robustness testing, bias evaluation, and red teaming. Provides the normative standards context for this framework's five evaluation dimensions and supports future conformance mapping in `docs/governance_mapping.md`.
+
+---
+
+*See also: [docs/benchmarks/red-teaming.md](../docs/benchmarks/red-teaming.md) for the framework's internal red-teaming methodology documentation.*
