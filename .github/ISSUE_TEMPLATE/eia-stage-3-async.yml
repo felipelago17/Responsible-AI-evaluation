@@ -1,0 +1,69 @@
+name: "EIA Stage 3 — Asynchronous Independent Work"
+description: "Track each team member's independent completion of the EIA workbook. One issue per team member per assessment."
+title: "[EIA] <system_name> — Stage 3: Async Work (<assessor_name>)"
+labels:
+  - eia
+  - eia-stage-3
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## UNESCO EIA — Stage 3: Asynchronous Work
+        Each team member independently completes the EIA before the Stage 4 workshop. See [Stage 3 guidance](https://felipelago17.github.io/Responsible-AI-evaluation/eia/how-to-run/#stage-3--asynchronous-work).
+
+  - type: input
+    id: assigned_to
+    attributes:
+      label: Assessor Name
+      description: "Name of the team member completing this independent assessment."
+      placeholder: "e.g., Marcus Chen"
+    validations:
+      required: true
+
+  - type: input
+    id: system_ref
+    attributes:
+      label: System Name and Stage 1 Issue Reference
+      description: "Link to the Stage 1 issue for this assessment."
+      placeholder: "e.g., ResumeRank LLM Screener v1.2 — see #42"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: principles_reviewed
+    attributes:
+      label: Principles Reviewed
+      description: "Check each principle as you complete the assessment for it."
+      options:
+        - label: "1. Proportionality and Do No Harm"
+        - label: "2. Safety and Security"
+        - label: "3. Fairness and Non-Discrimination"
+        - label: "4. Sustainability"
+        - label: "5. Right to Privacy and Data Protection"
+        - label: "6. Human Oversight and Determination"
+        - label: "7. Transparency and Explainability"
+        - label: "8. Responsibility and Accountability"
+        - label: "9. Awareness and Literacy"
+        - label: "10. Multi-stakeholder and Adaptive Governance and Collaboration"
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes_per_principle
+    attributes:
+      label: Notes Per Principle
+      description: "Summarise key findings, safeguards identified, gaps, and proposed mitigations for each principle reviewed."
+      placeholder: |
+        **Principle 1 — Proportionality:** Risk-benefit analysis exists but red-teaming not yet done.
+        **Principle 3 — Fairness:** Gender bias detected; ethnicity audit pending...
+    validations:
+      required: false
+
+  - type: textarea
+    id: blockers
+    attributes:
+      label: Blockers and Information Gaps
+      description: "Document any blockers or information you could not access that may affect the accuracy of your assessment."
+      placeholder: "e.g., Could not access training data lineage documentation — request sent to Data Engineering team."
+    validations:
+      required: false

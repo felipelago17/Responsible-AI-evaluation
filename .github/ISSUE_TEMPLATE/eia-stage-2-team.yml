@@ -1,0 +1,62 @@
+name: "EIA Stage 2 — Constituting the Diverse Team"
+description: "Document the assessment team composition, disciplines represented, and any gaps in representation."
+title: "[EIA] <system_name> — Stage 2: Team Formation"
+labels:
+  - eia
+  - eia-stage-2
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## UNESCO EIA — Stage 2: Constituting the Diverse Team
+        A diverse, multidisciplinary team reduces blind spots in the assessment. See [Stage 2 guidance](https://felipelago17.github.io/Responsible-AI-evaluation/eia/how-to-run/#stage-2--constituting-the-diverse-team).
+
+  - type: input
+    id: system_ref
+    attributes:
+      label: System Name and Stage 1 Issue Reference
+      description: "Link to the Stage 1 issue for this assessment."
+      placeholder: "e.g., ResumeRank LLM Screener v1.2 — see #42"
+    validations:
+      required: true
+
+  - type: textarea
+    id: team_members
+    attributes:
+      label: Team Members
+      description: "List all team members: name, role, organisation/discipline. One per line."
+      placeholder: |
+        Dr. Amara Diallo — Assessment Lead, Ethics Office
+        Marcus Chen — ML Engineer, AI Platform
+        Fatima Al-Rashid — Legal Counsel
+        Ingrid Svensson — HR Domain Expert
+        Community Representative — Digital Rights NGO (external)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: disciplines_represented
+    attributes:
+      label: Disciplines Represented
+      description: "Check all disciplines present on the team."
+      options:
+        - label: "Technical / AI-ML engineering"
+        - label: "Legal and compliance"
+        - label: "Ethics and philosophy"
+        - label: "Domain expertise (sector/use case)"
+        - label: "Affected community representation (external)"
+        - label: "HR / People operations"
+        - label: "Cybersecurity"
+        - label: "Data protection / Privacy"
+        - label: "Procurement / Vendor management"
+    validations:
+      required: false
+
+  - type: textarea
+    id: gaps_in_representation
+    attributes:
+      label: Gaps in Representation
+      description: "Document any disciplines or perspectives not represented on the team and how the gap will be addressed (e.g., via Stage 5 stakeholder engagement)."
+      placeholder: "e.g., No disability rights expert — will engage disability advocacy group in Stage 5."
+    validations:
+      required: false

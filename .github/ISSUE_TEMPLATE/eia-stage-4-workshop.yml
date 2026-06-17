@@ -1,0 +1,72 @@
+name: "EIA Stage 4 — Collaborative Workshop"
+description: "Document the outcomes of the team workshop to reconcile individual assessments and produce a consolidated EIA."
+title: "[EIA] <system_name> — Stage 4: Collaborative Workshop"
+labels:
+  - eia
+  - eia-stage-4
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## UNESCO EIA — Stage 4: Collaborative Workshop
+        The full team convenes to compare independent assessments and produce a single consolidated EIA. See [Stage 4 guidance](https://felipelago17.github.io/Responsible-AI-evaluation/eia/how-to-run/#stage-4--collaborative-workshop).
+
+  - type: input
+    id: system_ref
+    attributes:
+      label: System Name and Stage 1 Issue Reference
+      placeholder: "e.g., ResumeRank LLM Screener v1.2 — see #42"
+    validations:
+      required: true
+
+  - type: input
+    id: workshop_date
+    attributes:
+      label: Workshop Date
+      description: "Date(s) the collaborative workshop was held. Format: YYYY-MM-DD"
+      placeholder: "e.g., 2026-07-15"
+    validations:
+      required: true
+
+  - type: textarea
+    id: attendees
+    attributes:
+      label: Attendees
+      description: "List all workshop attendees: name and role."
+      placeholder: |
+        Dr. Amara Diallo — Assessment Lead (facilitator)
+        Marcus Chen — ML Engineer
+        Fatima Al-Rashid — Legal Counsel
+    validations:
+      required: true
+
+  - type: textarea
+    id: key_decisions
+    attributes:
+      label: Key Decisions
+      description: "Summarise key decisions made during the workshop: agreed impact scores, priority risks, mitigation commitments."
+      placeholder: |
+        - Agreed Risk Score 16 for gender bias under Principle 3 (Likelihood 4, Severity 4)
+        - Committed to independent bias audit by 2026-08-31 (owner: ML Platform Team)
+        - Agreed to escalate automated deletion gap to CISO
+    validations:
+      required: false
+
+  - type: textarea
+    id: unresolved_issues
+    attributes:
+      label: Unresolved Issues
+      description: "List any issues not resolved during the workshop that require further information, expert input, or stakeholder validation in Stage 5."
+      placeholder: "e.g., Disability proxy bias assessment deferred pending engagement with disability advocacy group (Stage 5)."
+    validations:
+      required: false
+
+  - type: textarea
+    id: revised_impact_scores
+    attributes:
+      label: Revised Impact Scores
+      description: "Document any impact scores revised during the workshop relative to individual Stage 3 submissions."
+      placeholder: |
+        Principle 5 — Privacy: Individual scores ranged 6–12; consolidated score agreed at 9 after discussion.
+    validations:
+      required: false
