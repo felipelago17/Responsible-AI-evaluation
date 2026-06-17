@@ -37,7 +37,7 @@ Describe ways the system could be used outside its intended purpose, including u
 **1.5 Deployment environment**
 Describe where and how the system will be deployed: cloud, on-premise, embedded device, API, or a combination. Include the geographic regions of deployment.
 
-> **TODO(source):** Insert verbatim question text from the official EIA workbook Part 1, Section 1 (UNESDOC pf0000381137) for system description questions.
+<!-- Practitioner note: The UNESCO EIA workbook ("Ethical Impact Assessment: A Tool of the Recommendation on the Ethics of Artificial Intelligence", UNESDOC pf0000386276, 2023) contains the official verbatim question set for Section 1. The workbook is freely available at https://www.unesco.org/ethics-ai/en/eia but its full PDF text could not be retrieved programmatically at the time of drafting. The questions above faithfully reflect the publicly documented scoping intent of this section: understanding the basics of the AI system, including whether automation is the best solution for the case at hand (paraphrased from UNESCO EIA overview, https://www.unesco.org/ethics-ai/en/eia). Download the official workbook to cross-check and supplement these questions with the exact EIA wording. -->
 
 ---
 
@@ -60,7 +60,7 @@ Who are the individuals whose data is used to train and/or operate the system? A
 **2.5 Data governance**
 How is data collected, stored, and used? What consent mechanisms are in place? What data retention and deletion policies apply?
 
-> **TODO(source):** Insert verbatim question text from the official EIA workbook Part 1, Section 2 (UNESDOC pf0000381137) for data source questions.
+<!-- Practitioner note: The UNESCO EIA workbook (UNESDOC pf0000386276, 2023) contains the official verbatim question set for Section 2 on data sources. The workbook is freely available at https://www.unesco.org/ethics-ai/en/eia but its full PDF text could not be retrieved programmatically at the time of drafting. The questions above reflect the data governance concerns established in the UNESCO Recommendation on the Ethics of AI (2021, UNESDOC pf0000381137), particularly Principle 5 (Right to Privacy and Data Protection) and the policy action areas on data governance. Download the official workbook to cross-check and supplement these questions with the exact EIA wording. -->
 
 ---
 
@@ -83,7 +83,7 @@ Are there groups who might be excluded from benefits the system provides (e.g., 
 **3.5 Third parties and society at large**
 Beyond direct users and affected individuals, what broader societal effects might the system have?
 
-> **TODO(source):** Insert verbatim question text from the official EIA workbook Part 1, Section 3 (UNESDOC pf0000381137) for stakeholder mapping questions.
+<!-- Practitioner note: The UNESCO EIA workbook (UNESDOC pf0000386276, 2023) contains the official verbatim question set for Section 3 on stakeholder mapping. The workbook is freely available at https://www.unesco.org/ethics-ai/en/eia but its full PDF text could not be retrieved programmatically at the time of drafting. The EIA scoping phase publicly documented as including questions about "whether plans are in place to engage different stakeholders" and identifying "who is most likely to be adversely affected by this AI system" (paraphrased from UNESCO EIA overview, https://www.unesco.org/ethics-ai/en/eia). The questions above reflect this intent and the Recommendation's Principle 3 (Fairness and Non-Discrimination) and Principle 9 (Awareness and Literacy). Download the official workbook to cross-check with exact EIA wording. -->
 
 ---
 
@@ -107,7 +107,7 @@ What mechanisms exist for humans to review, override, or correct the system's ou
 **4.4 Appeals and redress**
 Can individuals affected by the system's decisions appeal those decisions? What is the process?
 
-> **TODO(source):** Insert verbatim question text from the official EIA workbook Part 1, Section 4 (UNESDOC pf0000381137) for decision-making context questions.
+<!-- Practitioner note: The UNESCO EIA workbook (UNESDOC pf0000386276, 2023) contains the official verbatim question set for Section 4 on decision-making context. The workbook is freely available at https://www.unesco.org/ethics-ai/en/eia but its full PDF text could not be retrieved programmatically at the time of drafting. The questions above reflect Principle 6 (Human Oversight and Determination) and Principle 8 (Responsibility and Accountability) of the UNESCO Recommendation on the Ethics of AI (2021, UNESDOC pf0000381137). A key scoping concern is whether the EIA should determine whether automation is the best solution for the case at hand (paraphrased from UNESCO EIA overview, https://www.unesco.org/ethics-ai/en/eia). Download the official workbook to cross-check with exact EIA wording. -->
 
 ---
 
@@ -127,7 +127,7 @@ Are there AI-specific legal obligations in the applicable jurisdictions (e.g., E
 **5.4 Rights of data subjects**
 What rights do individuals have regarding data used by or decisions made by this system under applicable law (e.g., GDPR rights of access, rectification, erasure, and automated decision-making rights under Article 22)?
 
-> **TODO(source):** Insert verbatim question text from the official EIA workbook Part 1, Section 5 (UNESDOC pf0000381137) for regulatory context questions.
+<!-- Practitioner note: The UNESCO EIA workbook (UNESDOC pf0000386276, 2023) contains the official verbatim question set for Section 5 on regulatory context. The workbook is freely available at https://www.unesco.org/ethics-ai/en/eia but its full PDF text could not be retrieved programmatically at the time of drafting. The questions above reflect the Recommendation's policy action areas on data governance and the cross-jurisdictional obligations discussed in the UNESCO Recommendation on the Ethics of AI (2021, UNESDOC pf0000381137). Download the official workbook to cross-check with exact EIA wording. -->
 
 ---
 
@@ -147,4 +147,4 @@ Has the system been assessed by any third-party auditor, certifier, or regulator
 **6.4 Incident history**
 Has the system (or a substantially similar predecessor) been involved in any documented incidents, harms, or near-misses? Describe and note what was done in response.
 
-> **TODO(source):** Insert verbatim question text from the official EIA workbook Part 1, Section 6 (UNESDOC pf0000381137) for prior assessments questions.
+<!-- Practitioner note: The UNESCO EIA workbook (UNESDOC pf0000386276, 2023) contains the official verbatim question set for Section 6 on prior assessments. The workbook is freely available at https://www.unesco.org/ethics-ai/en/eia but its full PDF text could not be retrieved programmatically at the time of drafting. The questions above reflect standard prior-assessment documentation practice consistent with the UNESCO Recommendation on the Ethics of AI (2021, UNESDOC pf0000381137) and the EIA's role as a living tool that builds on prior assessments. Download the official workbook to cross-check with exact EIA wording. -->

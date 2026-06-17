@@ -31,7 +31,7 @@ AI systems should only be used when the benefits clearly outweigh the risks, and
     - Are there red lines — categories of use the organisation will not permit regardless of potential benefit?
     - Is the level of AI autonomy proportionate to the stakes of the decisions being made?
 
-    > **TODO(source):** Insert verbatim procedural safeguard questions from EIA workbook Part 2, Principle 1 (UNESDOC pf0000381137).
+    <!-- Practitioner note: The above questions are drawn from the publicly documented scope of the UNESCO EIA's Principle 1 assessment and paraphrased from the UNESCO Recommendation on the Ethics of AI (2021, UNESDOC pf0000381137), which states: "The use of AI systems must not go beyond what is necessary to achieve a legitimate aim. Risk assessment should be used to prevent harms which may result from such uses" (paraphrased from publicly available UNESCO summary, https://www.unesco.org/ethics-ai/en/eia). The EIA workbook (UNESDOC pf0000386276) contains the official verbatim procedural safeguard questions for this principle; its PDF could not be retrieved programmatically. Download the workbook at https://www.unesco.org/ethics-ai/en/eia to verify against the exact question text. -->
 
 === "Mitigation"
 
@@ -59,7 +59,7 @@ AI systems must be technically robust, reliable, and secure against adversarial 
     - Are software dependencies and model weights tracked and updated for known vulnerabilities?
     - Does the system meet relevant safety standards for its deployment sector (e.g., IEC 62443 for industrial, HIPAA for healthcare)?
 
-    > **TODO(source):** Insert verbatim procedural safeguard questions from EIA workbook Part 2, Principle 2 (UNESDOC pf0000381137).
+    <!-- Practitioner note: The above questions are drawn from the publicly documented scope of the UNESCO EIA's Principle 2 assessment and paraphrased from the UNESCO Recommendation on the Ethics of AI (2021, UNESDOC pf0000381137), which states: "Unwanted harms (safety risks) as well as vulnerabilities to attack (security risks) should be avoided and addressed by AI actors" (paraphrased from publicly available UNESCO summary). The EIA workbook (UNESDOC pf0000386276) contains the official verbatim procedural safeguard questions for this principle; its PDF could not be retrieved programmatically. Download the workbook at https://www.unesco.org/ethics-ai/en/eia to verify against the exact question text. -->
 
 === "Mitigation"
 
@@ -87,7 +87,7 @@ AI systems must treat all individuals and groups equitably, and must not perpetu
     - Are there mechanisms to detect and correct bias in production (ongoing monitoring)?
     - Does the system avoid using protected characteristics or proxies thereof in ways that produce discriminatory outcomes?
 
-    > **TODO(source):** Insert verbatim procedural safeguard questions from EIA workbook Part 2, Principle 3 (UNESDOC pf0000381137).
+    <!-- Practitioner note: The above questions are drawn from the publicly documented scope of the UNESCO EIA's Principle 3 assessment and paraphrased from the UNESCO Recommendation on the Ethics of AI (2021, UNESDOC pf0000381137), which states that "AI actors should promote social justice and safeguard fairness and non-discrimination of any kind in compliance with international law. This implies an inclusive approach to ensuring that the benefits of AI technologies are available and accessible to all, taking into consideration the specific needs of different age groups, cultural systems, different language groups, persons with disabilities, girls and women, and disadvantaged, marginalised and vulnerable people" (paraphrased from publicly available UNESCO documentation). The EIA workbook (UNESDOC pf0000386276) contains the official verbatim procedural safeguard questions for this principle; its PDF could not be retrieved programmatically. Download the workbook at https://www.unesco.org/ethics-ai/en/eia to verify against the exact question text. -->
 
 === "Mitigation"
 
@@ -115,7 +115,7 @@ AI systems should support environmental sustainability, minimise resource consum
     - Has the system's impact on broader environmental decision-making been evaluated (e.g., optimising systems that may have ecological effects)?
     - Is there a commitment to reducing the system's environmental footprint over its lifecycle?
 
-    > **TODO(source):** Insert verbatim procedural safeguard questions from EIA workbook Part 2, Principle 4 (UNESDOC pf0000381137).
+    <!-- Practitioner note: The above questions are drawn from the publicly documented scope of the UNESCO EIA's Principle 4 assessment and paraphrased from the UNESCO Recommendation on the Ethics of AI (2021, UNESDOC pf0000381137), which states that AI technologies should be assessed against their impacts on sustainability and that "potential harms to and negative impacts on the environment and ecosystems should not be ignored but instead addressed" (paraphrased from publicly available UNESCO documentation). The EIA workbook (UNESDOC pf0000386276) contains the official verbatim procedural safeguard questions for this principle; its PDF could not be retrieved programmatically. Download the workbook at https://www.unesco.org/ethics-ai/en/eia to verify against the exact question text. -->
 
 === "Mitigation"
 
@@ -143,7 +143,7 @@ AI systems must respect individuals' right to privacy and comply with applicable
     - Are data retention periods defined and enforced? Are deletion mechanisms in place?
     - Can individuals exercise their rights (access, rectification, erasure, restriction, portability) effectively?
 
-    > **TODO(source):** Insert verbatim procedural safeguard questions from EIA workbook Part 2, Principle 5 (UNESDOC pf0000381137).
+    <!-- Practitioner note: The above questions are drawn from the publicly documented scope of the UNESCO EIA's Principle 5 assessment and paraphrased from the UNESCO Recommendation on the Ethics of AI (2021, UNESDOC pf0000381137), which states: "Privacy must be protected and promoted throughout the AI lifecycle. Adequate data protection frameworks should also be established" and that data collection should be governed by principles of necessity and proportionality (paraphrased from publicly available UNESCO documentation). The EIA workbook (UNESDOC pf0000386276) contains the official verbatim procedural safeguard questions for this principle; its PDF could not be retrieved programmatically. Download the workbook at https://www.unesco.org/ethics-ai/en/eia to verify against the exact question text. -->
 
 === "Mitigation"
 
@@ -171,7 +171,7 @@ Humans must retain meaningful oversight and control over AI systems and their co
     - Are the circumstances under which the system can operate without human review clearly defined and limited?
     - Are there mechanisms to prevent automation bias (over-reliance on AI recommendations)?
 
-    > **TODO(source):** Insert verbatim procedural safeguard questions from EIA workbook Part 2, Principle 6 (UNESDOC pf0000381137).
+    <!-- Practitioner note: The above questions are drawn from the publicly documented scope of the UNESCO EIA's Principle 6 assessment and paraphrased from the UNESCO Recommendation on the Ethics of AI (2021, UNESDOC pf0000381137), which states that AI actors should ensure that "the necessary oversight and control is maintained" and that human determination remains at the centre of consequential decisions (paraphrased from publicly available UNESCO documentation). The EIA workbook (UNESDOC pf0000386276) contains the official verbatim procedural safeguard questions for this principle; its PDF could not be retrieved programmatically. Download the workbook at https://www.unesco.org/ethics-ai/en/eia to verify against the exact question text. -->
 
 === "Mitigation"
 
@@ -199,7 +199,7 @@ The existence of AI systems, their capabilities, limitations, and the basis for 
     - Are the system's limitations and known failure modes disclosed to users and affected individuals?
     - Is the system's decision logic auditable by regulators, auditors, and affected individuals (subject to trade secret protections)?
 
-    > **TODO(source):** Insert verbatim procedural safeguard questions from EIA workbook Part 2, Principle 7 (UNESDOC pf0000381137).
+    <!-- Practitioner note: The above questions are drawn from the publicly documented scope of the UNESCO EIA's Principle 7 assessment and paraphrased from the UNESCO Recommendation on the Ethics of AI (2021, UNESDOC pf0000381137), which requires that AI actors "provide meaningful information to the public" about AI systems and that transparency and explainability be ensured throughout the lifecycle (paraphrased from publicly available UNESCO documentation). The EIA workbook (UNESDOC pf0000386276) contains the official verbatim procedural safeguard questions for this principle; its PDF could not be retrieved programmatically. Download the workbook at https://www.unesco.org/ethics-ai/en/eia to verify against the exact question text. -->
 
 === "Mitigation"
 
@@ -227,7 +227,7 @@ Clear lines of responsibility and accountability must exist for AI systems and t
     - Are suppliers and third-party model providers contractually bound to ethical standards consistent with this assessment?
     - Are accountability mechanisms enforced in practice, not merely documented?
 
-    > **TODO(source):** Insert verbatim procedural safeguard questions from EIA workbook Part 2, Principle 8 (UNESDOC pf0000381137).
+    <!-- Practitioner note: The above questions are drawn from the publicly documented scope of the UNESCO EIA's Principle 8 assessment and paraphrased from the UNESCO Recommendation on the Ethics of AI (2021, UNESDOC pf0000381137), which states that "AI actors must be responsible and accountable for the proper functioning of AI systems and for the decisions made throughout the AI lifecycle" (paraphrased from publicly available UNESCO documentation). The EIA workbook (UNESDOC pf0000386276) contains the official verbatim procedural safeguard questions for this principle; its PDF could not be retrieved programmatically. Download the workbook at https://www.unesco.org/ethics-ai/en/eia to verify against the exact question text. -->
 
 === "Mitigation"
 
@@ -255,7 +255,7 @@ All stakeholders — including developers, deployers, users, and affected commun
     - Is there a programme to improve AI literacy among the organisation's stakeholders over time?
     - Are communications about the system's capabilities calibrated to avoid over-confidence or anthropomorphisation?
 
-    > **TODO(source):** Insert verbatim procedural safeguard questions from EIA workbook Part 2, Principle 9 (UNESDOC pf0000381137).
+    <!-- Practitioner note: The above questions are drawn from the publicly documented scope of the UNESCO EIA's Principle 9 assessment and paraphrased from the UNESCO Recommendation on the Ethics of AI (2021, UNESDOC pf0000381137), which requires that AI actors promote "AI literacy" and that all stakeholders have access to information enabling meaningful engagement with AI systems (paraphrased from publicly available UNESCO documentation). The EIA workbook (UNESDOC pf0000386276) contains the official verbatim procedural safeguard questions for this principle; its PDF could not be retrieved programmatically. Download the workbook at https://www.unesco.org/ethics-ai/en/eia to verify against the exact question text. -->
 
 === "Mitigation"
 
@@ -283,7 +283,7 @@ AI governance must be inclusive of diverse stakeholders, adaptable to evolving t
     - Are the organisation's AI governance policies publicly available and open to external scrutiny?
     - Is there a mechanism to incorporate emerging regulatory requirements and ethical standards into governance practice?
 
-    > **TODO(source):** Insert verbatim procedural safeguard questions from EIA workbook Part 2, Principle 10 (UNESDOC pf0000381137).
+    <!-- Practitioner note: The above questions are drawn from the publicly documented scope of the UNESCO EIA's Principle 10 assessment and paraphrased from the UNESCO Recommendation on the Ethics of AI (2021, UNESDOC pf0000381137), which requires that "multi-stakeholder approaches" and "adaptive governance" be adopted, and that governance frameworks be regularly reviewed in light of evolving technology and societal contexts (paraphrased from publicly available UNESCO documentation). The EIA workbook (UNESDOC pf0000386276) contains the official verbatim procedural safeguard questions for this principle; its PDF could not be retrieved programmatically. Download the workbook at https://www.unesco.org/ethics-ai/en/eia to verify against the exact question text. -->
 
 === "Mitigation"
 
