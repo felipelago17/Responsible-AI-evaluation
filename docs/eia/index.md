@@ -9,6 +9,17 @@ The **Ethical Impact Assessment (EIA)** is a structured methodology developed by
 
 The EIA translates the Recommendation's 4 core values and 10 principles into a practical, multi-stakeholder assessment process that can be embedded in procurement, development, and deployment workflows.
 
+!!! info "Sources &amp; Transparency"
+    All content in this module is derived exclusively from **publicly available information**:
+
+    - The *UNESCO Recommendation on the Ethics of Artificial Intelligence* (2021) — [UNESDOC pf0000381137](https://unesdoc.unesco.org/ark:/48223/pf0000381137)
+    - The [UNESCO EIA landing page](https://www.unesco.org/ethics-ai/en/eia) and associated public resources
+    - Publicly accessible secondary sources confirming principle definitions
+
+    Where verbatim text from the EIA workbook (UNESDOC pf0000386276) could not be retrieved programmatically, sections contain `<!-- Practitioner note: ... -->` comments indicating the exact source location so teams can cross-check against the official workbook downloaded directly from the UNESCO site.
+
+    This module does **not** reproduce any restricted, licensed, or non-public UNESCO material.
+
 !!! tip "Quick Start"
     Ready to run an assessment? Go to [How to Run the EIA](how-to-run.md) for the step-by-step guide and Mermaid flowchart of all 6 stages.
 
@@ -59,7 +70,7 @@ The EIA is organised into **3 parts** (what to assess) and **6 stages** (how to 
 | Part | Title | Purpose |
 |---|---|---|
 | **Part 1** | [Scoping Questions](scoping.md) | Define the AI system, its context, affected stakeholders, and regulatory environment |
-| **Part 2** | [Principles & Procedural Safeguards](principles.md) | Evaluate the system against each of the 10 UNESCO ethical principles |
+| **Part 2** | [Principles &amp; Procedural Safeguards](principles.md) | Evaluate the system against each of the 10 UNESCO ethical principles |
 | **Part 3** | [Mapping Potential Impacts](impact-mapping.md) | Map positive and negative impacts by likelihood and severity; plan mitigations |
 
 ### The 6 Stages
