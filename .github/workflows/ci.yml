@@ -24,3 +24,27 @@ jobs:
 
       - name: Run tests
         run: pytest tests/ -v
+
+  markdownlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli
+      - name: Lint Markdown
+        run: markdownlint 'docs/**/*.md' 'eia/templates/**/*.md' --ignore 'docs/literature/**' --config .markdownlint.json || true
+        # || true so lint warnings don't break CI until config is tuned
+
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links (lychee)
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --verbose --no-progress --exclude-loopback docs/**/*.md eia/**/*.md
+          fail: false
+        # fail: false during initial rollout; set to true once all external links are verified

@@ -1,0 +1,70 @@
+name: "EIA Stage 5 — Stakeholder Engagement"
+description: "Document the stakeholder engagement process: groups engaged, methods used, key feedback received, and revisions made to the assessment."
+title: "[EIA] <system_name> — Stage 5: Stakeholder Engagement"
+labels:
+  - eia
+  - eia-stage-5
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## UNESCO EIA — Stage 5: Stakeholder Engagement
+        Engage affected communities to validate findings and surface harms not visible from within the organisation. See [Stage 5 guidance](https://felipelago17.github.io/Responsible-AI-evaluation/eia/how-to-run/#stage-5--stakeholder-engagement).
+
+  - type: input
+    id: system_ref
+    attributes:
+      label: System Name and Stage 1 Issue Reference
+      placeholder: "e.g., ResumeRank LLM Screener v1.2 — see #42"
+    validations:
+      required: true
+
+  - type: textarea
+    id: stakeholder_groups_engaged
+    attributes:
+      label: Stakeholder Groups Engaged
+      description: "List all stakeholder groups engaged, the number of participants, and the dates of engagement."
+      placeholder: |
+        - Job applicant advocacy group — 12 participants — 2026-07-20 (focus group)
+        - Disability rights NGO — 3 participants — 2026-07-22 (interview)
+        - Trade union representatives — 5 participants — 2026-07-25 (survey)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: engagement_method
+    attributes:
+      label: Primary Engagement Method
+      options:
+        - Survey
+        - Interview
+        - Focus group
+        - Public consultation
+        - Participatory workshop
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: key_feedback
+    attributes:
+      label: Key Feedback
+      description: "Summarise the most important feedback received from stakeholders, including dissenting views."
+      placeholder: |
+        - Applicants unaware AI is used in screening: 78% of focus group participants did not know
+        - Disability rights NGO flagged CV parsing failures for screen-reader-formatted documents
+        - Trade union raised concern about lack of appeal pathway for rejected candidates
+    validations:
+      required: false
+
+  - type: textarea
+    id: assessment_revisions
+    attributes:
+      label: Assessment Revisions
+      description: "Document changes made to the EIA (impact scores, mitigation plans, new risks identified) as a result of stakeholder feedback."
+      placeholder: |
+        - Added new negative impact entry: CV parsing failures for non-standard formats (Principle 3, Likelihood 3, Severity 4 = Risk Score 12)
+        - Upgraded transparency risk score from 9 to 12 based on applicant unawareness finding
+        - Added mitigation: mandatory AI disclosure notice on application form
+    validations:
+      required: false

@@ -81,6 +81,13 @@ evaluation/          # Evaluation harness and auxiliary modules
 
 docs/                # MkDocs documentation source
 └── literature/      # Annotated bibliographies by evaluation dimension
+
+eia/                 # UNESCO EIA templates and machine-readable schemas
+├── templates/eia-template.md      # Fillable Markdown assessment template
+├── templates/impact-mapping.md    # Impact tables (one per principle)
+├── templates/eia.schema.json      # JSON Schema draft-07 for machine-readable EIAs
+└── templates/eia.example.yaml     # Example: LLM-based HR screening tool
+
 results/             # Versioned evaluation outputs
 tests/               # Unit tests
 ```
@@ -136,6 +143,18 @@ For the full methodology, see [docs/methodology.md](docs/methodology.md).
 ## Related Projects
 
 - [**AI-regulatory-monitor**](https://github.com/felipelago17/AI-regulatory-monitor) — Real-time tracking of AI governance developments (EU AI Act, NIST AI RMF, global regulatory signals). Use alongside this framework to connect evaluation scores to the regulatory requirements they address.
+
+---
+
+## UNESCO Ethical Impact Assessment
+
+This framework ships a self-contained [UNESCO EIA module](docs/eia/index.md) aligned with the *UNESCO Recommendation on the Ethics of AI* (2021).
+
+- Run a full EIA as GitHub Issues (one per stage) using the [issue templates](.github/ISSUE_TEMPLATE/)
+- Machine-readable assessments: [`eia/templates/eia.schema.json`](eia/templates/eia.schema.json)
+- Regulatory crosswalk: UNESCO principles → NIST AI RMF · EU AI Act · OECD · ISO 42001 · CoE HUDERIA
+
+> **Attribution:** The UNESCO Ethical Impact Assessment is a tool developed by UNESCO. Official resources, the EIA workbook, and the *Recommendation on the Ethics of Artificial Intelligence* (2021) are available at <https://www.unesco.org/ethics-ai/en/eia>.
 
 ---
 

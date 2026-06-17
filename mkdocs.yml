@@ -27,6 +27,7 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+    - content.tabs.link
 
 nav:
   - Home: index.md
@@ -42,6 +43,14 @@ nav:
   - Limitations: limitations.md
   - Governance: governance.md
   - Governance Mapping: governance_mapping.md
+  - UNESCO EIA:
+    - Overview: eia/index.md
+    - How to Run: eia/how-to-run.md
+    - 'Part 1 — Scoping': eia/scoping.md
+    - 'Part 2 — Principles & Safeguards': eia/principles.md
+    - 'Part 3 — Impact Mapping': eia/impact-mapping.md
+    - Principles Reference: eia/principles-reference.md
+    - Regulatory Crosswalk: eia/crosswalk.md
   - Literature:
     - Bias & Fairness: literature/bias-and-fairness.md
     - Toxicity: literature/toxicity.md
@@ -53,7 +62,11 @@ nav:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -68,3 +81,4 @@ extra_css:
 
 extra_javascript:
   - assets/javascripts/framework-animations.js
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js

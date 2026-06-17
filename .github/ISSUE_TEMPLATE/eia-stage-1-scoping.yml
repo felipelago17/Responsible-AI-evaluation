@@ -1,0 +1,96 @@
+name: "EIA Stage 1 — Project Management & Scoping"
+description: "Open this issue to initiate a UNESCO Ethical Impact Assessment. Stage 1 covers system scoping, lead assignment, and timeline setting."
+title: "[EIA] <system_name> v<version> — Stage 1: Project Management & Scoping"
+labels:
+  - eia
+  - eia-stage-1
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## UNESCO EIA — Stage 1: Project Management & Scoping
+        Complete this form to formally initiate a UNESCO Ethical Impact Assessment. See [How to Run the EIA](https://felipelago17.github.io/Responsible-AI-evaluation/eia/how-to-run/) for guidance.
+
+  - type: input
+    id: system_name
+    attributes:
+      label: System Name and Version
+      description: "Official name and version number of the AI system being assessed."
+      placeholder: "e.g., ResumeRank LLM Screener v1.2"
+    validations:
+      required: true
+
+  - type: textarea
+    id: system_description
+    attributes:
+      label: System Description
+      description: "Describe the AI system in plain language: what it does, inputs, outputs, and AI techniques used."
+      placeholder: "e.g., An LLM-based tool that parses candidate CVs and generates suitability scores for HR shortlisting..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: intended_use
+    attributes:
+      label: Intended Use Cases
+      description: "List the primary use cases the system is designed for."
+      placeholder: "One use case per line."
+    validations:
+      required: false
+
+  - type: textarea
+    id: data_sources
+    attributes:
+      label: Data Sources
+      description: "List datasets used: name, origin, whether they contain personal/sensitive data."
+      placeholder: "e.g., Historical ATS data (2018-2024) — personal data, includes inferred demographics"
+    validations:
+      required: false
+
+  - type: textarea
+    id: affected_stakeholders
+    attributes:
+      label: Affected Stakeholders
+      description: "Who is directly affected by this system's decisions or outputs? Include vulnerable groups."
+      placeholder: "e.g., Job applicants (affected individuals), Hiring managers (direct users)..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: decision_type
+    attributes:
+      label: Decision-Making Type
+      description: "How does this system influence decisions?"
+      options:
+        - Advisory (human makes final decision)
+        - Automated (system makes final decision)
+        - Hybrid (mix of automated and human-reviewed)
+    validations:
+      required: false
+
+  - type: textarea
+    id: regulatory_context
+    attributes:
+      label: Regulatory Context
+      description: "List applicable laws, regulations, and AI-specific obligations (e.g., EU AI Act risk tier, GDPR, sector-specific rules)."
+      placeholder: "e.g., EU AI Act Annex III (high-risk); GDPR Article 22; Brazil LGPD"
+    validations:
+      required: false
+
+  - type: input
+    id: assessment_lead
+    attributes:
+      label: Assessment Lead
+      description: "Name of the person accountable for this EIA."
+      placeholder: "e.g., Dr. Amara Diallo"
+    validations:
+      required: false
+
+  - type: input
+    id: target_completion
+    attributes:
+      label: Target Completion Date
+      description: "Target date for completing the full EIA (all 6 stages). Format: YYYY-MM-DD"
+      placeholder: "e.g., 2026-09-30"
+    validations:
+      required: false

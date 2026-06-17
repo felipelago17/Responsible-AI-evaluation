@@ -1,0 +1,84 @@
+name: "EIA Stage 6 — End-of-Assessment Sign-Off"
+description: "Formally close the EIA: sign-off, publication, versioning, and scheduling the next review."
+title: "[EIA] <system_name> — Stage 6: End-of-Assessment Sign-Off"
+labels:
+  - eia
+  - eia-stage-6
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## UNESCO EIA — Stage 6: End-of-Assessment
+        Finalise the assessment, obtain sign-off, publish findings, and schedule the next review. See [Stage 6 guidance](https://felipelago17.github.io/Responsible-AI-evaluation/eia/how-to-run/#stage-6--end-of-assessment).
+
+  - type: input
+    id: system_ref
+    attributes:
+      label: System Name and Stage 1 Issue Reference
+      placeholder: "e.g., ResumeRank LLM Screener v1.2 — see #42"
+    validations:
+      required: true
+
+  - type: input
+    id: assessment_lead
+    attributes:
+      label: Assessment Lead
+      description: "Name of the person who led the assessment and is confirming its completeness."
+      placeholder: "e.g., Dr. Amara Diallo"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: final_status
+    attributes:
+      label: Final Assessment Status
+      description: "What is the outcome of this assessment?"
+      options:
+        - Approved — system may proceed to deployment
+        - Approved with conditions — deployment conditional on mitigation completion
+        - Deferred — assessment incomplete; return to earlier stage
+        - Rejected — system must not be deployed in current form
+    validations:
+      required: true
+
+  - type: textarea
+    id: conditions
+    attributes:
+      label: Conditions (if Approved with Conditions)
+      description: "List all conditions that must be met before or after deployment. Include owner and due date for each."
+      placeholder: |
+        1. Independent bias audit completed and results reviewed — ML Platform Team — 2026-08-31
+        2. Automated deletion scheduler deployed — ATS Integration Team — 2026-07-31
+        3. AI disclosure notice added to application form — Product Team — 2026-07-15
+    validations:
+      required: false
+
+  - type: input
+    id: publication_url
+    attributes:
+      label: Publication URL
+      description: "URL where the assessment (or a public summary) has been published."
+      placeholder: "e.g., https://example.com/ai-ethics/eia/resumerank-v1.2"
+    validations:
+      required: false
+
+  - type: input
+    id: next_review_date
+    attributes:
+      label: Next Scheduled Review Date
+      description: "Date by which this assessment must be reviewed and updated. Format: YYYY-MM-DD"
+      placeholder: "e.g., 2027-06-30"
+    validations:
+      required: false
+
+  - type: textarea
+    id: lessons_learned
+    attributes:
+      label: Lessons Learned
+      description: "What worked well? What would you do differently? What should future assessment teams know?"
+      placeholder: |
+        - Stage 3 async work took longer than expected; allocate 3 weeks not 2 in future
+        - Stakeholder engagement (Stage 5) surfaced risks not identified internally — essential, not optional
+        - JSON schema tooling useful for structured export; recommend for all future assessments
+    validations:
+      required: false

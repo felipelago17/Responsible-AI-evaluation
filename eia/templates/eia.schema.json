@@ -1,0 +1,240 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "UNESCO Ethical Impact Assessment",
+  "description": "Machine-readable schema for a UNESCO EIA, aligned with the UNESCO Recommendation on the Ethics of AI (2021).",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "system_name",
+    "assessment_date",
+    "status",
+    "assessors",
+    "part1_scoping",
+    "part2_principles",
+    "part3_impacts"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "description": "Version of this schema (semver).",
+      "example": "1.0.0"
+    },
+    "system_name": {
+      "type": "string",
+      "description": "Name and version of the AI system being assessed."
+    },
+    "assessment_date": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO 8601 date on which the assessment was completed (YYYY-MM-DD)."
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "in-review", "complete", "archived"],
+      "description": "Lifecycle status of this assessment."
+    },
+    "assessors": {
+      "type": "array",
+      "description": "List of individuals who contributed to the assessment.",
+      "items": {
+        "type": "object",
+        "required": ["name", "role"],
+        "properties": {
+          "name": { "type": "string" },
+          "role": { "type": "string" },
+          "organisation": { "type": "string" }
+        }
+      },
+      "minItems": 1
+    },
+    "part1_scoping": {
+      "type": "object",
+      "description": "Part 1 of the EIA: scoping questions.",
+      "required": [
+        "system_name",
+        "intended_use",
+        "data_sources",
+        "affected_stakeholders",
+        "decision_type",
+        "regulatory_context"
+      ],
+      "properties": {
+        "system_name": {
+          "type": "string",
+          "description": "Official name and version of the AI system."
+        },
+        "intended_use": {
+          "type": "string",
+          "description": "Description of the system's intended use cases."
+        },
+        "data_sources": {
+          "type": "array",
+          "description": "Datasets used by the system.",
+          "items": {
+            "type": "object",
+            "required": ["name", "contains_personal_data"],
+            "properties": {
+              "name": { "type": "string" },
+              "description": { "type": "string" },
+              "contains_personal_data": { "type": "boolean" },
+              "sensitive_categories": {
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            }
+          }
+        },
+        "affected_stakeholders": {
+          "type": "array",
+          "description": "Groups and individuals affected by the system.",
+          "items": {
+            "type": "object",
+            "required": ["group", "relationship"],
+            "properties": {
+              "group": { "type": "string" },
+              "relationship": {
+                "type": "string",
+                "enum": ["direct-user", "affected-individual", "vulnerable-group", "third-party", "regulator"]
+              },
+              "notes": { "type": "string" }
+            }
+          }
+        },
+        "decision_type": {
+          "type": "string",
+          "enum": ["advisory", "automated", "hybrid"],
+          "description": "Nature of the decisions the system influences."
+        },
+        "regulatory_context": {
+          "type": "string",
+          "description": "Applicable legal and regulatory obligations."
+        },
+        "deployment_regions": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Geographic regions of deployment."
+        },
+        "prior_assessments": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": { "type": "string" },
+              "date": { "type": "string", "format": "date" },
+              "reference": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "part2_principles": {
+      "type": "object",
+      "description": "Part 2 of the EIA: procedural safeguards per principle.",
+      "properties": {
+        "proportionality_and_do_no_harm": { "$ref": "#/definitions/principleAssessment" },
+        "safety_and_security": { "$ref": "#/definitions/principleAssessment" },
+        "fairness_and_non_discrimination": { "$ref": "#/definitions/principleAssessment" },
+        "sustainability": { "$ref": "#/definitions/principleAssessment" },
+        "right_to_privacy_and_data_protection": { "$ref": "#/definitions/principleAssessment" },
+        "human_oversight_and_determination": { "$ref": "#/definitions/principleAssessment" },
+        "transparency_and_explainability": { "$ref": "#/definitions/principleAssessment" },
+        "responsibility_and_accountability": { "$ref": "#/definitions/principleAssessment" },
+        "awareness_and_literacy": { "$ref": "#/definitions/principleAssessment" },
+        "multi_stakeholder_and_adaptive_governance": { "$ref": "#/definitions/principleAssessment" }
+      }
+    },
+    "part3_impacts": {
+      "type": "array",
+      "description": "Part 3 of the EIA: impact mapping entries.",
+      "items": {
+        "type": "object",
+        "required": [
+          "principle",
+          "impact_type",
+          "description",
+          "likelihood",
+          "severity"
+        ],
+        "properties": {
+          "principle": {
+            "type": "string",
+            "enum": [
+              "proportionality_and_do_no_harm",
+              "safety_and_security",
+              "fairness_and_non_discrimination",
+              "sustainability",
+              "right_to_privacy_and_data_protection",
+              "human_oversight_and_determination",
+              "transparency_and_explainability",
+              "responsibility_and_accountability",
+              "awareness_and_literacy",
+              "multi_stakeholder_and_adaptive_governance"
+            ]
+          },
+          "impact_type": {
+            "type": "string",
+            "enum": ["positive", "negative"]
+          },
+          "description": {
+            "type": "string",
+            "description": "Plain-language description of the impact."
+          },
+          "likelihood": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5,
+            "description": "Likelihood score: 1 (highly unlikely) to 5 (almost certain)."
+          },
+          "severity": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5,
+            "description": "Severity score: 1 (negligible) to 5 (critical/irreversible)."
+          },
+          "risk_score": {
+            "type": "integer",
+            "description": "Calculated as likelihood x severity. Populated by tooling."
+          },
+          "mitigation": {
+            "type": "string",
+            "description": "Planned mitigation action for negative impacts with risk_score >= 5."
+          },
+          "mitigation_owner": {
+            "type": "string",
+            "description": "Named individual or team responsible for implementing the mitigation."
+          },
+          "mitigation_due_date": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "principleAssessment": {
+      "type": "object",
+      "description": "Assessment of a single UNESCO principle.",
+      "properties": {
+        "safeguards": {
+          "type": "array",
+          "description": "Safeguards currently in place.",
+          "items": { "type": "string" }
+        },
+        "gaps": {
+          "type": "array",
+          "description": "Gaps between the principle's requirements and current practice.",
+          "items": { "type": "string" }
+        },
+        "mitigations": {
+          "type": "array",
+          "description": "Planned mitigations to address identified gaps.",
+          "items": { "type": "string" }
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
