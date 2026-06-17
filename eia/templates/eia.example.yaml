@@ -1,0 +1,203 @@
+# UNESCO EIA — Example Assessment
+# System: LLM-based HR Screening Tool v1.2
+# This is a realistic example for illustration purposes only.
+
+schema_version: "1.0.0"
+system_name: "ResumeRank LLM Screener v1.2"
+assessment_date: "2026-06-17"
+status: "in-review"
+
+assessors:
+  - name: "Dr. Amara Diallo"
+    role: "Assessment Lead"
+    organisation: "People & Ethics Office"
+  - name: "Marcus Chen"
+    role: "ML Engineer"
+    organisation: "AI Platform Team"
+  - name: "Fatima Al-Rashid"
+    role: "Legal Counsel"
+    organisation: "Legal & Compliance"
+  - name: "Ingrid Svensson"
+    role: "HR Domain Expert"
+    organisation: "Talent Acquisition"
+  - name: "Community Representative"
+    role: "Affected Community"
+    organisation: "Digital Rights NGO (external)"
+
+part1_scoping:
+  system_name: "ResumeRank LLM Screener v1.2"
+  intended_use: >
+    An LLM-based system that parses candidate CVs and cover letters submitted
+    via the company's applicant tracking system (ATS), generates a suitability
+    score (0–100) and a structured summary for each candidate, and ranks
+    candidates for shortlisting by human hiring managers. The system does not
+    make final hiring decisions; shortlisting decisions are reviewed by a human
+    hiring manager before candidates are contacted.
+  decision_type: "advisory"
+  deployment_regions:
+    - "European Union"
+    - "United Kingdom"
+    - "Brazil"
+  data_sources:
+    - name: "Historical ATS data (2018–2024)"
+      description: >
+        Internal historical CV and cover letter data from 47,000 past applicants,
+        including interview outcomes and hiring decisions made by human managers.
+        Used for fine-tuning the scoring model.
+      contains_personal_data: true
+      sensitive_categories:
+        - "name"
+        - "age (inferred)"
+        - "nationality (inferred)"
+        - "gender (inferred from name)"
+    - name: "LinkedIn Learning Skills Taxonomy v3"
+      description: "Public skills ontology used for skills extraction."
+      contains_personal_data: false
+    - name: "Inference-time candidate submissions"
+      description: >
+        CV and cover letter text submitted by candidates at application time.
+        Processed transiently; not retained beyond 90 days.
+      contains_personal_data: true
+      sensitive_categories:
+        - "name"
+        - "address"
+        - "employment history"
+        - "education"
+        - "inferred demographic attributes"
+  affected_stakeholders:
+    - group: "Job applicants"
+      relationship: "affected-individual"
+      notes: "Primary population subject to the system's outputs. Do not interact with the system directly."
+    - group: "Hiring managers"
+      relationship: "direct-user"
+      notes: "Review system-generated shortlists and summaries. Final decision-makers."
+    - group: "HR administrators"
+      relationship: "direct-user"
+      notes: "Configure the system, manage ATS integration, review anomaly reports."
+    - group: "Applicants from underrepresented groups"
+      relationship: "vulnerable-group"
+      notes: "Historical training data reflects past hiring patterns which may encode bias against women, ethnic minorities, and candidates with non-Western educational backgrounds."
+    - group: "Applicants with disabilities"
+      relationship: "vulnerable-group"
+      notes: "CV format diversity (e.g., non-standard formats used by applicants with visual impairments) may affect parsing accuracy."
+    - group: "Data Protection Authority (GDPR)"
+      relationship: "regulator"
+      notes: "EU GDPR Article 22 applies: automated decision-making with legal/significant effects."
+  regulatory_context: >
+    EU GDPR (Regulation 2016/679) — Article 22 applies to automated decision-making;
+    DPIA required under Article 35. EU AI Act (Regulation 2024/1689) — employment
+    AI systems are listed in Annex III as high-risk; conformity assessment, FRIA
+    (Article 27), and registration required. UK Equality Act 2010 — indirect
+    discrimination prohibitions. Brazil LGPD (Lei 13.709/2018) — data protection
+    obligations for personal data of Brazilian applicants.
+  prior_assessments:
+    - type: "Data Protection Impact Assessment (DPIA)"
+      date: "2025-11-03"
+      reference: "DPIA-2025-HR-0047 (internal)"
+
+part2_principles:
+  proportionality_and_do_no_harm:
+    safeguards:
+      - "System is restricted to the shortlisting stage; cannot make final hiring decisions."
+      - "Human hiring manager review is mandatory before any candidate is contacted or rejected."
+      - "Use restricted to open roles at the organisation; contractual prohibition on resale or use for third-party hiring."
+      - "Risk-benefit analysis conducted Q4 2025 documented expected 40% reduction in time-to-shortlist and identified bias risks."
+    gaps:
+      - "No formal red-teaming of harmful output scenarios (e.g., systematic exclusion of protected groups) has been conducted."
+      - "Misuse scenarios (e.g., system used to justify rejections without human review under time pressure) not yet technically enforced."
+    mitigations:
+      - "Conduct structured red-teaming exercise by 2026-09-01 covering demographic exclusion scenarios."
+      - "Implement technical guardrail: system outputs cannot be used to send rejection communications without ATS-logged human override."
+  fairness_and_non_discrimination:
+    safeguards:
+      - "Bias audit conducted using gender-decoded names across 10,000 synthetic CVs (Q1 2026); demographic parity gap of 4.2% for gender detected."
+      - "Name and address fields masked at inference time to reduce direct demographic signal."
+      - "Model card published internally documenting known bias risks."
+    gaps:
+      - "Ethnicity and disability bias audits not yet conducted due to absence of labelled data."
+      - "Audit scope limited to binary gender; non-binary and gender-diverse applicants not represented in test set."
+      - "Proxy features (university prestige, postcode) may re-introduce masked demographic signals."
+    mitigations:
+      - "Commission independent bias audit covering ethnicity and disability proxies by 2026-08-31."
+      - "Remove or regularise university prestige and postcode features in next model version."
+      - "Engage applicant advocacy groups in Stage 5 stakeholder engagement to surface unreported discrimination scenarios."
+  right_to_privacy_and_data_protection:
+    safeguards:
+      - "DPIA completed (DPIA-2025-HR-0047); residual risks documented."
+      - "Inference-time CV data deleted after 90 days per retention policy."
+      - "Data processing agreement with LLM API provider includes data processing restrictions and no model training on submitted data."
+      - "GDPR Article 22 compliance: candidates are notified of automated processing and can request human review."
+    gaps:
+      - "Automated enforcement of 90-day deletion policy not yet implemented; currently manual."
+      - "Right-to-erasure fulfilment from fine-tuning training set not technically possible without full model retraining."
+    mitigations:
+      - "Implement automated deletion scheduler in ATS integration by 2026-07-31."
+      - "Evaluate differential privacy techniques for future model versions to reduce memorisation of training data subjects."
+      - "Add explicit notice to application form stating AI-assisted screening is used and describing rights under GDPR Article 22."
+
+part3_impacts:
+  - principle: "proportionality_and_do_no_harm"
+    impact_type: "positive"
+    description: "Reduces time-to-shortlist from 5 days to 1.5 days on average, accelerating hiring and improving candidate experience."
+    likelihood: 4
+    severity: 3
+    risk_score: 12
+    mitigation: null
+
+  - principle: "fairness_and_non_discrimination"
+    impact_type: "negative"
+    description: "Demographic parity gap of 4.2% detected for gender; female candidates underscored relative to male candidates with equivalent qualifications in technical roles."
+    likelihood: 4
+    severity: 4
+    risk_score: 16
+    mitigation: "Commission independent bias audit; remove proxy features; implement post-hoc score calibration by gender until root cause resolved."
+    mitigation_owner: "ML Platform Team (Marcus Chen)"
+    mitigation_due_date: "2026-08-31"
+
+  - principle: "fairness_and_non_discrimination"
+    impact_type: "negative"
+    description: "Applicants with non-Western educational institution names may receive lower skill extraction accuracy due to underrepresentation in training data."
+    likelihood: 3
+    severity: 4
+    risk_score: 12
+    mitigation: "Audit skill extraction accuracy stratified by institution region; augment skills taxonomy with non-Western institution data."
+    mitigation_owner: "ML Platform Team"
+    mitigation_due_date: "2026-10-01"
+
+  - principle: "right_to_privacy_and_data_protection"
+    impact_type: "negative"
+    description: "Manual deletion process for 90-day retention policy creates risk of non-compliance and data subject rights violations."
+    likelihood: 3
+    severity: 3
+    risk_score: 9
+    mitigation: "Implement automated deletion scheduler integrated with ATS."
+    mitigation_owner: "ATS Integration Team"
+    mitigation_due_date: "2026-07-31"
+
+  - principle: "human_oversight_and_determination"
+    impact_type: "negative"
+    description: "Hiring managers under time pressure may shortlist all system-recommended candidates without independent review, creating automation bias."
+    likelihood: 3
+    severity: 4
+    risk_score: 12
+    mitigation: "Redesign ATS interface to require explicit confirmation step; provide training on automation bias to all hiring managers; log and audit override rates quarterly."
+    mitigation_owner: "HR Operations (Ingrid Svensson)"
+    mitigation_due_date: "2026-09-15"
+
+  - principle: "transparency_and_explainability"
+    impact_type: "positive"
+    description: "System generates structured summaries of candidate qualifications that help hiring managers articulate their shortlisting rationale, improving documentation quality."
+    likelihood: 4
+    severity: 2
+    risk_score: 8
+    mitigation: null
+
+  - principle: "transparency_and_explainability"
+    impact_type: "negative"
+    description: "Candidates rejected at shortlisting stage cannot request explanation of AI-generated score under current process design."
+    likelihood: 4
+    severity: 3
+    risk_score: 12
+    mitigation: "Implement candidate-facing explanation summary (high-level, non-disclosive) accessible via candidate portal; legal review of scope of explanation required."
+    mitigation_owner: "Fatima Al-Rashid (Legal) + Product Team"
+    mitigation_due_date: "2026-10-31"
