@@ -54,7 +54,7 @@ Both must be documented. Over-weighting negative impacts leads to missed opportu
 6. Positive impacts with Risk Score ≥ 10 may warrant active investment to amplify them
 7. Transfer all high and critical negative impacts (Risk Score ≥ 10) to the organisation's risk register
 
-For a fillable version, see [`eia/templates/impact-mapping.md`](../../eia/templates/impact-mapping.md).
+For a fillable version, see [`eia/templates/impact-mapping.md`](https://github.com/felipelago17/Responsible-AI-evaluation/blob/main/eia/templates/impact-mapping.md).
 
 ---
 
