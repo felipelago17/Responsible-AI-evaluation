@@ -31,7 +31,9 @@ theme:
 
 nav:
   - Home: index.md
-  - Methodology: methodology.md
+  - Methodology:
+    - Framework Overview: methodology.md
+    - Five-Phase Assessment: methodology/five-phase-assessment.md
   - Benchmarks:
     - Bias: benchmarks/bias.md
     - Toxicity: benchmarks/toxicity.md
@@ -41,6 +43,15 @@ nav:
       - Red Teaming: benchmarks/red-teaming.md
   - Scoring: scoring.md
   - Limitations: limitations.md
+  - Threat Assessment:
+    - Adversarial ML Taxonomy: threats/adversarial-ml-taxonomy.md
+  - Mappings:
+    - 'ATLAS × AI RMF Matrix': mappings/atlas-airmf-matrix.md
+  - Evaluation:
+    - Test Catalogue: evaluation/test-catalogue.md
+    - 'Metrics & KPIs': evaluation/metrics.md
+  - Supply Chain:
+    - AI Bill of Materials: supply-chain/ai-bom.md
   - Governance: governance.md
   - Governance Mapping: governance_mapping.md
   - UNESCO EIA:
@@ -52,7 +63,7 @@ nav:
     - Principles Reference: eia/principles-reference.md
     - Regulatory Crosswalk: eia/crosswalk.md
   - Literature:
-    - Bias & Fairness: literature/bias-and-fairness.md
+    - 'Bias & Fairness': literature/bias-and-fairness.md
     - Toxicity: literature/toxicity.md
     - Truthfulness: literature/truthfulness.md
     - Red Teaming: literature/red-teaming.md
