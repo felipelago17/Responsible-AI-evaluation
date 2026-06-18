@@ -11,7 +11,7 @@ Part 2 is the substantive core of the UNESCO EIA. For each of the 10 principles 
 - Where gaps exist between the principle's requirements and current practice
 - What mitigations are planned to close those gaps
 
-Work through each principle independently during [Stage 3 — Asynchronous Work](how-to-run.md#stage-3--asynchronous-work), then reconcile divergent assessments during [Stage 4 — Collaborative Workshop](how-to-run.md#stage-4--collaborative-workshop).
+Work through each principle independently during [Stage 3 — Asynchronous Work](how-to-run.md#stage-3-asynchronous-work), then reconcile divergent assessments during [Stage 4 — Collaborative Workshop](how-to-run.md#stage-4-collaborative-workshop).
 
 For the authoritative one-line definitions and the relationship between principles and the 4 core values, see [Principles Reference](principles-reference.md).
 
