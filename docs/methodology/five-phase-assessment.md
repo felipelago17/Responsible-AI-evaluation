@@ -20,9 +20,11 @@ flowchart TD
 ## Phase 1 — Asset and Context Identification
 
 ### Purpose
+
 Establish what is being evaluated, its deployment context, regulatory obligations, and compute profile before any testing begins.
 
 ### Inputs
+
 - Model identifier, version, and system card
 - Intended use cases and foreseeable misuse cases
 - Deployment architecture (API, on-premise, embedded, RAG pipeline)
@@ -40,6 +42,7 @@ Establish what is being evaluated, its deployment context, regulatory obligation
 | Record AI Bill of Materials | [AI Bill of Materials](../supply-chain/ai-bom.md) |
 
 ### Outputs
+
 - Version-pinned asset register
 - Regulatory obligation matrix
 - Compute tier classification (above / below 10²⁶ FLOPs threshold)
@@ -53,9 +56,11 @@ Establish what is being evaluated, its deployment context, regulatory obligation
 ## Phase 2 — Threat and Vulnerability Analysis
 
 ### Purpose
+
 Identify the adversarial threat landscape applicable to the model asset profile, map known attack vectors, and surface exploitable vulnerabilities before control evaluation.
 
 ### Inputs
+
 - Asset register (Phase 1 output)
 - [Adversarial ML Taxonomy](../threats/adversarial-ml-taxonomy.md)
 - MITRE ATLAS technique catalogue (MITRE, n.d.)
@@ -71,6 +76,7 @@ Identify the adversarial threat landscape applicable to the model asset profile,
 | Document threat actors and likely attack paths | UNESCO EIA [Part 2 — Principles](../eia/principles.md) |
 
 ### Outputs
+
 - Threat model: threat actor × attack vector matrix
 - Preliminary vulnerability list with severity estimates
 - ATLAS technique mapping
@@ -83,9 +89,11 @@ Identify the adversarial threat landscape applicable to the model asset profile,
 ## Phase 3 — Control Effectiveness Evaluation
 
 ### Purpose
+
 Test whether deployed safeguards prevent or detect the threats identified in Phase 2. This is the primary benchmark execution phase.
 
 ### Inputs
+
 - Threat model (Phase 2 output)
 - Benchmark configurations (`benchmarks/*/config.yaml`)
 - Control inventory (rate limiting, input filters, output filters, RLHF alignment)
@@ -104,6 +112,7 @@ Test whether deployed safeguards prevent or detect the threats identified in Pha
 | Model extraction feasibility | Knockoff Nets / DFME within query budget |
 
 ### Outputs
+
 - Benchmark results (versioned JSON in `results/`) per [Scoring](../scoring.md)
 - Control gap list: threats not addressed by existing controls
 - Evidence artefacts for audit (logged in `evaluation/session_memory.py`)
@@ -113,9 +122,11 @@ Test whether deployed safeguards prevent or detect the threats identified in Pha
 ## Phase 4 — Risk Analysis and Prioritisation
 
 ### Purpose
+
 Aggregate benchmark results, weight by threat likelihood and impact severity, and produce a prioritised risk register.
 
 ### Inputs
+
 - Benchmark results (Phase 3 output)
 - Threat model (Phase 2 output)
 - Governance thresholds from [Governance Mapping](../governance_mapping.md)
@@ -140,6 +151,7 @@ Critical findings block deployment. High findings require documented mitigations
 | Populate impact register | UNESCO EIA [Part 3 — Impact Mapping](../eia/impact-mapping.md) |
 
 ### Outputs
+
 - Prioritised risk register with likelihood × impact scores
 - ASL classification for the evaluated model
 - Deployment recommendation (proceed / proceed with mitigations / do not deploy)
@@ -149,6 +161,7 @@ Critical findings block deployment. High findings require documented mitigations
 ## Phase 5 — Treatment Planning and Continuous Monitoring
 
 ### Purpose
+
 Define and execute mitigations for prioritised risks, establish monitoring cadence, and set re-evaluation triggers.
 
 ### Treatment Options
@@ -182,6 +195,7 @@ A full five-phase re-evaluation is mandatory when any of the following occur:
 - Benchmark scores degrade more than 5 percentage points versus the prior evaluation baseline
 
 ### Outputs
+
 - Mitigation plan: risk → control → owner → deadline → evidence
 - Monitoring configuration for production alerting
 - Signed assessment record (UNESCO EIA Stage 6 sign-off)
@@ -204,11 +218,11 @@ A full five-phase re-evaluation is mandatory when any of the following occur:
 ## References
 
 - Cherdantseva, Y., Burnap, P., Blyth, A., Eden, P., Jones, K., Soulsby, H. and Stoddart, K. (2016) 'A review of cyber security risk assessment methods for SCADA systems', *Computers & Security*, 56, pp. 1–27. doi:10.1016/j.cose.2015.09.009.
-- Government of Dubai (2024) *Law No. (15) of 2024 Concerning the Dubai Electronic Security Centre*. Available at: https://dlp.dubai.gov.ae (Accessed: 18 June 2026).
+- Government of Dubai (2024) *Law No. (15) of 2024 Concerning the Dubai Electronic Security Centre*. Available at: <https://dlp.dubai.gov.ae> (Accessed: 18 June 2026).
 - ISO (2022) *ISO/IEC 27005:2022 Information security, cybersecurity and privacy protection — Guidance on managing information security risks*. Geneva: International Organization for Standardization.
 - ISO/IEC (2023) *ISO/IEC 42001:2023 — Artificial Intelligence: Management System*. International Organisation for Standardisation.
-- MITRE (n.d.) *ATLAS™ – Adversarial Threat Landscape for Artificial-Intelligence Systems*. Available at: https://atlas.mitre.org/ (Accessed: 18 June 2026).
-- NIST (2024a) *Framework for Improving Critical Infrastructure Cybersecurity, Version 2.0*. Gaithersburg, MD: National Institute of Standards and Technology. Available at: https://www.nist.gov/cyberframework (Accessed: 18 June 2026).
-- NIST (2024b) *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile* (NIST AI 600-1). Gaithersburg, MD: National Institute of Standards and Technology. Available at: https://doi.org/10.6028/NIST.AI.600-1 (Accessed: 18 June 2026).
-- RAND Corporation (2025) *Understanding the Artificial Intelligence Diffusion Framework: Can Export Controls Create a U.S.-Led Global Artificial Intelligence Ecosystem?* Available at: https://www.rand.org/pubs/perspectives/PEA3776-1.html (Accessed: 18 June 2026).
-- U.S. Department of Commerce, Bureau of Industry and Security (2025) 'Implementation of Additional Due Diligence Measures for Advanced Computing Integrated Circuits; Amendments and Clarifications', *Federal Register*, 90(10). Available at: https://www.federalregister.gov (Accessed: 18 June 2026).
+- MITRE (n.d.) *ATLAS™ – Adversarial Threat Landscape for Artificial-Intelligence Systems*. Available at: <https://atlas.mitre.org/> (Accessed: 18 June 2026).
+- NIST (2024a) *Framework for Improving Critical Infrastructure Cybersecurity, Version 2.0*. Gaithersburg, MD: National Institute of Standards and Technology. Available at: <https://www.nist.gov/cyberframework> (Accessed: 18 June 2026).
+- NIST (2024b) *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile* (NIST AI 600-1). Gaithersburg, MD: National Institute of Standards and Technology. Available at: <https://doi.org/10.6028/NIST.AI.600-1> (Accessed: 18 June 2026).
+- RAND Corporation (2025) *Understanding the Artificial Intelligence Diffusion Framework: Can Export Controls Create a U.S.-Led Global Artificial Intelligence Ecosystem?* Available at: <https://www.rand.org/pubs/perspectives/PEA3776-1.html> (Accessed: 18 June 2026).
+- U.S. Department of Commerce, Bureau of Industry and Security (2025) 'Implementation of Additional Due Diligence Measures for Advanced Computing Integrated Circuits; Amendments and Clarifications', *Federal Register*, 90(10). Available at: <https://www.federalregister.gov> (Accessed: 18 June 2026).

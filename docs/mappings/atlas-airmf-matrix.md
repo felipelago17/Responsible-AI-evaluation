@@ -3,7 +3,7 @@
 Cross-reference matrix linking each RAI control area to MITRE ATLAS tactics/techniques (MITRE, n.d.) and NIST AI RMF 1.0 + GenAI Profile (NIST, 2024b) subcategories. Use this matrix to identify which framework obligations a given control satisfies, and which ATLAS techniques it mitigates.
 
 !!! note "Sources"
-    ATLAS technique identifiers follow MITRE ATLAS (MITRE, n.d., available at https://atlas.mitre.org). NIST AI RMF subcategories follow AI RMF 1.0 (NIST, 2023) and the GenAI Profile (NIST, 2024b). GenAI trustworthy characteristics follow NIST AI 600-1 Appendix A.
+    ATLAS technique identifiers follow MITRE ATLAS (MITRE, n.d., available at <https://atlas.mitre.org>). NIST AI RMF subcategories follow AI RMF 1.0 (NIST, 2023) and the GenAI Profile (NIST, 2024b). GenAI trustworthy characteristics follow NIST AI 600-1 Appendix A.
 
 ---
 
@@ -71,6 +71,6 @@ Cross-reference matrix linking each RAI control area to MITRE ATLAS tactics/tech
 
 ## References
 
-- MITRE (n.d.) *ATLAS™ – Adversarial Threat Landscape for Artificial-Intelligence Systems*. Available at: https://atlas.mitre.org/ (Accessed: 18 June 2026).
-- NIST (2023) *AI Risk Management Framework 1.0* (NIST AI 100-1). Gaithersburg, MD: National Institute of Standards and Technology. Available at: https://doi.org/10.6028/NIST.AI.100-1.
-- NIST (2024b) *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile* (NIST AI 600-1). Gaithersburg, MD: National Institute of Standards and Technology. Available at: https://doi.org/10.6028/NIST.AI.600-1 (Accessed: 18 June 2026).
+- MITRE (n.d.) *ATLAS™ – Adversarial Threat Landscape for Artificial-Intelligence Systems*. Available at: <https://atlas.mitre.org/> (Accessed: 18 June 2026).
+- NIST (2023) *AI Risk Management Framework 1.0* (NIST AI 100-1). Gaithersburg, MD: National Institute of Standards and Technology. Available at: <https://doi.org/10.6028/NIST.AI.100-1.>
+- NIST (2024b) *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile* (NIST AI 600-1). Gaithersburg, MD: National Institute of Standards and Technology. Available at: <https://doi.org/10.6028/NIST.AI.600-1> (Accessed: 18 June 2026).

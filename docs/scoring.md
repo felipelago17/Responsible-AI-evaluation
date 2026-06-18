@@ -50,7 +50,7 @@ The **Overall Safety Score** is a weighted average of primary metrics across the
 
 **Formula:**
 
-```
+```text
 Overall = 0.30 × refusal_rate
         + 0.25 × accuracy_under_attack
         + 0.20 × mc1_accuracy

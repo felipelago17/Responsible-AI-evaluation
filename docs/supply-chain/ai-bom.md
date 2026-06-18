@@ -103,7 +103,7 @@ Record the outcome of each required evaluation procedure from the [Test Catalogu
 | Backdoor scanning | | Pass / Fail / Not run | | |
 | Bias audit (StereoSet + CrowS-Pairs + WinoBias) | | Pass / Fail / Not run | | |
 
-**Attestation sign-off:**
+### Attestation sign-off
 
 | Role | Name | Date | Signature |
 |---|---|---|---|
@@ -141,15 +141,15 @@ Use this checklist to compute the [Model Provenance Completeness Score (MPCS)](.
 - [ ] Section 5 — All 8 test procedures completed or formally deferred with written rationale; sign-off obtained
 - [ ] Section 6 — All REQUIRED regulatory fields populated; IF APPLICABLE fields completed where condition applies
 
-**MPCS = (checked boxes / 28 required fields) × 100**
+### MPCS = (checked boxes / 28 required fields) × 100
 
 ---
 
 ## References
 
-- Government of Dubai (2024) *Law No. (15) of 2024 Concerning the Dubai Electronic Security Centre*. Available at: https://dlp.dubai.gov.ae (Accessed: 18 June 2026).
+- Government of Dubai (2024) *Law No. (15) of 2024 Concerning the Dubai Electronic Security Centre*. Available at: <https://dlp.dubai.gov.ae> (Accessed: 18 June 2026).
 - ISO (2022) *ISO/IEC 27005:2022 Information security, cybersecurity and privacy protection — Guidance on managing information security risks*. Geneva: International Organization for Standardization.
 - ISO/IEC (2023) *ISO/IEC 42001:2023 — Artificial Intelligence: Management System*. International Organisation for Standardisation.
-- NIST (2024b) *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile* (NIST AI 600-1). Gaithersburg, MD: National Institute of Standards and Technology. Available at: https://doi.org/10.6028/NIST.AI.600-1 (Accessed: 18 June 2026).
-- RAND Corporation (2025) *Understanding the Artificial Intelligence Diffusion Framework: Can Export Controls Create a U.S.-Led Global Artificial Intelligence Ecosystem?* Available at: https://www.rand.org/pubs/perspectives/PEA3776-1.html (Accessed: 18 June 2026).
-- U.S. Department of Commerce, Bureau of Industry and Security (2025) 'Implementation of Additional Due Diligence Measures for Advanced Computing Integrated Circuits; Amendments and Clarifications', *Federal Register*, 90(10). Available at: https://www.federalregister.gov (Accessed: 18 June 2026).
+- NIST (2024b) *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile* (NIST AI 600-1). Gaithersburg, MD: National Institute of Standards and Technology. Available at: <https://doi.org/10.6028/NIST.AI.600-1> (Accessed: 18 June 2026).
+- RAND Corporation (2025) *Understanding the Artificial Intelligence Diffusion Framework: Can Export Controls Create a U.S.-Led Global Artificial Intelligence Ecosystem?* Available at: <https://www.rand.org/pubs/perspectives/PEA3776-1.html> (Accessed: 18 June 2026).
+- U.S. Department of Commerce, Bureau of Industry and Security (2025) 'Implementation of Additional Due Diligence Measures for Advanced Computing Integrated Circuits; Amendments and Clarifications', *Federal Register*, 90(10). Available at: <https://www.federalregister.gov> (Accessed: 18 June 2026).
