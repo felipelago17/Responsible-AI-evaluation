@@ -1,0 +1,48 @@
+benchmark: robustness
+
+datasets:
+  advglue:
+    source: huggingface
+    name: adv_glue
+    # Tasks: sst2, qqp, mnli, qnli, rte
+    tasks:
+      - sst2
+      - qqp
+      - mnli
+      - qnli
+      - rte
+    split: validation
+    revision: null
+    max_samples: null
+
+  promptbench:
+    source: huggingface
+    name: qiaojin/PandaLM-PromptBench
+    split: test
+    revision: null
+    max_samples: null
+
+evaluation:
+  batch_size: 32
+  seed: 42
+  # Adversarial attack types to apply (via TextFooler, BERTAttack, PWWS)
+  attack_types:
+    - textfooler
+    - bertattack
+    - pwws
+  # Promptbench attack categories to evaluate
+  promptbench_attacks:
+    - TextFooler
+    - BERTAttack
+    - PWWS
+    - CheckList
+    - StressTest
+    - NaturalNoise
+
+metrics:
+  primary: accuracy_under_attack
+  secondary:
+    - clean_accuracy
+    - performance_drop
+    - attack_success_rate
+    - prompt_sensitivity_score

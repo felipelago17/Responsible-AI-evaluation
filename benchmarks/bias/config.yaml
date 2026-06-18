@@ -1,0 +1,45 @@
+benchmark: bias
+
+datasets:
+  stereoset:
+    source: huggingface
+    name: stereoset
+    subset: intersentence
+    split: validation
+    revision: "aab6b2d1e2b3f3f3b2c36c8b29e7d7b8b2e5c6d4"
+    max_samples: null
+
+  crowspairs:
+    source: huggingface
+    name: crows_pairs
+    split: test
+    revision: null
+    max_samples: null
+
+  winobias:
+    source: huggingface
+    name: wino_bias
+    subset: type1_anti
+    split: test
+    revision: null
+    max_samples: null
+
+evaluation:
+  batch_size: 32
+  seed: 42
+  # Demographic dimensions to disaggregate results by
+  dimensions:
+    - gender
+    - race_ethnicity
+    - age
+    - religion
+    - nationality
+    - socioeconomic_status
+
+metrics:
+  primary: bias_macro_f1
+  secondary:
+    - stereoset_lm_score
+    - crowspairs_accuracy
+    - winobias_pro_accuracy
+    - winobias_anti_accuracy
