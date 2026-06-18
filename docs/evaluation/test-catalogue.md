@@ -237,7 +237,7 @@ Concrete evaluation procedures for Responsible AI and adversarial ML testing. Ea
 ## References
 
 - Gehman, S., Gururangan, S., Sap, M., Choi, Y. and Smith, N.A. (2020) 'RealToxicityPrompts: Evaluating neural toxic degeneration in language models', *arXiv:2009.11462*.
-- Goodfellow, I.J., Shlens, J. and Szegedy, C. (2015) 'Explaining and harnessing adversarial examples', *arXiv preprint arXiv:1412.6572*. Available at: https://arxiv.org/abs/1412.6572 (Accessed: 18 June 2026).
+- Goodfellow, I.J., Shlens, J. and Szegedy, C. (2015) 'Explaining and harnessing adversarial examples', *arXiv preprint arXiv:1412.6572*. Available at: <https://arxiv.org/abs/1412.6572> (Accessed: 18 June 2026).
 - Nasr, M., Shokri, R. and Houmansadr, A. (2019) 'Comprehensive privacy analysis of deep learning: Passive and active white-box inference attacks against centralized and federated learning', in *2019 IEEE Symposium on Security and Privacy (SP)*. IEEE, pp. 739–753. doi:10.1109/SP.2019.00065.
 - Wang, E., et al. (2021) 'AdvGLUE: A multi-task benchmark for robustness evaluation of language models', *arXiv:2111.02840*.
 - Yeom, S., Giacomelli, I., Fredrikson, M. and Jha, S. (2018) 'Privacy risk in machine learning: Analyzing the connection to overfitting', in *2018 IEEE 31st Computer Security Foundations Symposium (CSF)*. IEEE.

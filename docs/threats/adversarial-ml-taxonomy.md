@@ -210,10 +210,10 @@ Structured catalogue of adversarial machine learning threats applicable to LLMs 
 
 ## References
 
-- Carlini, N., Nasr, M., Choquette-Choo, C.A., Jagielski, M., Gao, I., Awadalla, A., Koh, P.W., Ippolito, D., Lee, K., Tramer, F. and Song, D. (2023) 'Are aligned neural networks adversarially aligned?', *arXiv preprint arXiv:2306.15447*. Available at: https://arxiv.org/abs/2306.15447 (Accessed: 18 June 2026).
+- Carlini, N., Nasr, M., Choquette-Choo, C.A., Jagielski, M., Gao, I., Awadalla, A., Koh, P.W., Ippolito, D., Lee, K., Tramer, F. and Song, D. (2023) 'Are aligned neural networks adversarially aligned?', *arXiv preprint arXiv:2306.15447*. Available at: <https://arxiv.org/abs/2306.15447> (Accessed: 18 June 2026).
 - Gehman, S., Gururangan, S., Sap, M., Choi, Y. and Smith, N.A. (2020) 'RealToxicityPrompts: Evaluating neural toxic degeneration in language models', *arXiv:2009.11462*.
-- Goodfellow, I.J., Shlens, J. and Szegedy, C. (2015) 'Explaining and harnessing adversarial examples', *arXiv preprint arXiv:1412.6572*. Available at: https://arxiv.org/abs/1412.6572 (Accessed: 18 June 2026).
-- MITRE (n.d.) *ATLAS™ – Adversarial Threat Landscape for Artificial-Intelligence Systems*. Available at: https://atlas.mitre.org/ (Accessed: 18 June 2026).
+- Goodfellow, I.J., Shlens, J. and Szegedy, C. (2015) 'Explaining and harnessing adversarial examples', *arXiv preprint arXiv:1412.6572*. Available at: <https://arxiv.org/abs/1412.6572> (Accessed: 18 June 2026).
+- MITRE (n.d.) *ATLAS™ – Adversarial Threat Landscape for Artificial-Intelligence Systems*. Available at: <https://atlas.mitre.org/> (Accessed: 18 June 2026).
 - Nasr, M., Shokri, R. and Houmansadr, A. (2019) 'Comprehensive privacy analysis of deep learning: Passive and active white-box inference attacks against centralized and federated learning', in *2019 IEEE Symposium on Security and Privacy (SP)*. IEEE, pp. 739–753. doi:10.1109/SP.2019.00065.
 - Perez, F. and Ribeiro, I. (2022) 'Ignore previous prompt: Attack techniques for language models', *arXiv:2211.09527*.
 - Wang, E., et al. (2021) 'AdvGLUE: A multi-task benchmark for robustness evaluation of language models', *arXiv:2111.02840*.
