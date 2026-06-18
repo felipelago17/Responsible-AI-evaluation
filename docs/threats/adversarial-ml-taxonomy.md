@@ -3,7 +3,7 @@
 Structured catalogue of adversarial machine learning threats applicable to LLMs and AI systems evaluated in this framework. For each threat: definition, attack surface, evaluation method, and pass/fail criteria.
 
 !!! note "Scope"
-    This taxonomy covers training-time, inference-time, and post-deployment threats. It is aligned with MITRE ATLAS v2.1 and informs the [ATLAS × AI RMF Matrix](../mappings/atlas-airmf-matrix.md) and [Test Catalogue](../evaluation/test-catalogue.md).
+    This taxonomy covers training-time, inference-time, and post-deployment threats. It is aligned with MITRE ATLAS (MITRE, n.d.) and informs the [ATLAS × AI RMF Matrix](../mappings/atlas-airmf-matrix.md) and [Test Catalogue](../evaluation/test-catalogue.md).
 
 ---
 
@@ -73,7 +73,7 @@ Structured catalogue of adversarial machine learning threats applicable to LLMs 
 
 ## 3. Evasion / Adversarial Examples
 
-**Definition:** Inference-time manipulation using imperceptible or targeted input perturbations that cause misclassification or adversary-desired outputs while appearing normal to human observers.
+**Definition:** Inference-time manipulation using imperceptible or targeted input perturbations that cause misclassification or adversary-desired outputs while appearing normal to human observers (Goodfellow, Shlens and Szegedy, 2015).
 
 **Attack Surface:** All model inputs at inference; especially high-risk in content moderation and safety filtering.
 
@@ -98,7 +98,7 @@ Structured catalogue of adversarial machine learning threats applicable to LLMs 
 
 ## 4. Membership Inference
 
-**Definition:** An adversary queries the model to infer whether a specific data record was in the training set. Successful attacks violate data subject privacy and may expose sensitive personal information.
+**Definition:** An adversary queries the model to infer whether a specific data record was in the training set. Successful attacks violate data subject privacy and may expose sensitive personal information (Nasr, Shokri and Houmansadr, 2019).
 
 **Attack Surface:** Any model accessible via API or locally; highest risk for models fine-tuned on sensitive or personal data.
 
@@ -184,7 +184,7 @@ Structured catalogue of adversarial machine learning threats applicable to LLMs 
 
 ## 7. Harmful Output
 
-**Definition:** The model generates content that causes real-world harm — CBRN uplift, targeted harassment, incitement to violence, or other policy-violating outputs — potentially without any adversarial manipulation.
+**Definition:** The model generates content that causes real-world harm — CBRN uplift, targeted harassment, incitement to violence, or other policy-violating outputs — potentially without adversarial manipulation. Carlini et al. (2023) demonstrate that alignment does not guarantee adversarial alignment.
 
 **Attack Surface:** All generation endpoints; zero-shot and few-shot prompts; instruction-following evaluation.
 
@@ -210,11 +210,13 @@ Structured catalogue of adversarial machine learning threats applicable to LLMs 
 
 ## References
 
-- Lago, F. (2026). *Comprehensive Cybersecurity Risk Assessment Framework*. June 2026.
-- MITRE (2024). *ATLAS: Adversarial Threat Landscape for Artificial-Intelligence Systems*, v2.1. <https://atlas.mitre.org>
-- Zhao, P., et al. (2025). *Data Poisoning in Deep Learning: A Survey*. arXiv:2503.22759.
-- Wang, E., et al. (2021). *AdvGLUE: A Multi-Task Benchmark for Robustness Evaluation of Language Models*. arXiv:2111.02840.
-- Zhu, K., et al. (2023). *PromptBench: Towards Evaluating the Robustness of Large Language Models on Adversarial Prompts*. arXiv:2306.04528.
-- Zhao, K., et al. (2025). *A Systematic Survey of Model Extraction Attacks*. arXiv:2508.15031.
-- Perez, F., & Ribeiro, I. (2022). *Ignore Previous Prompt: Attack Techniques for Language Models*. arXiv:2211.09527.
-- Gehman, S., et al. (2020). *RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models*. arXiv:2009.11462.
+- Carlini, N., Nasr, M., Choquette-Choo, C.A., Jagielski, M., Gao, I., Awadalla, A., Koh, P.W., Ippolito, D., Lee, K., Tramer, F. and Song, D. (2023) 'Are aligned neural networks adversarially aligned?', *arXiv preprint arXiv:2306.15447*. Available at: https://arxiv.org/abs/2306.15447 (Accessed: 18 June 2026).
+- Gehman, S., Gururangan, S., Sap, M., Choi, Y. and Smith, N.A. (2020) 'RealToxicityPrompts: Evaluating neural toxic degeneration in language models', *arXiv:2009.11462*.
+- Goodfellow, I.J., Shlens, J. and Szegedy, C. (2015) 'Explaining and harnessing adversarial examples', *arXiv preprint arXiv:1412.6572*. Available at: https://arxiv.org/abs/1412.6572 (Accessed: 18 June 2026).
+- MITRE (n.d.) *ATLAS™ – Adversarial Threat Landscape for Artificial-Intelligence Systems*. Available at: https://atlas.mitre.org/ (Accessed: 18 June 2026).
+- Nasr, M., Shokri, R. and Houmansadr, A. (2019) 'Comprehensive privacy analysis of deep learning: Passive and active white-box inference attacks against centralized and federated learning', in *2019 IEEE Symposium on Security and Privacy (SP)*. IEEE, pp. 739–753. doi:10.1109/SP.2019.00065.
+- Perez, F. and Ribeiro, I. (2022) 'Ignore previous prompt: Attack techniques for language models', *arXiv:2211.09527*.
+- Wang, E., et al. (2021) 'AdvGLUE: A multi-task benchmark for robustness evaluation of language models', *arXiv:2111.02840*.
+- Zhao, K., et al. (2025) 'A systematic survey of model extraction attacks', *arXiv:2508.15031*.
+- Zhao, P., et al. (2025) 'Data poisoning in deep learning: A survey', *arXiv:2503.22759*.
+- Zhu, K., et al. (2023) 'PromptBench: Towards evaluating the robustness of large language models on adversarial prompts', *arXiv:2306.04528*.

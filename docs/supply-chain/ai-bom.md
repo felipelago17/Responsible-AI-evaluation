@@ -84,7 +84,7 @@ Template for documenting the full provenance of an AI system prior to evaluation
 | Inference server (vLLM, TGI, etc.) | | | |
 
 !!! note "Dependency Pinning"
-    All library versions must be pinned (not range-specified) in `requirements.txt` or `pyproject.toml` and match the entries above. Unpinned dependencies are a supply chain risk.
+    All library versions must be pinned (not range-specified) in `requirements.txt` or `pyproject.toml` and match the entries above. Unpinned dependencies are a supply chain risk (ISO, 2022).
 
 ---
 
@@ -147,9 +147,9 @@ Use this checklist to compute the [Model Provenance Completeness Score (MPCS)](.
 
 ## References
 
-- Lago, F. (2026). *Comprehensive Cybersecurity Risk Assessment Framework*. June 2026.
-- NIST (2023). *AI Risk Management Framework 1.0* (NIST AI 100-1). <https://doi.org/10.6028/NIST.AI.100-1>
-- NTIA (2023). *AI Accountability Policy Report*. US National Telecommunications and Information Administration.
-- BIS (2025). *Export Administration Regulations — Advanced Computing Items* (ECCNs 3A090, 4E091). US Department of Commerce.
-- MOCIAT (2024). *DESC Law 15/2024 on Regulation of Artificial Intelligence in Dubai*. Dubai Electronic Security Center.
-- ISO/IEC (2023). *ISO/IEC 42001:2023 — Artificial Intelligence: Management System*. International Organisation for Standardisation.
+- Government of Dubai (2024) *Law No. (15) of 2024 Concerning the Dubai Electronic Security Centre*. Available at: https://dlp.dubai.gov.ae (Accessed: 18 June 2026).
+- ISO (2022) *ISO/IEC 27005:2022 Information security, cybersecurity and privacy protection — Guidance on managing information security risks*. Geneva: International Organization for Standardization.
+- ISO/IEC (2023) *ISO/IEC 42001:2023 — Artificial Intelligence: Management System*. International Organisation for Standardisation.
+- NIST (2024b) *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile* (NIST AI 600-1). Gaithersburg, MD: National Institute of Standards and Technology. Available at: https://doi.org/10.6028/NIST.AI.600-1 (Accessed: 18 June 2026).
+- RAND Corporation (2025) *Understanding the Artificial Intelligence Diffusion Framework: Can Export Controls Create a U.S.-Led Global Artificial Intelligence Ecosystem?* Available at: https://www.rand.org/pubs/perspectives/PEA3776-1.html (Accessed: 18 June 2026).
+- U.S. Department of Commerce, Bureau of Industry and Security (2025) 'Implementation of Additional Due Diligence Measures for Advanced Computing Integrated Circuits; Amendments and Clarifications', *Federal Register*, 90(10). Available at: https://www.federalregister.gov (Accessed: 18 June 2026).

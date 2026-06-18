@@ -128,7 +128,7 @@ Utilisation % = (ε_used / ε_max) × 100
 
 ## 6. Membership Inference Attack AUC
 
-**Definition:** The AUC achieved by a black-box membership inference attack classifier against the model, measuring practical privacy risk to data subjects in the training set.
+**Definition:** The AUC achieved by a black-box membership inference attack classifier against the model, measuring practical privacy risk to data subjects in the training set (Nasr, Shokri and Houmansadr, 2019).
 
 **Formula:**
 
@@ -228,7 +228,8 @@ SCIS = (verified_supply_chain_fields / total_supply_chain_fields) × 100
 
 ## References
 
-- Lago, F. (2026). *Comprehensive Cybersecurity Risk Assessment Framework*. June 2026.
-- NIST (2023). *AI Risk Management Framework 1.0* (NIST AI 100-1). <https://doi.org/10.6028/NIST.AI.100-1>
-- Yeom, S., et al. (2018). *Privacy Risk in Machine Learning: Analyzing the Connection to Overfitting*. In *Proceedings of CSF 2018*. IEEE.
-- Dwork, C., & Roth, A. (2014). *The Algorithmic Foundations of Differential Privacy*. *Foundations and Trends in Theoretical Computer Science*, 9(3–4), 211–407.
+- Dwork, C. and Roth, A. (2014) *The Algorithmic Foundations of Differential Privacy*. *Foundations and Trends in Theoretical Computer Science*, 9(3–4), pp. 211–407.
+- Nasr, M., Shokri, R. and Houmansadr, A. (2019) 'Comprehensive privacy analysis of deep learning: Passive and active white-box inference attacks against centralized and federated learning', in *2019 IEEE Symposium on Security and Privacy (SP)*. IEEE, pp. 739–753. doi:10.1109/SP.2019.00065.
+- NIST (2023) *AI Risk Management Framework 1.0* (NIST AI 100-1). Gaithersburg, MD: National Institute of Standards and Technology. Available at: https://doi.org/10.6028/NIST.AI.100-1.
+- NIST (2024b) *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile* (NIST AI 600-1). Gaithersburg, MD: National Institute of Standards and Technology. Available at: https://doi.org/10.6028/NIST.AI.600-1 (Accessed: 18 June 2026).
+- Yeom, S., Giacomelli, I., Fredrikson, M. and Jha, S. (2018) 'Privacy risk in machine learning: Analyzing the connection to overfitting', in *2018 IEEE 31st Computer Security Foundations Symposium (CSF)*. IEEE.
