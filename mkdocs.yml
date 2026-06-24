@@ -52,8 +52,10 @@ nav:
     - 'Metrics & KPIs': evaluation/metrics.md
   - Supply Chain:
     - AI Bill of Materials: supply-chain/ai-bom.md
-  - Governance: governance.md
-  - Governance Mapping: governance_mapping.md
+  - Governance:
+    - Overview: governance.md
+    - Release Governance: governance/release-governance.md
+    - Governance Mapping: governance_mapping.md
   - UNESCO EIA:
     - Overview: eia/index.md
     - How to Run: eia/how-to-run.md
