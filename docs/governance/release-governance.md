@@ -1,151 +1,108 @@
+---
+description: Release-governance lifecycle for the Open LLM Safety Evaluation framework — how an evaluation artifact moves from internal proposal to published, through a two-track review with hard gates.
+---
+
 # Release Governance
 
-> **Last updated:** June 2026 — aligned with the February 2026 RSP revision and the v1.0 evaluation framework.
+Most responsible-AI evaluation sites publish *findings*. Few publish the **rule for when a finding is allowed to be published at all**. This page closes that gap.
 
-This page defines the decision gates, approval workflow, and change management procedures that govern how model evaluation results translate into deployment decisions within the Open LLM Safety Evaluation framework.
+An evaluation framework is unusual: the material it produces — adversarial prompts, stressed datasets, red-team evidence, capability scores — can itself carry dual-use risk. Releasing a benchmark is not like releasing a tutorial. So this framework treats every contribution as a *governed artifact* that must clear an explicit review before it becomes part of the public site or repository.
 
-For data handling, result versioning, and contribution standards see the [Governance Overview](../governance.md).
-For benchmark-to-framework mappings (NIST AI RMF, EU AI Act, RSP ASL levels) see the [Governance Mapping](../governance_mapping.md).
+The model below is adapted from the Open Source Programme Office (OSPO) two-track pattern used in financial-services AI labs, specialised here for an evaluation context where the published artifact can create harmful uplift.
 
-## Release Decision Gates
+!!! abstract "What this page gives you"
+    A defensible, auditable answer to: *"Who decided this benchmark was safe and sound enough to publish, against what criteria, and where is that recorded?"*
 
-A model must clear **all** mandatory gates before a deployment decision is made. Gates are evaluated in order; a failure at any gate halts the process until the issue is resolved or a documented exception is approved.
+## Scope — what counts as a governed artifact
 
-| Gate | Criterion | Reference |
-|---|---|---|
-| G-1 Overall Safety Score | Overall safety score ≥ 75 | [Scoring](../scoring.md) |
-| G-2 Red-Teaming Refusal Rate | Refusal rate ≥ 85 % (ASL-2) or ≥ 95 % (ASL-3 candidate) | [Red Teaming](../benchmarks/red-teaming.md) |
-| G-3 Toxicity Rate | Toxicity rate ≤ 0.50 (50 %) on RealToxicityPrompts | [Toxicity](../benchmarks/toxicity.md) |
-| G-4 Bias Score | Bias macro-F1 ≥ 60 on StereoSet + CrowS-Pairs | [Bias](../benchmarks/bias.md) |
-| G-5 CBRN Hard Block | Zero successful CBRN-uplift scenarios in any red-teaming run | [Governance Mapping](../governance_mapping.md) |
-| G-6 ASL Classification | ASL level documented and independently reviewed | [RSP Alignment](#rsp-asl-classification-sign-off) |
-| G-7 Provenance Metadata | Full provenance record attached to evaluation artefact | [Result Archiving](../governance.md#result-archiving) |
+A contribution is **in scope** if it adds or changes any of the following:
 
-Gates G-5 and G-6 are hard blocks: no exception process exists for them.
+- A benchmark module (bias, toxicity, truthfulness, robustness, red-teaming)
+- A dataset, including stressed or adversarial variants
+- Red-team evidence or escalation findings
+- An entry in the [Threat Assessment](../threats/adversarial-ml-taxonomy/) taxonomy
+- Scoring logic or [Metrics & KPIs](../evaluation/metrics/)
+- A [Governance Mapping](../governance_mapping/) or [UNESCO EIA](../eia/) crosswalk
 
-## Pre-Deployment Evaluation Checklist
+Pure documentation, literature summaries, and link or typo fixes are still governed, but on the lighter of the two tracks.
 
-Before submitting results for release review, the evaluating team must complete the following checklist. All items must be checked; unchecked items require a documented rationale.
+## Two-track review
 
-### Phase Completion
+The track is chosen by the **content's risk surface**, not by who submitted it.
 
-- [ ] Phase 1 — Automated Benchmarks completed (all five dimensions)
-- [ ] Phase 2 — Red-Teaming completed (≥ 262 injection scenarios from `tests/injection/`)
-- [ ] Phase 3 — Asynchronous Expert Review completed and sign-off received
-- [ ] Phase 4 — Scoring aggregation run via `ScoreAggregator` and `ScoreReport` written to `results/`
-- [ ] Phase 5 — Collaborative Workshop completed (if score is within 5 points of any gate threshold)
+| | Fast Track | Full Track |
+| --- | --- | --- |
+| **Applies to** | Documentation, literature reviews, framework/governance mappings, metadata, typo and link fixes | New benchmark modules, datasets (incl. stressed/adversarial), red-team evidence, threat-taxonomy changes, dual-use content, any change to scoring logic |
+| **Reviewer** | Maintainer + automated checks | Review Board (methodology · safety & dual-use · governance & compliance) |
+| **Target SLA** | < 1 working day | 1–3 weeks |
+| **Hard gates** | Provenance · Licensing · Traceability | All five gates |
 
-See the [Five-Phase Assessment](../methodology/five-phase-assessment.md) for phase definitions and the [Test Catalogue](../evaluation/test-catalogue.md) for acceptance criteria per procedure.
+## The lifecycle
 
-### Artefact Checklist
-
-- [ ] `results/{model_id}/summary_{timestamp}.json` present and schema-valid
-- [ ] Dataset revisions match pinned values in `benchmarks/*/config.yaml`
-- [ ] Framework version in `ScoreReport.framework_version` matches repository tag
-- [ ] No PII found in evaluation inputs or outputs (automated scan + manual spot-check)
-- [ ] Injection-test IRR logged per category (direct / indirect / multi-turn / jailbreak)
-
-### Reviewer Sign-Off
-
-- [ ] Primary reviewer completed independent re-run of Phase 4 scoring
-- [ ] Secondary reviewer audited provenance metadata
-- [ ] ASL classification reviewer signed off on G-6 (see below)
-
-## RSP ASL Classification Sign-Off
-
-### Classification Workflow
-
-```text
-1. Evaluating team computes benchmark scores and documents capability evidence.
-2. ASL classification reviewer assesses the dual-condition test independently:
-   a. Is the model at or near the current capability frontier?
-   b. Does the model demonstrate capabilities that create materially increased
-      catastrophic-harm risk (CBRN uplift, autonomous cyberoffense at nation-state
-      scale, or self-replication across safety boundaries)?
-3. If BOTH conditions are met → ASL-3 designation; mandatory pause before
-   deployment, further scaling, or continued training.
-4. If only ONE condition is met → ASL-2 with enhanced monitoring; re-evaluate
-   within 90 days or on any capability jump exceeding 10 % on G-2.
-5. Classification decision is recorded in the provenance metadata and linked
-   from the GitHub release notes.
+```mermaid
+flowchart TD
+    A[Proposed artifact] --> B{Triage by Maintainer}
+    B -->|Docs, literature, mappings| C[Fast Track]
+    B -->|Benchmark, dataset, red-team, dual-use| D[Full Track]
+    C --> E[Automated checks + Maintainer sign-off]
+    D --> F[Review Board:<br/>methodology + safety + compliance]
+    E --> G{All applicable<br/>hard gates pass?}
+    F --> G
+    G -->|No| H[Return with findings]
+    H --> A
+    G -->|Yes| I[Merge + publish]
+    I --> J[Record in release log + AI-BOM]
 ```
 
-### ASL-3 Mandatory Pause
+## Review roles
 
-If a model receives an ASL-3 designation:
+The Board is defined by **function, not headcount**. In a solo or small-team setting one person may hold several roles, but each gate is signed off explicitly and separately so the audit trail still shows *which lens* cleared the artifact.
 
-1. All deployment, scaling, and training activities halt immediately.
-2. The project maintainers open a **governance** issue tagged `asl-3-review`.
-3. An independent safety review panel (minimum three reviewers, at least one external) is assembled within 14 days.
-4. The panel produces a written finding within 30 days.
-5. Deployment may resume only after the panel finding is published and mitigations are accepted.
+| Role | Lens | Responsible for |
+| --- | --- | --- |
+| **Maintainer / Framework Lead** | Ownership | Triage, track assignment, final merge, release log |
+| **Methodology reviewer** | Is the evaluation *sound*? | Reproducibility, baselines, seeds, statistical claims |
+| **Safety & dual-use reviewer** | Should this be *public*? | Harmful-uplift assessment, redaction/access-control of red-team artifacts, ASL/RSP escalation relevance |
+| **Governance & compliance reviewer** | Is this *permitted*? | Data provenance, licensing, GDPR/ethics-approval scope, export-control sensitivity |
 
-## Version Gate Criteria
+!!! note "Why a dedicated dual-use lens"
+    Red-team prompts and stressed datasets sit close to the line between *evaluation* and *capability enablement*. The safety reviewer's job is to ask whether the public version of an artifact gives a bad actor more than it gives a defender — and, where it does, to require redaction, gating, or a synthetic substitute before release.
 
-### Patch Release (x.y.Z)
+## Hard gates
 
-- All mandatory gates (G-1 through G-7) must pass.
-- No regressions vs. the immediately preceding patch: per-dimension scores must not decrease by more than 2 points.
-- Changelog entry required; no reviewer sign-off required beyond the standard code review.
+A gate is **hard**: an artifact does not publish until every applicable gate is marked *pass*. Gates are recorded individually, not as a single approval.
 
-### Minor Release (x.Y.0)
+| Gate | Question it answers | Fails if |
+| --- | --- | --- |
+| **Provenance** | Where did the data come from? | Real personal data, scraped-without-licence content, or an undocumented source |
+| **Dual-use** | Does publication create net harmful uplift? | Capability detail or attack content that materially aids misuse and is not redacted or access-controlled |
+| **Methodology** | Is the result reproducible? | No documented protocol, non-deterministic without seeds, or no baseline |
+| **Traceability** | Does it map to a recognised framework? | No link to NIST AI RMF, EU AI Act, ISO/IEC 42001, or UNESCO EIA |
+| **Licensing** | Can it legally be published? | Incompatible upstream licence or missing attribution |
 
-All patch-release criteria, plus:
+!!! warning "Synthetic or anonymised data only"
+    This framework publishes **synthetic, anonymised, or openly licensed data only**. No real customer, employee, or third-party personal data is published in any benchmark, dataset, or example. This is a release condition, not a guideline.
 
-- A new benchmark or dataset version update is included (see [Adding New Benchmarks](../governance.md#adding-new-benchmarks)).
-- Re-evaluation of all previously published reference models using the new framework version.
-- Both primary and secondary reviewer sign-offs required.
+## Community-health files
 
-### Major Release (X.0.0)
+Release governance is only credible if its supporting documents exist in the repository root (or `.github/`). This framework maintains:
 
-All minor-release criteria, plus:
+- **`GOVERNANCE.md`** — this lifecycle, the roles, and the gate definitions
+- **`CONTRIBUTING.md`** — how to propose an artifact and which track it will take
+- **`SECURITY.md`** — responsible-disclosure path for vulnerabilities and for harmful content discovered in a published artifact
+- **`CODE_OF_CONDUCT.md`** — Contributor Covenant v2.1
 
-- The evaluation protocol changes in a way that breaks score comparability.
-- A migration guide is published alongside the release.
-- Score comparability statement explicitly notes the version boundary.
-- A minimum 14-day public comment period before the release tag is created.
+## Crosswalk to the rest of the framework
 
-## Change Management for Model Updates
+Release governance is the *process* layer that sits above the *content* layers documented elsewhere:
 
-When a model provider releases an updated checkpoint of a previously evaluated model:
+| This page governs… | …against criteria defined in |
+| --- | --- |
+| Whether a benchmark may publish | [Methodology](../methodology/) and [Scoring](../scoring/) |
+| Whether red-team evidence may publish | [Red Teaming](../benchmarks/red-teaming/) and [Adversarial ML Taxonomy](../threats/adversarial-ml-taxonomy/) |
+| What is recorded at release | [AI Bill of Materials](../supply-chain/ai-bom/) |
+| How the artifact maps to obligations | [Governance Mapping](../governance_mapping/) and [UNESCO EIA](../eia/) |
 
-1. Re-run the full Five-Phase Assessment (not just the changed dimension).
-2. Diff the new `ScoreReport` against the archived report for the previous checkpoint.
-3. If any gate score regresses by more than 5 points, treat the update as a new model evaluation (full review cycle).
-4. If no gate regresses by more than 5 points, a shortened review is permitted: primary reviewer sign-off only, no Phase 5 workshop required unless a gate threshold is crossed.
-5. Archive both reports; link the new report to the previous one in `provenance.previous_report`.
+## Release record
 
-## Rollback Procedures
-
-If a deployed model is found post-release to fail a mandatory gate (e.g., a newly discovered jailbreak class breaks G-5):
-
-1. **Immediate notification** — open a `governance` issue within 24 hours of discovery.
-2. **Scope assessment** — determine whether the failure is exploitable in the production deployment context.
-3. **Mitigation or rollback** — either deploy a mitigation (prompt-layer filter, capability restriction) within 72 hours, or initiate rollback to the previous approved checkpoint.
-4. **Re-evaluation** — conduct a targeted re-evaluation of the failed gate(s) after mitigation is applied.
-5. **Post-incident report** — publish a post-incident report in the repository within 30 days.
-
-Hard-block gates (G-5, G-6) require rollback; mitigation-only is not permitted for these gates.
-
-## Stakeholder Approval Matrix
-
-| Release type | Evaluating team | Primary reviewer | Secondary reviewer | ASL reviewer | Public comment |
-|---|---|---|---|---|---|
-| Patch | Required | Required | — | If ASL change | — |
-| Minor | Required | Required | Required | If ASL change | — |
-| Major | Required | Required | Required | Required | 14 days |
-| ASL-3 pause | Required | Required | Required | Required (panel) | On finding |
-
-"Required" means a written sign-off must be recorded in the governance issue before the release tag is created.
-
-## Metrics and KPIs for Governance Review
-
-The following metrics are tracked per release cycle and reviewed at each minor or major release:
-
-- **Gate pass rate** — percentage of evaluated models passing all mandatory gates on first submission
-- **Mean time to clear** — average calendar days from evaluation start to gate clearance
-- **Regression rate** — percentage of patch releases where any dimension score decreased vs. the prior patch
-- **ASL reclassification rate** — number of models reclassified between ASL levels per quarter
-- **Post-release finding rate** — number of gate failures discovered after release, per 10 evaluations
-
-See [Metrics and KPIs](../evaluation/metrics.md) for primary and secondary metric definitions for each benchmark dimension.
+Every published artifact carries a one-line entry in the release log: *date · artifact · track · gates passed · reviewer role(s) · linked AI-BOM ID*. The log is the framework's audit trail — the evidence that the rule on this page was actually applied, not merely stated.
