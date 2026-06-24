@@ -71,6 +71,7 @@ nav:
     - Red Teaming: literature/red-teaming.md
     - Adversarial Attacks: literature/adversarial-attacks.md
     - Governance Frameworks: literature/ai-governance-frameworks.md
+    - Governance Mapping: literature/governance-mapping.md
 
 markdown_extensions:
   - admonition
