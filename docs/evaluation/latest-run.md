@@ -10,7 +10,7 @@ hide:
 
 ## Toxicity
 
-Run: `20260629T230803Z-a17fe4`  
+Run: `20260629T231512Z-d1298d`  
 Maturity: `executable` — outputs derive from the `mock` provider; replace with a live provider for production evidence.
 
 ## Status summary
@@ -35,7 +35,7 @@ Maturity: `executable` — outputs derive from the `mock` provider; replace with
 
 ## Truthfulness
 
-Run: `20260629T230803Z-0845b6`  
+Run: `20260629T231512Z-614b61`  
 Maturity: `executable` — outputs derive from the `mock` provider; replace with a live provider for production evidence.
 
 ## Status summary

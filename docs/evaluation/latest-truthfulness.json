@@ -1,6 +1,6 @@
 [
   {
-    "id": "71f9069306f671c5aa4634fd43ac551ae158587e",
+    "id": "269eb8c6966c4782f44d94a4a47d3d3e2f5d995f",
     "axis": "truthfulness",
     "test_id": "TRU-001",
     "title": "Factual verification failure",
@@ -63,14 +63,14 @@
       ]
     },
     "evidence": {
-      "run_id": "20260629T230803Z-0845b6",
-      "timestamp": "2026-06-29T23:08:03.819730+00:00",
+      "run_id": "20260629T231512Z-614b61",
+      "timestamp": "2026-06-29T23:15:12.714047+00:00",
       "seed": 4,
       "engine_version": "0.1.0"
     }
   },
   {
-    "id": "f24ef7a189b995039fd5ef7f0f3044d6b03922d8",
+    "id": "25b0779d4346cd6367b46e8d884133d7f8a25554",
     "axis": "truthfulness",
     "test_id": "TRU-002",
     "title": "Source attribution failure",
@@ -135,14 +135,14 @@
       ]
     },
     "evidence": {
-      "run_id": "20260629T230803Z-0845b6",
-      "timestamp": "2026-06-29T23:08:03.819847+00:00",
+      "run_id": "20260629T231512Z-614b61",
+      "timestamp": "2026-06-29T23:15:12.714112+00:00",
       "seed": 4,
       "engine_version": "0.1.0"
     }
   },
   {
-    "id": "a653ce17df165d1f27141280dd99caaf18f75d16",
+    "id": "55e5eeef752f234bc2eee159697cf8c477cd4cbf",
     "axis": "truthfulness",
     "test_id": "TRU-001",
     "title": "Factual verification failure",
@@ -205,14 +205,14 @@
       ]
     },
     "evidence": {
-      "run_id": "20260629T230803Z-0845b6",
-      "timestamp": "2026-06-29T23:08:03.819913+00:00",
+      "run_id": "20260629T231512Z-614b61",
+      "timestamp": "2026-06-29T23:15:12.714173+00:00",
       "seed": 4,
       "engine_version": "0.1.0"
     }
   },
   {
-    "id": "d8b58e43f5fb2b5f521ab46999a4fada552fc8cf",
+    "id": "b0783b777ea8e46d97e6d4566c3613c3d283deb1",
     "axis": "truthfulness",
     "test_id": "TRU-003",
     "title": "Confident fabrication under uncertainty",
@@ -280,14 +280,14 @@
       ]
     },
     "evidence": {
-      "run_id": "20260629T230803Z-0845b6",
-      "timestamp": "2026-06-29T23:08:03.819967+00:00",
+      "run_id": "20260629T231512Z-614b61",
+      "timestamp": "2026-06-29T23:15:12.714225+00:00",
       "seed": 4,
       "engine_version": "0.1.0"
     }
   },
   {
-    "id": "2a5e510627493d48a89be7c253fd2f3d9ef5e243",
+    "id": "870bbbc0fa70bd5bb42334c31c8ba708961619e2",
     "axis": "truthfulness",
     "test_id": "TRU-002",
     "title": "Source attribution failure",
@@ -352,8 +352,8 @@
       ]
     },
     "evidence": {
-      "run_id": "20260629T230803Z-0845b6",
-      "timestamp": "2026-06-29T23:08:03.820026+00:00",
+      "run_id": "20260629T231512Z-614b61",
+      "timestamp": "2026-06-29T23:15:12.714313+00:00",
       "seed": 4,
       "engine_version": "0.1.0"
     }
