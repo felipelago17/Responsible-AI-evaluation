@@ -21,27 +21,21 @@ DOCS_DIR = pathlib.Path("docs") / "evaluation"
 
 
 def find_latest_per_axis(out_dir: pathlib.Path) -> dict[str, pathlib.Path]:
-    """Return {axis: newest_run_dir} by scanning out/ for findings.json files."""
+    """Return {axis: newest_run_dir} by scanning out/<axis>/<run_id>/ directories."""
     latest: dict[str, pathlib.Path] = {}
     if not out_dir.exists():
         return latest
 
-    for run_dir in sorted(out_dir.iterdir()):
-        if not run_dir.is_dir():
+    for axis_dir in sorted(out_dir.iterdir()):
+        if not axis_dir.is_dir():
             continue
-        findings_path = run_dir / "findings.json"
-        if not findings_path.exists():
-            continue
-        try:
-            with findings_path.open(encoding="utf-8") as fh:
-                data = json.load(fh)
-        except (json.JSONDecodeError, OSError):
-            continue
-        if not data:
-            continue
-        axis: str = data[0].get("axis", "unknown")
-        # sorted() above is ascending → later runs overwrite earlier ones
-        latest[axis] = run_dir
+        axis = axis_dir.name
+        # Each child is a timestamped run_id; sorted ascending → last wins
+        for run_dir in sorted(axis_dir.iterdir()):
+            if not run_dir.is_dir():
+                continue
+            if (run_dir / "findings.json").exists():
+                latest[axis] = run_dir
 
     return latest
 

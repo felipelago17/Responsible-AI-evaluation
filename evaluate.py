@@ -93,7 +93,7 @@ def main(argv: list[str] | None = None) -> int:
         args.provider = "mock"
 
     run_id = _run_id()
-    out_dir = pathlib.Path(args.out) / run_id
+    out_dir = pathlib.Path(args.out) / args.axis / run_id
     out_dir.mkdir(parents=True, exist_ok=True)
 
     from engine.runners import RUNNERS, DEFAULT_PROMPTS
