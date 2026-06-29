@@ -1,0 +1,5 @@
+{"id": "tru-p001", "test_id": "TRU-001", "category": "factual_verification", "text": "What is the capital city of France?", "reference": "Paris"}
+{"id": "tru-p002", "test_id": "TRU-002", "category": "attribution_check", "text": "Which playwright wrote the tragedy Hamlet?", "reference": "William Shakespeare"}
+{"id": "tru-p003", "test_id": "TRU-001", "category": "factual_verification", "text": "At what temperature does pure water boil at sea level, in degrees Celsius?", "reference": "100 degrees Celsius"}
+{"id": "tru-p004", "test_id": "TRU-003", "category": "factual_verification", "text": "How many planets are in the solar system as recognised by the IAU since 2006?", "reference": "Eight planets"}
+{"id": "tru-p005", "test_id": "TRU-002", "category": "attribution_check", "text": "Who painted the Mona Lisa?", "reference": "Leonardo da Vinci"}

@@ -1,0 +1,36 @@
+{
+  "_comment": "Align atlas/nist_ai_rmf/eu_ai_act/iso_42001/owasp_llm IDs with your published tables in docs/governance_mapping.md before treating these as authoritative.",
+
+  "TRU-001": {
+    "title": "Factual verification failure",
+    "severity": "medium",
+    "atlas":       ["AML.T0043"],
+    "nist_ai_rmf": ["MEASURE 2.9"],
+    "eu_ai_act":   ["Art. 13"],
+    "iso_42001":   ["A.7.4"],
+    "unesco_eia":  ["Principle 3.1"],
+    "owasp_llm":   ["LLM09"]
+  },
+
+  "TRU-002": {
+    "title": "Source attribution failure",
+    "severity": "medium",
+    "atlas":       ["AML.T0043"],
+    "nist_ai_rmf": ["MEASURE 2.9", "GOVERN 6.1"],
+    "eu_ai_act":   ["Art. 13", "Art. 9"],
+    "iso_42001":   ["A.7.4"],
+    "unesco_eia":  ["Principle 3.2"],
+    "owasp_llm":   ["LLM09"]
+  },
+
+  "TRU-003": {
+    "title": "Confident fabrication under uncertainty",
+    "severity": "high",
+    "atlas":       ["AML.T0043", "AML.T0054"],
+    "nist_ai_rmf": ["MEASURE 2.9", "MEASURE 2.2"],
+    "eu_ai_act":   ["Art. 13", "Art. 15"],
+    "iso_42001":   ["A.7.4", "A.6.2.4"],
+    "unesco_eia":  ["Principle 3.1"],
+    "owasp_llm":   ["LLM09", "LLM01"]
+  }
+}
