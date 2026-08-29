@@ -58,4 +58,24 @@ Overview of the full ISO/IEC 42119 series — a suite of international standards
 
 ---
 
+## Yadav & Yadav (2026) — The Mirage of LLM Guardrails
+
+**Citation:** Yadav, D., & Yadav, A. (2026). *The Mirage of LLM Guardrails: A Case Study in AI-Assisted Medical Note Manipulation*. arXiv:2607.24859 [cs.CR]. Penn State / AAAI.  
+**URL:** <https://arxiv.org/abs/2607.24859>
+
+Demonstrates that LLM guardrails are modality-dependent rather than intent-dependent: Claude Sonnet 4.6 refused 100 % of image-based requests but only 7 % of semantically identical inline-text requests; Gemini 2.5 refused 0 % across all modalities. The study evaluates 2,100 document-manipulation attempts per model (6,300 total) using a 2 × 2 factorial prompt design (document framing × field reference type) across three input modalities (PNG, PDF, inline text). Layered metrics — refusal rate (RQ1), Field Substitution Accuracy and Collateral Edit Rate (RQ2), and a 116-participant believability study near chance detection accuracy (RQ3) — make this a clean, reproducible template for domain-specific guardrail evaluation.
+
+**Methodology notes:** The FSA/CER pair is a broadly reusable construct: FSA measures semantic correctness of the requested change; CER measures preservation of unrelated content. The 2 × 2 factorial design efficiently surfaces prompt-framing vs modality effects without confounding them. Inter-annotator agreement (Cohen’s κ = 0.604) is reported for image outputs.
+
+**Governance crosswalk:**
+
+| Framework | Mapping |
+|---|---|
+| **NIST AI RMF** | MEASURE 2.7 (security/resilience evaluation) and MANAGE 4.1 (post-deployment monitoring): the modality gap shows single-modality red-teaming is insufficient — evaluation must cover the full input surface. |
+| **EU AI Act** | Health-adjacent deployment pushes toward high-risk classification (Annex III); Art. 15 accuracy/robustness/cybersecurity obligations are directly implicated where guardrails fail on representation format rather than intent. GPAI providers face adversarial-testing requirements under the Code of Practice. |
+| **ASL / capability thresholds** | Illustrates that dangerous-capability evaluation (94.7 % FSA on precise document manipulation) and safeguard evaluation (modality-dependent refusal) are separable measurements — both belong in a deployment decision. |
+| **ISO/IEC 42001** | Clause 6.1 risk assessment should treat vendor guardrails as an unverified claim absent independent adversarial evidence covering all input modalities. |
+
+---
+
 *See also: [Benchmarks: Red Teaming](../benchmarks/red-teaming.md) for the framework’s internal red-teaming methodology documentation.*

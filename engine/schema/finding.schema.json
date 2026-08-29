@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/felipelago17/Responsible-AI-evaluation/engine/schema/finding.schema.json",
+  "title": "RAI Evaluation Finding",
+  "description": "One finding per (test, prompt, target) trial produced by the RAI-Eval engine.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "axis", "test_id", "title", "score", "severity", "status",
+    "maturity", "target", "prompt", "response", "judge",
+    "validation", "mappings", "evidence"
+  ],
+  "properties": {
+    "id":       { "type": "string", "description": "sha1(test_id|prompt_id|model|run_id)" },
+    "axis":     { "type": "string", "enum": ["bias", "toxicity", "truthfulness", "robustness"] },
+    "test_id":  { "type": "string", "description": "Test Catalogue ID, e.g. TOX-001" },
+    "title":    { "type": "string" },
+    "score":    { "type": "number", "minimum": 0, "maximum": 1 },
+    "severity": { "type": "string", "enum": ["none", "low", "medium", "high", "critical"] },
+    "status":   { "type": "string", "enum": ["confirmed", "needs_review", "rejected"] },
+    "maturity": { "type": "string", "enum": ["documented", "executable", "validated"] },
+
+    "target": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["model", "provider"],
+      "properties": {
+        "model":    { "type": "string" },
+        "provider": { "type": "string" },
+        "version":  { "type": ["string", "null"] },
+        "endpoint": { "type": ["string", "null"] }
+      }
+    },
+
+    "prompt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "category", "hash"],
+      "properties": {
+        "id":       { "type": "string" },
+        "category": { "type": "string" },
+        "source":   { "type": ["string", "null"] },
+        "hash":     { "type": "string", "description": "sha1 of prompt text" },
+        "text":     { "type": ["string", "null"], "description": "Present only when --include-text" }
+      }
+    },
+
+    "response": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "refusal": { "type": ["boolean", "null"] },
+        "hash":    { "type": ["string", "null"] },
+        "text":    { "type": ["string", "null"] }
+      }
+    },
+
+    "judge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["model", "score", "hedging_detected"],
+      "properties": {
+        "model":            { "type": "string" },
+        "score":            { "type": "number" },
+        "label":            { "type": ["string", "null"] },
+        "rationale":        { "type": ["string", "null"] },
+        "hedging_detected": { "type": "boolean" },
+        "consensus": {
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["votes", "agree", "models"],
+              "properties": {
+                "votes":  { "type": "integer" },
+                "agree":  { "type": "integer" },
+                "models": { "type": "array", "items": { "type": "string" } }
+              }
+            }
+          ]
+        }
+      }
+    },
+
+    "validation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "stage_a_genuine", "stage_b_reachable", "stage_c_reproduced",
+        "stage_d_confident", "reproduction_rate", "notes"
+      ],
+      "properties": {
+        "stage_a_genuine":    { "type": ["boolean", "null"] },
+        "stage_b_reachable":  { "type": ["boolean", "null"] },
+        "stage_c_reproduced": { "type": ["boolean", "null"] },
+        "stage_d_confident":  { "type": ["boolean", "null"] },
+        "reproduction_rate":  { "type": "number", "minimum": 0, "maximum": 1 },
+        "notes":              { "type": "string" }
+      }
+    },
+
+    "mappings": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["atlas", "nist_ai_rmf", "eu_ai_act", "iso_42001", "unesco_eia", "owasp_llm"],
+      "properties": {
+        "atlas":       { "type": "array", "items": { "type": "string" } },
+        "nist_ai_rmf": { "type": "array", "items": { "type": "string" } },
+        "eu_ai_act":   { "type": "array", "items": { "type": "string" } },
+        "iso_42001":   { "type": "array", "items": { "type": "string" } },
+        "unesco_eia":  { "type": "array", "items": { "type": "string" } },
+        "owasp_llm":   { "type": "array", "items": { "type": "string" } }
+      }
+    },
+
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["run_id", "timestamp", "seed", "engine_version"],
+      "properties": {
+        "run_id":         { "type": "string" },
+        "timestamp":      { "type": "string", "description": "ISO-8601 UTC" },
+        "seed":           { "type": "integer" },
+        "engine_version": { "type": "string" }
+      }
+    }
+  }
+}

@@ -6,3 +6,13 @@ datasets>=2.0.0
 
 # Optional: enables MemPalace knowledge-graph queries in evaluation/session_memory.py
 # networkx>=3.0
+
+# --- RAI Evaluation Engine (engine/) ---
+# The dry-run path (--dry-run, mock provider) uses the Python 3.10+ standard
+# library only. Install extras only when needed.
+
+# Optional: JSON schema validation for findings (gracefully skipped when absent)
+jsonschema>=4.22
+
+# Optional: live Anthropic provider (--provider anthropic)
+# anthropic>=0.28

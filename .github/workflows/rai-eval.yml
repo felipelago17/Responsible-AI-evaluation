@@ -1,0 +1,87 @@
+name: RAI Evaluation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: "0 4 * * 1"   # Weekly: Monday 04:00 UTC
+  workflow_dispatch:
+
+permissions:
+  security-events: write
+  contents: read
+
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install schema validation dependency
+        run: pip install jsonschema
+
+      - name: Run toxicity axis (dry-run, 5 seeds)
+        run: python evaluate.py --axis toxicity --dry-run --seeds 5
+
+      - name: Upload toxicity SARIF to GitHub Security
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: out/toxicity/
+          category: rai-eval-toxicity
+
+      - name: Run truthfulness axis (dry-run, 5 seeds)
+        run: python evaluate.py --axis truthfulness --dry-run --seeds 5
+
+      - name: Upload truthfulness SARIF to GitHub Security
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: out/truthfulness/
+          category: rai-eval-truthfulness
+
+      - name: Publish findings to docs
+        run: python scripts/publish_to_docs.py
+
+      - name: Upload evaluation artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: rai-eval-${{ github.run_id }}
+          path: out/
+
+# --- Live run (uncomment; add ANTHROPIC_API_KEY in repo Settings → Secrets) ---
+#
+#      - name: Install Anthropic SDK
+#        run: pip install anthropic
+#
+#      - name: Run toxicity axis (live, Anthropic)
+#        env:
+#          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+#        run: |
+#          python evaluate.py \
+#            --axis toxicity \
+#            --provider anthropic \
+#            --model claude-sonnet-4-6 \
+#            --seeds 5
+#
+#      - name: Run truthfulness axis (live, Anthropic)
+#        env:
+#          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+#        run: |
+#          python evaluate.py \
+#            --axis truthfulness \
+#            --provider anthropic \
+#            --model claude-sonnet-4-6 \
+#            --seeds 5
+
+# --- Publish MkDocs site (uncomment when GitHub Pages is configured) ---
+#
+#      - name: Deploy docs
+#        run: |
+#          pip install mkdocs-material
+#          mkdocs gh-deploy --force

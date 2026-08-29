@@ -50,6 +50,9 @@ nav:
   - Evaluation:
     - Test Catalogue: evaluation/test-catalogue.md
     - 'Metrics & KPIs': evaluation/metrics.md
+    - Latest Run: evaluation/latest-run.md
+  - Criteria:
+    - Deployment Readiness: criteria/deployment-readiness.md
   - Supply Chain:
     - AI Bill of Materials: supply-chain/ai-bom.md
   - Governance:
