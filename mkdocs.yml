@@ -95,4 +95,3 @@ extra_css:
 
 extra_javascript:
   - assets/javascripts/framework-animations.js
-  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
