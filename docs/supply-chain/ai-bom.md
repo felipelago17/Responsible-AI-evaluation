@@ -34,6 +34,9 @@ Template for documenting the full provenance of an AI system prior to evaluation
 | Base model version hash / SHA | | [IF APPLICABLE] |
 | Base model source (HuggingFace Hub ID, internal registry URL, etc.) | | [IF APPLICABLE] |
 | Base model licence | | [IF APPLICABLE] |
+| Base model openness tier (OSAID) | Open source AI / Open weights / Gated weights / Closed (API only) | [RECOMMENDED — does not change the 28-field MPCS denominator] |
+| Training code published? | Yes / No / Partial | [IF APPLICABLE] |
+| Training data published or fully described? | Yes / No / Partial | [IF APPLICABLE] |
 | Fine-tuning applied? | Yes / No | [REQUIRED] |
 | Fine-tuning dataset identifier(s) | | [IF APPLICABLE] |
 | Fine-tuning dataset version / hash | | [IF APPLICABLE] |
@@ -45,6 +48,9 @@ Template for documenting the full provenance of an AI system prior to evaluation
 
 !!! warning "Supply Chain Integrity"
     Base model weight hashes must be verified against the upstream registry before evaluation. A hash mismatch indicates potential supply chain compromise (ATLAS AML.T0040) and must block the evaluation until resolved.
+
+!!! note "Open weights ≠ open source AI"
+    Record the openness tier using the Open Source Initiative's Open Source AI Definition (OSAID), not the vendor's label. *Open weights* means only the parameters are published — the model can be fine-tuned but not studied or rebuilt, so Section 3 (training data) will usually be unanswerable from public material. *Open source AI* requires weights **and** training code **and** training data (or its fullest available description). An "open" base model that is merely open-weight should be treated like a closed model for provenance purposes: training-data lineage, memorisation and bias evaluations cannot be inherited from the upstream release and must be run here (All Things Open / OSI, 2026).
 
 ---
 
@@ -147,6 +153,7 @@ Use this checklist to compute the [Model Provenance Completeness Score (MPCS)](.
 
 ## References
 
+- All Things Open (2026) *Open weights are not open source AI, and why it matters* [interview with D. O'Brien, Open Source Initiative], 15 October. Available at: <https://allthingsopen.org/articles/open-source-ai-vs-open-weights> (Accessed: 5 November 2026).
 - Government of Dubai (2024) *Law No. (15) of 2024 Concerning the Dubai Electronic Security Centre*. Available at: <https://dlp.dubai.gov.ae> (Accessed: 18 June 2026).
 - ISO (2022) *ISO/IEC 27005:2022 Information security, cybersecurity and privacy protection — Guidance on managing information security risks*. Geneva: International Organization for Standardization.
 - ISO/IEC (2023) *ISO/IEC 42001:2023 — Artificial Intelligence: Management System*. International Organisation for Standardisation.

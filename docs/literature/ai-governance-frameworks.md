@@ -87,6 +87,15 @@ A comparative analysis of major AI governance frameworks — EU AI Act, NIST AI 
 
 ---
 
+### All Things Open / Open Source Initiative (2026) — Open Weights Are Not Open Source AI
+
+**Citation:** All Things Open. (2026, October 15). *Open weights are not open source AI, and why it matters* [Interview with Duane O'Brien, Executive Director, Open Source Initiative]. All Things Open.  
+**URL:** <https://allthingsopen.org/articles/open-source-ai-vs-open-weights> — see also OSI's Open Source AI Definition: <https://opensource.org/ai/open-source-ai-definition>
+
+Sets out the Open Source AI Definition (OSAID) distinction between *open weights* (parameters released; the model can be fine-tuned but not studied or rebuilt) and *open source AI* (weights plus training code and training data, or its fullest available description, under the four freedoms). OSI reports multi-year work with G7 digital ministers and briefings to UN member states on a shared vocabulary of AI openness. Relevant here because the openness tier determines what an evaluator can inherit from an upstream release: an open-weight base model gives no visibility into training-data provenance, memorisation or bias sources, so the [AI Bill of Materials](../supply-chain/ai-bom.md) now records the OSAID tier and the bias, truthfulness and robustness benchmarks must be run rather than assumed. Also informs regulatory crosswalks where instruments carve out "open" models.
+
+---
+
 ## United States
 
 ### NIST (2023) — AI Risk Management Framework
