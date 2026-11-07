@@ -1,6 +1,10 @@
 name: Deploy Docs
 
 on:
+  workflow_run:
+    workflows:
+      - "Daily AI Governance Digest"
+    types: [completed]
   push:
     branches:
       - main
@@ -20,6 +24,7 @@ concurrency:
 
 jobs:
   build:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository

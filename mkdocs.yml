@@ -72,6 +72,7 @@ nav:
     - Adversarial Attacks: literature/adversarial-attacks.md
     - Governance Frameworks: literature/ai-governance-frameworks.md
     - Governance Mapping: literature/governance-mapping.md
+  - News Digest: news/digest.md
 
 markdown_extensions:
   - admonition
