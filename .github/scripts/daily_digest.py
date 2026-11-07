@@ -134,6 +134,11 @@ HEADERS = {"User-Agent": f"Mozilla/5.0 (compatible; {BOT_NAME}; +{REPO_URL})"}
 KEYWORDS_LC = [k.lower() for k in KEYWORDS]
 
 items = []          # (title, url, source, category)
+SEEN_PATH = Path(DATA_JSON).parent / "seen-urls.json" if DATA_JSON else None
+try:
+    previously_seen = set(json.loads(SEEN_PATH.read_text(encoding="utf-8"))) if SEEN_PATH and SEEN_PATH.exists() else set()
+except Exception:  # noqa: BLE001
+    previously_seen = set()
 seen = set()
 
 
@@ -150,7 +155,7 @@ def add(title, url, source, category):
     title = re.sub(r"\s+", " ", title or "").strip()
     url = (url or "").strip()
     key = url.split("?")[0].rstrip("/")
-    if not title or not url or key in seen or len(title) < 12:
+    if not title or not url or key in seen or key in previously_seen or len(title) < 12:
         return
     seen.add(key)
     items.append((title, url, source, category))
@@ -291,5 +296,10 @@ if DATA_JSON:
         ),
         encoding="utf-8",
     )
+
+if SEEN_PATH:
+    SEEN_PATH.parent.mkdir(parents=True, exist_ok=True)
+    merged = list(seen) + [u for u in previously_seen if u not in seen]
+    SEEN_PATH.write_text(json.dumps(merged[:5000], indent=0), encoding="utf-8")
 
 print(f"Done. {len(items)} items collected for {TODAY.isoformat()}.")
