@@ -9,6 +9,12 @@ Roughly 90 days of history are kept on this page; the latest run is also written
 ---
 
 <!-- DIGEST_START -->
+## 2026-11-08
+
+*No new relevant items retrieved today.*
+
+---
+
 ## 2026-11-07
 
 ### Official & Regulatory
