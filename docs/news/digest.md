@@ -9,6 +9,33 @@ Roughly 90 days of history are kept on this page; the latest run is also written
 ---
 
 <!-- DIGEST_START -->
+## 2026-11-09
+
+### Official & Regulatory
+
+- **[Federal Register]** [Notice of Public Meetings of the Maryland Advisory Committee to the U.S. Commission on Civil Rights (2026-11-09)](https://www.federalregister.gov/documents/2026/11/09/2026-22799/notice-of-public-meetings-of-the-maryland-advisory-committee-to-the-us-commission-on-civil-rights)
+
+### Research & Evaluation
+
+- **[arXiv cs.CY]** [Real-World Adoption, Use, and Governance of an LLM-Based Electronic Health Record Search and Synthesis Platform](https://arxiv.org/abs/2611.08672)
+- **[arXiv cs.CY]** [Remembering Is Not Enough: Evaluating Timing and Omission in Longitudinal AI Mental Health Support](https://arxiv.org/abs/2611.08721)
+- **[arXiv cs.CY]** [Same Facts, Different Remedy: Linguistic Profiling and Arbitrariness in LLM and System One Decisions](https://arxiv.org/abs/2611.08995)
+- **[arXiv cs.CY]** [Uniqueness-Aware Feature Engineering for Representing Humans in Algorithmic Decision Making](https://arxiv.org/abs/2611.09403)
+- **[arXiv cs.CY]** [Seeing Is Not Knowing: The Epistemic Limits of LLM-Based Mental Health Inference from Youth Social Media Conversations](https://arxiv.org/abs/2611.08565)
+- **[arXiv cs.CY]** [The Relational Capacity Framework: A Lens for AI-Mediated Relationality](https://arxiv.org/abs/2611.08877)
+- **[arXiv cs.CY]** [The Drawing You Watch Is the Portrait You Keep: A Replayable Machine Portrait Studio](https://arxiv.org/abs/2611.08994)
+- **[arXiv cs.CY]** [A Taxonomy-Driven Synthetic Dataset for Retrieval Effectiveness and Fairness Evaluation in Hiring](https://arxiv.org/abs/2611.09178)
+- **[arXiv cs.CY]** [ABHBench: Evaluating Moral Decision-Making of Foundation Models from an Agentic Perspective](https://arxiv.org/abs/2611.09326)
+- **[arXiv cs.CY]** [Budgeting Discretion: Theory and Evidence on Street-Level Decision-Making](https://arxiv.org/abs/2602.10039)
+- **[arXiv cs.CY]** [AI out-persuades expert humans in text-based dialogue](https://arxiv.org/abs/2606.16475)
+- **[arXiv cs.CY]** [No One Knows the State of the Art in Geospatial Foundation Models](https://arxiv.org/abs/2605.12678)
+
+### Think Tanks & Policy
+
+- **[CSET]** [The U.S.–China AI Competition: Two Paths to Artificial General Intelligence](https://cset.georgetown.edu/article/the-u-s-china-ai-competition-two-paths-to-artificial-general-intelligence/)
+
+---
+
 ## 2026-11-08
 
 *No new relevant items retrieved today.*
