@@ -9,6 +9,37 @@ Roughly 90 days of history are kept on this page; the latest run is also written
 ---
 
 <!-- DIGEST_START -->
+## 2026-11-10
+
+### Official & Regulatory
+
+- **[Federal Register]** [Notice of Intent To Reorganize HUD and Revise Headquarters and Field Operating Model (2026-11-10)](https://www.federalregister.gov/documents/2026/11/10/2026-22838/notice-of-intent-to-reorganize-hud-and-revise-headquarters-and-field-operating-model)
+
+### Research & Evaluation
+
+- **[arXiv cs.CY]** [Public Perceptions of Public Participation in Local Government Mediated through a GenAI Tool](https://arxiv.org/abs/2611.10047)
+- **[arXiv cs.CY]** [Police Behavior Patterns Through Radio Analysis](https://arxiv.org/abs/2611.10322)
+- **[arXiv cs.CY]** [From Dialogue to Task: How Cognitive Engagement With Generative Artificial Intelligence Relates to Post-Dialogue Activity and Task Outcomes](https://arxiv.org/abs/2611.11435)
+- **[arXiv cs.CY]** [Rules, Choice, and Chance: A Welfare Evaluation Framework for Student-School Matching](https://arxiv.org/abs/2611.11514)
+- **[arXiv cs.CY]** [Known Good, Known Bad: A Ground-Truth Calibration Protocol for AI Judgment in Science](https://arxiv.org/abs/2611.11673)
+- **[arXiv cs.CY]** [AI and Mathematical Work on Mastodon: Attention, Topics, and Target-Specific Evaluations](https://arxiv.org/abs/2611.11841)
+- **[arXiv cs.CY]** [Perils and opportunities of AI for public climate services](https://arxiv.org/abs/2611.12106)
+- **[arXiv cs.CY]** [Hidden Distances: How Likert-Scale Spacing Shapes Algorithmic Voting Advice](https://arxiv.org/abs/2611.12313)
+- **[arXiv cs.CY]** [Frontier AI Safety and Governance 2026: Risk Understanding and Coordinated Governance](https://arxiv.org/abs/2611.12434)
+- **[arXiv cs.CY]** [Beyond Falsehoods 2026: Global Trends in the Regulation of Misinformation and Disinformation](https://arxiv.org/abs/2611.12770)
+- **[arXiv cs.CY]** [Short-Form Video Exposure and Academic Strain: A Dose-Response Analysis and Acquiescence Diagnosis](https://arxiv.org/abs/2611.09899)
+- **[arXiv cs.CY]** [Micro-Randomized Trial of an AI-Simulated Practice Tool for Therapeutic Skills](https://arxiv.org/abs/2611.09912)
+
+### Industry & Labs
+
+- **[MIT Technology Review]** [The Download: Pelosi’s successor targets AI and data centers face power woes](https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/)
+- **[MIT Technology Review]** [Evolving metal extraction processes](https://www.technologyreview.com/2026/11/10/1147726/evolving-metal-extraction-processes/)
+- **[MIT Technology Review]** [Nancy Pelosi’s replacement is ready to regulate AI](https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/)
+- **[OpenAI News]** [CodeRabbit scales agentic software development and ships 20x more](https://openai.com/index/coderabbit-codex-daybreak)
+- **[Google DeepMind Blog]** [Gemini Robotics 2.5 accelerates real-world general dexterity](https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/)
+
+---
+
 ## 2026-11-09
 
 ### Official & Regulatory
