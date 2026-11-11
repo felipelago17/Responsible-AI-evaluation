@@ -9,6 +9,29 @@ Roughly 90 days of history are kept on this page; the latest run is also written
 ---
 
 <!-- DIGEST_START -->
+## 2026-11-11
+
+### Research & Evaluation
+
+- **[arXiv cs.CY]** [Transparency Disclosures for Chain-of-Thought Monitorability](https://arxiv.org/abs/2611.13873)
+- **[arXiv cs.CY]** [Advancing a Global Framework for AI Safety and Governance for the Well-being of Humanity](https://arxiv.org/abs/2611.13968)
+- **[arXiv cs.CY]** [Can AI be a 'Researcher Without Borders'? Auditing Bias in AI-Assisted Social Science Research about China and the US](https://arxiv.org/abs/2611.14288)
+- **[arXiv cs.CY]** [Trust, but verify, audit and attribute: a human-in-the-loop framework for checking AI-produced research results](https://arxiv.org/abs/2611.13042)
+- **[arXiv cs.CY]** [Reliability of Claude Code as an Agentic AI Grading System for Handwritten University Exams](https://arxiv.org/abs/2611.13217)
+- **[arXiv cs.CY]** [Mapping Instructors' Attitudes Towards Cheating with AI: An Exploratory Analysis Using Forum Analysis](https://arxiv.org/abs/2611.13366)
+- **[arXiv cs.CY]** [Inherited Weights: Measuring the Tokenization Premium and the Sovereignty Cost of Language Models for the Global South](https://arxiv.org/abs/2611.13441)
+- **[arXiv cs.CY]** [EJAI: Judgment-Preserving Civic AI for Data Center Environmental Justice](https://arxiv.org/abs/2611.13525)
+- **[arXiv cs.CY]** [Specify Privacy Yourself: Assessing Inference-Time Personalized Privacy Preservation Ability of Large Vision-Language Models](https://arxiv.org/abs/2611.13997)
+- **[arXiv cs.CY]** [AI Isn't Getting Dumber, We're Getting Pickier: Rising Standards in Human Evaluation of Large Language Models](https://arxiv.org/abs/2611.14333)
+- **[arXiv cs.CY]** [AI-Mediated Communication Can Steer Collective Opinion](https://arxiv.org/abs/2605.16245)
+- **[arXiv cs.CY]** [Beyond Third-Person Audits: Situated Interaction Auditing for User-Centered LLM Bias Research](https://arxiv.org/abs/2606.12247)
+
+### Industry & Labs
+
+- **[MIT Technology Review]** [The Download: preserving minds and weighing open AI risks](https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/)
+
+---
+
 ## 2026-11-10
 
 ### Official & Regulatory
