@@ -9,6 +9,14 @@ Roughly 90 days of history are kept on this page; the latest run is also written
 ---
 
 <!-- DIGEST_START -->
+## 2026-11-12
+
+### Industry & Labs
+
+- **[MIT Technology Review]** [What to know about this year’s UN climate talks](https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/)
+
+---
+
 ## 2026-11-11
 
 ### Research & Evaluation
