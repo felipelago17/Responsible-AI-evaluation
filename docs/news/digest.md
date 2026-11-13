@@ -9,6 +9,39 @@ Roughly 90 days of history are kept on this page; the latest run is also written
 ---
 
 <!-- DIGEST_START -->
+## 2026-11-13
+
+### Official & Regulatory
+
+- **[Federal Register]** [Request for Information (2026-11-13)](https://www.federalregister.gov/documents/2026/11/13/2026-23155/request-for-information)
+
+### Research & Evaluation
+
+- **[arXiv cs.CY]** [Who (or what) are they prompting? How CS students conceptualize and use LLMs](https://arxiv.org/abs/2611.14798)
+- **[arXiv cs.CY]** [Taxonomizing Synthetic Data for Law](https://arxiv.org/abs/2611.15489)
+- **[arXiv cs.CY]** [Scaling public input on AI policy with pluralistic agents](https://arxiv.org/abs/2611.16028)
+- **[arXiv cs.CY]** [One Future Fits All: Text-to-image AI and the Narrowing of Global Imagination](https://arxiv.org/abs/2611.16089)
+- **[arXiv cs.CY]** [A Code-Level Audit of X](https://arxiv.org/abs/2611.16800)
+- **[arXiv cs.CY]** [Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline](https://arxiv.org/abs/2611.17220)
+- **[arXiv cs.CY]** [Partial pooling beats synthetic respondents as estimators, not as covariates: a preregistered small-sample tournament](https://arxiv.org/abs/2611.14526)
+- **[arXiv cs.CY]** [Evaluating AI Musical Creativity: Towards a Quantitative Multi-Dimensional Framework Based on Value, Novelty, and Surprise](https://arxiv.org/abs/2611.14634)
+- **[arXiv cs.CY]** [Do Large Language Models Show Racial and Sex Bias in Pain Management? A Counterfactual Audit of GPT, Claude, Gemini, Llama, DeepSeek and Qwen](https://arxiv.org/abs/2611.14935)
+- **[arXiv cs.CY]** [Tracking What Works: Social Engineering Lures as Signatures for Victim-Centric Infostealer Campaign Discovery](https://arxiv.org/abs/2611.15394)
+- **[arXiv cs.CY]** [Data augmentation for the generalizability and transportability of fairness in a clinical heart failure algorithm](https://arxiv.org/abs/2611.15618)
+- **[arXiv cs.CY]** [Controlling the Probability of Unknown Unknowns in Pre-Deployment Testing of AI Systems](https://arxiv.org/abs/2611.15835)
+
+### Think Tanks & Policy
+
+- **[CSET]** [AI Kill Switches: What Policymakers Should Know](https://cset.georgetown.edu/article/ai-kill-switches-what-policymakers-should-know/)
+
+### Industry & Labs
+
+- **[MIT Technology Review]** [The Download: Silicon Valley’s blind spot and Nvidia’s chip-tracking plan](https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/)
+- **[MIT Technology Review]** [Silicon Valley claims to know the future. So why did it get the midterms so wrong?](https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/)
+- **[OpenAI News]** [Gondola doubles revenue as its team builds more with Codex](https://openai.com/business/customer-stories/gondola)
+
+---
+
 ## 2026-11-12
 
 ### Industry & Labs
