@@ -72,6 +72,9 @@ nav:
     - Adversarial Attacks: literature/adversarial-attacks.md
     - Governance Frameworks: literature/ai-governance-frameworks.md
     - Governance Mapping: literature/governance-mapping.md
+  - Case Studies:
+    - Overview: case-studies/index.md
+    - 'XAI in Disease Classification': case-studies/xai-disease-classification-readiness.md
   - News Digest: news/digest.md
 
 markdown_extensions:
