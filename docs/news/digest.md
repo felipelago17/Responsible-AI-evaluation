@@ -9,6 +9,14 @@ Roughly 90 days of history are kept on this page; the latest run is also written
 ---
 
 <!-- DIGEST_START -->
+## 2026-11-15
+
+### Think Tanks & Policy
+
+- **[CSET]** [Convergent Interests: How America Could Undermine Its Own AI Advantage](https://cset.georgetown.edu/article/convergent-interests-how-america-could-undermine-its-own-ai-advantage/)
+
+---
+
 ## 2026-11-14
 
 *No new relevant items retrieved today.*
