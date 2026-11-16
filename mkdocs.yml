@@ -56,6 +56,7 @@ nav:
     - Overview: governance.md
     - Release Governance: governance/release-governance.md
     - Governance Mapping: governance_mapping.md
+    - Choosing a Framework: governance/choosing-a-framework.md
   - UNESCO EIA:
     - Overview: eia/index.md
     - How to Run: eia/how-to-run.md
