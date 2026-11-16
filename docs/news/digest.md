@@ -9,6 +9,34 @@ Roughly 90 days of history are kept on this page; the latest run is also written
 ---
 
 <!-- DIGEST_START -->
+## 2026-11-16
+
+### Official & Regulatory
+
+- **[EU Digital Strategy — AI]** [Commission seeks feedback on draft template for the fundamental rights impact assessment under the AI Act](https://digital-strategy.ec.europa.eu/en/news/commission-seeks-feedback-draft-template-fundamental-rights-impact-assessment-under-ai-act)
+
+### Research & Evaluation
+
+- **[arXiv cs.CY]** [Auditing Chatbots for Incursion into Professional Legal Practice](https://arxiv.org/abs/2611.17622)
+- **[arXiv cs.CY]** [DOCKET: A Pluralistic Benchmark for Evaluating AI-Assisted Policy Feedback in U.S. Rulemaking](https://arxiv.org/abs/2611.17914)
+- **[arXiv cs.CY]** [Algorithmic Opacity as a Principal-Agent Problem](https://arxiv.org/abs/2611.17980)
+- **[arXiv cs.CY]** [Large language models put existential risk from artificial intelligence at 10%](https://arxiv.org/abs/2611.18219)
+- **[arXiv cs.CY]** [Accounting for Trust and Safety: Bounding Content-Moderation Quality from Records You Already Hold](https://arxiv.org/abs/2611.18437)
+- **[arXiv cs.CY]** [Between Obligations and Evidence: A Participatory Study of Translating the EU AI Act into Technical Requirements](https://arxiv.org/abs/2611.18439)
+- **[arXiv cs.CY]** [When evaluation becomes intervention in clinical AI](https://arxiv.org/abs/2611.18297)
+- **[arXiv cs.CY]** [Agent Security Meets Regulatory Reality -- A Practitioner Systematization of Autonomous-Agent Threats and Controls in Regulated Financial Systems](https://arxiv.org/abs/2606.29142)
+- **[arXiv cs.CY]** [Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase](https://arxiv.org/abs/2609.11728)
+- **[arXiv cs.CR]** [Beyond Attack-Based Accuracy: Rethinking Adversarial Robustness Evaluation Through Structural Gradient Alignment](https://arxiv.org/abs/2611.17377)
+- **[arXiv cs.CR]** [Evolutionary-based Transfer Learning for Physical Attack on End-to-End Autoencoder Communications](https://arxiv.org/abs/2611.17393)
+- **[arXiv cs.CR]** [Can LLMs Write Backdoors? An Empirical Security Study of Weight-Space Programming](https://arxiv.org/abs/2611.17395)
+
+### Industry & Labs
+
+- **[MIT Technology Review]** [The Download: testing tech promises and searching for cognitive immortality](https://www.technologyreview.com/2026/11/16/1148599/the-download-testing-tech-promises-cognitive-immortality-quest/)
+- **[MIT Technology Review]** [Building AI that can work across the enterprise](https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/)
+
+---
+
 ## 2026-11-15
 
 ### Think Tanks & Policy

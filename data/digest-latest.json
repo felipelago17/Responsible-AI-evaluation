@@ -1,11 +1,473 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "items": [
     {
-      "title": "Convergent Interests: How America Could Undermine Its Own AI Advantage",
-      "url": "https://cset.georgetown.edu/article/convergent-interests-how-america-could-undermine-its-own-ai-advantage/",
-      "source": "CSET",
-      "category": "Think Tanks & Policy"
+      "title": "Auditing Chatbots for Incursion into Professional Legal Practice",
+      "url": "https://arxiv.org/abs/2611.17622",
+      "source": "arXiv cs.CY",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "DOCKET: A Pluralistic Benchmark for Evaluating AI-Assisted Policy Feedback in U.S. Rulemaking",
+      "url": "https://arxiv.org/abs/2611.17914",
+      "source": "arXiv cs.CY",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Algorithmic Opacity as a Principal-Agent Problem",
+      "url": "https://arxiv.org/abs/2611.17980",
+      "source": "arXiv cs.CY",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Large language models put existential risk from artificial intelligence at 10%",
+      "url": "https://arxiv.org/abs/2611.18219",
+      "source": "arXiv cs.CY",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Accounting for Trust and Safety: Bounding Content-Moderation Quality from Records You Already Hold",
+      "url": "https://arxiv.org/abs/2611.18437",
+      "source": "arXiv cs.CY",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Between Obligations and Evidence: A Participatory Study of Translating the EU AI Act into Technical Requirements",
+      "url": "https://arxiv.org/abs/2611.18439",
+      "source": "arXiv cs.CY",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "When evaluation becomes intervention in clinical AI",
+      "url": "https://arxiv.org/abs/2611.18297",
+      "source": "arXiv cs.CY",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Agent Security Meets Regulatory Reality -- A Practitioner Systematization of Autonomous-Agent Threats and Controls in Regulated Financial Systems",
+      "url": "https://arxiv.org/abs/2606.29142",
+      "source": "arXiv cs.CY",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase",
+      "url": "https://arxiv.org/abs/2609.11728",
+      "source": "arXiv cs.CY",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Beyond Attack-Based Accuracy: Rethinking Adversarial Robustness Evaluation Through Structural Gradient Alignment",
+      "url": "https://arxiv.org/abs/2611.17377",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Evolutionary-based Transfer Learning for Physical Attack on End-to-End Autoencoder Communications",
+      "url": "https://arxiv.org/abs/2611.17393",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Can LLMs Write Backdoors? An Empirical Security Study of Weight-Space Programming",
+      "url": "https://arxiv.org/abs/2611.17395",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Online Allocation with Differential Privacy",
+      "url": "https://arxiv.org/abs/2611.17554",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Binarization as an Attack Surface in Weightless Neural Networks",
+      "url": "https://arxiv.org/abs/2611.17646",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Evaluating the Robustness of PRNU Source-Camera Attribution to the Fingerprint-Copy Attack: An Open Toolkit with Triangle-Test Detection",
+      "url": "https://arxiv.org/abs/2611.17747",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "LLMs are Vulnerable to Malicious Requests with Indistinguishable Intent",
+      "url": "https://arxiv.org/abs/2611.17818",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Securing Multi-Agent Systems by Design",
+      "url": "https://arxiv.org/abs/2611.17883",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "RuralShield: Super Intelligence-Assisted Security Triage and Serverless Infrastructure for Resource-Constrained Healthcare",
+      "url": "https://arxiv.org/abs/2611.17887",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Game-Theoretic Analysis of RIS-Assisted Challenge-Response PLA - Part II: Partial Channel Knowledge",
+      "url": "https://arxiv.org/abs/2611.17907",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "PrivacyPR: A Dataset of Real-World Privacy Fixes for Benchmarking Privacy-Aware Code Review",
+      "url": "https://arxiv.org/abs/2611.18293",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "On the Same Track: Privacy Leaks in Electric Rail Transport via Magnetic Fields",
+      "url": "https://arxiv.org/abs/2611.18312",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Information-Theoretic Threshold Designated-Verifier Digital Signatures for Resource-Constrained Devices",
+      "url": "https://arxiv.org/abs/2611.18355",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "CANTraj: Recovering Vehicle Trajectories from CAN Signals in Naturalistic Driving",
+      "url": "https://arxiv.org/abs/2611.18442",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Deterministic ECDSA on secp256k1: the RFC 6979 assumption, a counterexample, and the state of deployed implementations",
+      "url": "https://arxiv.org/abs/2611.18449",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Fair and Efficient Distributed EV Charging Coordination Using Threshold Cryptography and Machine Learning",
+      "url": "https://arxiv.org/abs/2611.17577",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Representational Geometry as a Diagnostic for Adversarial Robustness",
+      "url": "https://arxiv.org/abs/2611.17684",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Adaptable Watermarking: Transforming Image Watermarking Models via Lightweight Adapters",
+      "url": "https://arxiv.org/abs/2611.18363",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Pairing AIS with RF: Analysis of a Markovian Approach for Maritime Data Fusion",
+      "url": "https://arxiv.org/abs/2611.18563",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Cyber-Zero: Training Cybersecurity Agents without Runtime",
+      "url": "https://arxiv.org/abs/2508.00910",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "HackWorld: Evaluating Computer-Use Agents on Exploiting Web Application Vulnerabilities",
+      "url": "https://arxiv.org/abs/2510.12200",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "From TS-SUF-2 to TS-SUF-4: Practical Security Enhancements for FROST2 Threshold Signatures",
+      "url": "https://arxiv.org/abs/2610.02805",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "VerfGraph: Efficient Zero-Knowledge Verifiable Graph Query Evaluation System",
+      "url": "https://arxiv.org/abs/2611.04240",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Training Language Model Agents to Find Vulnerabilities with CTF-Dojo",
+      "url": "https://arxiv.org/abs/2508.18370",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Adversarial Attacks on Downstream Weather Forecasting Models: Application to Tropical Cyclone Trajectory Prediction",
+      "url": "https://arxiv.org/abs/2510.10140",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "REFORGE: A Method for Benchmarking LLMs' Reverse Engineering Capabilities in Decompiled Binary Function Naming",
+      "url": "https://arxiv.org/abs/2607.07738",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "ECGGuard: Deep Watermarking of Electrocardiogram Signals With Error-Correcting",
+      "url": "https://arxiv.org/abs/2610.13357",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "SoK: Assessing Post-Quantum Cryptography Adoption in Software Development: Standards, Lifecycle Coverage, Deployment Maturity, and Evidence of Readiness",
+      "url": "https://arxiv.org/abs/2611.08442",
+      "source": "arXiv cs.CR",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+      "url": "https://arxiv.org/abs/2611.17338",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
+      "url": "https://arxiv.org/abs/2611.17339",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+      "url": "https://arxiv.org/abs/2611.17340",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Advancing Quantization for R&R Models with Microscaling Formats",
+      "url": "https://arxiv.org/abs/2611.17501",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Model Annealing: Data-Efficient Learning through Review and Consolidation",
+      "url": "https://arxiv.org/abs/2611.17524",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Verifiable pXRD: Hill-climbing pXRD structure determination with LLM agents",
+      "url": "https://arxiv.org/abs/2611.17539",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "AI-Voyager: A Public-Interest System for Human-AI Civic Reasoning to Contest and Shape the Rules That Govern AI",
+      "url": "https://arxiv.org/abs/2611.17564",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
+      "url": "https://arxiv.org/abs/2611.17610",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Safety Side Effects of Preventative Persona Steering: An Empirical Audit",
+      "url": "https://arxiv.org/abs/2611.17620",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs",
+      "url": "https://arxiv.org/abs/2611.17621",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Generated Evaluation Suites as Diversity-Driven Search for Real Agent Regressions",
+      "url": "https://arxiv.org/abs/2611.17632",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "What LLM Agents See and What Users Say",
+      "url": "https://arxiv.org/abs/2611.17639",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Learn then Bet: Learning Interpretable Rules for Reliable Agent Intervention",
+      "url": "https://arxiv.org/abs/2611.17662",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Aligned, Conflicting, or Unspecified? A Diagnostic Benchmark for Multimodal Time Series Forecasting",
+      "url": "https://arxiv.org/abs/2611.17680",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "OCTAVE: A Capability-Resolved Benchmark for End-to-End HTML5 Game Generation",
+      "url": "https://arxiv.org/abs/2611.17681",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Co-Sight Harness: Externalized Control Assets and Deterministic Enforcement for Long-Horizon Business Agents",
+      "url": "https://arxiv.org/abs/2611.17696",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "A Spectral Framework for Universal Proxy Regularization in Model Merging",
+      "url": "https://arxiv.org/abs/2611.17728",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Knowledge After Collapse: Context and Wording Shape Factual Accessibility in Language Models",
+      "url": "https://arxiv.org/abs/2611.17763",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "AutoRL: A Multi-Agent System towards Autonomous Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2611.17790",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "MASTARS: Multi-Agent Sequential Trajectory Augmentation with Return-Conditioned Subgoals",
+      "url": "https://arxiv.org/abs/2611.17793",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Robustness Evaluation of GPU Cloud Pricing Benchmarks under Incomplete Observations: A Controlled Missingness Study",
+      "url": "https://arxiv.org/abs/2611.17796",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Vision-as-a-Tool: Visual Harness for Multimodal Agentic Coding",
+      "url": "https://arxiv.org/abs/2611.17797",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Can Agents Keep Up with Time? An Empirical Analysis of Temporal Adaptation After a Conversational Hiatus",
+      "url": "https://arxiv.org/abs/2611.17806",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "G-CAST: Governed Continual Self-Training for E-Commerce Agents under Evolving Demands",
+      "url": "https://arxiv.org/abs/2611.17814",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Aligning AI Teams",
+      "url": "https://arxiv.org/abs/2611.17820",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Is Abliteration Getting Harder? Not Uniformly: Refusal Removal by Direction-Based Ablation and ARA in Heretic on the Qwen3.8, Gemma 4, Olmo 3.1 and Mistral Small 3.2 LLMs Versus Their Predecessors",
+      "url": "https://arxiv.org/abs/2611.17846",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "DECODE: Diagnosing Interpretability Failures in Automated Interpretation Process",
+      "url": "https://arxiv.org/abs/2611.17856",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "AI-aided Decision-Making in Education - Uncertainty, Explainability, and Human Responsibility",
+      "url": "https://arxiv.org/abs/2611.17858",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "FlexCast: Flexible Context Learning for Time Series Foundation Models",
+      "url": "https://arxiv.org/abs/2611.17862",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "OmniScore-Bench: Evaluating Vision-Language Models on Musical Score Reading",
+      "url": "https://arxiv.org/abs/2611.17870",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Soteria: Formally Verified Planning with Runtime Enforcement for Safe LLM Agents",
+      "url": "https://arxiv.org/abs/2611.17880",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Adversarially Attacking Symbolic Vocabulary Vulnerabilities In LLM Planners",
+      "url": "https://arxiv.org/abs/2611.17910",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "SWIFT: Sample-Wise Instance Fine-Tuning of Time-Series Foundation Models for Forecasting",
+      "url": "https://arxiv.org/abs/2611.17915",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "When Cooperation Must Change: Semantic Strategy Unlearning in Multi-Agent Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2611.17917",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "What Balanced Accuracy Cannot Identify in Neural-Signal Decoding under Test-Time Adaptation",
+      "url": "https://arxiv.org/abs/2611.17925",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "OutfitterBench: Evaluating LLM Agents on Long-Horizon Resource Allocation and Commitment Coordination",
+      "url": "https://arxiv.org/abs/2611.17933",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents",
+      "url": "https://arxiv.org/abs/2611.17955",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "TotalSegmentator Aorta Report: Automated Aortic Diameter Measurement at 11 Standardized Landmarks on CT Images",
+      "url": "https://arxiv.org/abs/2611.17968",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "The Download: testing tech promises and searching for cognitive immortality",
+      "url": "https://www.technologyreview.com/2026/11/16/1148599/the-download-testing-tech-promises-cognitive-immortality-quest/",
+      "source": "MIT Technology Review",
+      "category": "Industry & Labs"
+    },
+    {
+      "title": "Building AI that can work across the enterprise",
+      "url": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+      "source": "MIT Technology Review",
+      "category": "Industry & Labs"
+    },
+    {
+      "title": "Commission seeks feedback on draft template for the fundamental rights impact assessment under the AI Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-seeks-feedback-draft-template-fundamental-rights-impact-assessment-under-ai-act",
+      "source": "EU Digital Strategy — AI",
+      "category": "Official & Regulatory"
     }
   ]
 }
