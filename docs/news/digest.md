@@ -9,6 +9,37 @@ Roughly 90 days of history are kept on this page; the latest run is also written
 ---
 
 <!-- DIGEST_START -->
+## 2026-11-17
+
+### Official & Regulatory
+
+- **[Federal Register]** [Modernizing the Labor Market Test and Improving Protections for U.S. Workers in the PERM Immigrant Visa Program (2026-11-17)](https://www.federalregister.gov/documents/2026/11/17/2026-23370/modernizing-the-labor-market-test-and-improving-protections-for-us-workers-in-the-perm-immigrant)
+
+### Research & Evaluation
+
+- **[arXiv cs.CY]** [Ethics Integration in CS Theory Courses](https://arxiv.org/abs/2611.18590)
+- **[arXiv cs.CY]** [An Evidence-Based Decision Framework for Retiring Roadside Traveler Information Infrastructure in the Mobile Era](https://arxiv.org/abs/2611.18886)
+- **[arXiv cs.CY]** [Model Maps: A Documentation Framework for Tracing Foundation Model Ancestry and Understanding AI Entanglement](https://arxiv.org/abs/2611.18998)
+- **[arXiv cs.CY]** [Architecting the Corporate AI Infrastructure: The Evolving Roles of AI Governance Committees and Chief Ethics Officers](https://arxiv.org/abs/2611.19670)
+- **[arXiv cs.CY]** [Can AI Judge You? An Empirical Audit of Deployment Readiness in LLM-assisted Hiring Systems](https://arxiv.org/abs/2611.20140)
+- **[arXiv cs.CY]** [Frac-BKT Under Mechanism Scrutiny: Response Assimilation and a Failed Fractional-Memory Test](https://arxiv.org/abs/2611.20338)
+- **[arXiv cs.CY]** [Who Bears the Excess? Imputing the Acts of AI Agents to Those Who Delegate](https://arxiv.org/abs/2611.20670)
+- **[arXiv cs.CY]** [Lived Experiences of Power and Agency: Achieving Voice Sovereignty in Assistive Speech Technology for Nonbinary Users](https://arxiv.org/abs/2611.20858)
+- **[arXiv cs.CY]** [Auditing a Moving Target: Evidence Anchoring and the Expiry of Fairness Audits of Provider-Served Language Models](https://arxiv.org/abs/2611.20901)
+- **[arXiv cs.CY]** [A Crowd-Audited Atlas of Implicit Bias in LLM-Powered Agents](https://arxiv.org/abs/2611.21376)
+- **[arXiv cs.CY]** [Synthetic Doubt and the Integrity of Digital Proof before the International Criminal Court](https://arxiv.org/abs/2611.21455)
+- **[arXiv cs.CY]** [Incentive Alignment for Electricity Data Assets in China: A Blockchain-Enabled Contribution-Credit Framework](https://arxiv.org/abs/2611.21533)
+
+### Industry & Labs
+
+- **[MIT Technology Review]** [The Download: Jensen Huang’s open-source dilemma and cognitive immortality](https://www.technologyreview.com/2026/11/17/1148679/the-download-jensen-huang-open-source-ai-cognitive-immortality/)
+- **[MIT Technology Review]** [Building trustworthy AI by fencing it in, not predicting it](https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/)
+- **[OpenAI News]** [Introducing OpenAI for Chile](https://openai.com/index/introducing-openai-for-chile)
+- **[OpenAI News]** [Broadening access to AI for scientists](https://openai.com/index/expanding-chatgpt-for-academic-researchers)
+- **[OpenAI News]** [Our first phase of embedded assessments](https://openai.com/index/our-first-phase-of-embedded-assessments)
+
+---
+
 ## 2026-11-16
 
 ### Official & Regulatory
