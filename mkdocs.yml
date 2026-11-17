@@ -50,6 +50,7 @@ nav:
   - Evaluation:
     - Test Catalogue: evaluation/test-catalogue.md
     - 'Metrics & KPIs': evaluation/metrics.md
+    - Hands-on AI Security Labs: evaluation/hands-on-ai-security-labs.md
   - Supply Chain:
     - AI Bill of Materials: supply-chain/ai-bom.md
   - Governance:
