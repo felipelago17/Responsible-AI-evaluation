@@ -101,3 +101,4 @@ This comparison structure is designed to map each principle against:
 | [Red Teaming (within Robustness)](benchmarks/red-teaming.md) | Deep adversarial probing and escalation evidence |
 | [Governance Mapping](governance_mapping.md) | Crosswalk to NIST AI RMF, EU AI Act, and RSP ASL tiers |
 | [Choosing a Framework](governance/choosing-a-framework.md) | Binding laws first, voluntary standards second: dated, source-checked status of EU, Korea, China, Japan, US state laws, NIST, ISO, OECD, OWASP (Nov 2026) |
+| [Governing AI Agents (Kolt)](governance/governing-ai-agents-kolt.md) | Agency law and principal-agent theory for AI agents: limits of monitoring and enforcement; inclusivity, visibility, liability; implications for evaluation (Notre Dame L. Rev., 2026) |
