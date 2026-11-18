@@ -9,6 +9,31 @@ Roughly 90 days of history are kept on this page; the latest run is also written
 ---
 
 <!-- DIGEST_START -->
+## 2026-11-18
+
+### Research & Evaluation
+
+- **[arXiv cs.CY]** [WIP: Exploring Student-Created AI Agents and Instructional Videos to Foster Engagement in Computing Education](https://arxiv.org/abs/2611.23058)
+- **[arXiv cs.CY]** [Ethics Suppression in AI Development: A Comparative Case Study of Responsible AI Under Competitive Pressure](https://arxiv.org/abs/2611.21629)
+- **[arXiv cs.CY]** [ARC-2: Continuous Compliance Through Delta Management](https://arxiv.org/abs/2611.21811)
+- **[arXiv cs.CY]** [Knowing Which, Not How Much: Language Models Order Party Positions They Cannot Place](https://arxiv.org/abs/2611.21878)
+- **[arXiv cs.CY]** [Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents](https://arxiv.org/abs/2611.22033)
+- **[arXiv cs.CY]** [Beyond Acuity Accuracy: A Multidimensional Framework for Evaluating Patient-Facing Emergency Triage AI Tools](https://arxiv.org/abs/2611.22045)
+- **[arXiv cs.CY]** [Fair Bubble Sort: Provably Optimal Fair Ranking with Continuous Sensitive Attributes](https://arxiv.org/abs/2611.22352)
+- **[arXiv cs.CY]** [Worldviews in Large Language Models](https://arxiv.org/abs/2611.22670)
+- **[arXiv cs.CY]** [Against Coercion: AI Alignment as a Synthetic Social Contract](https://arxiv.org/abs/2611.22868)
+- **[arXiv cs.CY]** [When VLMs 'Fix' Students: Identifying and Penalizing Over-Correction in the Evaluation of Multi-line Handwritten Math OCR](https://arxiv.org/abs/2604.22774)
+- **[arXiv cs.CY]** [The Nuclear Decision-Making Benchmark: Evaluating Frontier LLM Tendencies in Escalation, Proliferation, Non-Proliferation, and Arms Control Scenarios](https://arxiv.org/abs/2608.05180)
+- **[arXiv cs.CY]** [Can Power Draw Constrain Covert Compute? Limits of Analogue Verification for AI Governance](https://arxiv.org/abs/2610.07476)
+
+### Industry & Labs
+
+- **[MIT Technology Review]** [The Download: AI learns to smell and hydropower struggles](https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/)
+- **[MIT Technology Review]** [This smell startup says its AI nose is as good as a human’s](https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/)
+- **[MIT Technology Review]** [Hydropower hit record lows in the US Southwest this summer](https://www.technologyreview.com/2026/11/17/1148742/hydropower-drought-colorado-river/)
+
+---
+
 ## 2026-11-17
 
 ### Official & Regulatory
