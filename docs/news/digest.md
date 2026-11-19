@@ -9,6 +9,39 @@ Roughly 90 days of history are kept on this page; the latest run is also written
 ---
 
 <!-- DIGEST_START -->
+## 2026-11-19
+
+### Official & Regulatory
+
+- **[NIST News]** [Quantum Physics Can Verify a Person’s Location, NIST Researchers Show](https://www.nist.gov/news-events/news/2026/11/quantum-physics-can-verify-persons-location-nist-researchers-show)
+
+### Research & Evaluation
+
+- **[arXiv cs.CY]** [RummiAlgebra: A Polynomial Representation Framework for Game-Based Algebra Learning with Jokers](https://arxiv.org/abs/2611.23443)
+- **[arXiv cs.CY]** [When Do LLMs Model the Right Target? Problem Formulation in High-Stakes Risk Prediction](https://arxiv.org/abs/2611.23638)
+- **[arXiv cs.CY]** [Same Model, Different People: Numerical Execution Contracts and the Reproducibility of Fairness Audits](https://arxiv.org/abs/2611.23657)
+- **[arXiv cs.CY]** [Hi Gemini, Who Should I Vote For? The Benefits (and Problems) of Using LLMs As Voting Advice Applications](https://arxiv.org/abs/2611.24684)
+- **[arXiv cs.CY]** [Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem](https://arxiv.org/abs/2611.24927)
+- **[arXiv cs.CY]** [Record Sufficiency: What a Decision Record Must Preserve When an Unsettled Claim Becomes an Operative Status](https://arxiv.org/abs/2611.23422)
+- **[arXiv cs.CY]** [From Arraignment to Resolution: Transformer Models of Court Cases](https://arxiv.org/abs/2611.23518)
+- **[arXiv cs.CY]** [What Majority Labels Hide: Annotator Disagreement and Model Errors in Multi-Dialect Arabic Sexism Detection](https://arxiv.org/abs/2611.24383)
+- **[arXiv cs.CY]** [Sex Differences in the Detection of Parkinson's Disease from Speech](https://arxiv.org/abs/2611.24741)
+- **[arXiv cs.CY]** [Meme Template Identification in the Wild: Comparing Methods for Semi-Open-Set Recognition](https://arxiv.org/abs/2408.08126)
+- **[arXiv cs.CY]** [Disarranged Harmonization of Transparency Reporting by Social Media Platforms Under the Digital Services Act](https://arxiv.org/abs/2605.17655)
+- **[arXiv cs.CY]** [Accounting for Purchased Artificial Intelligence Inference in Corporate Greenhouse Gas Inventories: A Token-Based Method](https://arxiv.org/abs/2606.10660)
+
+### Think Tanks & Policy
+
+- **[CSET]** [Biodata Matters for the Genesis Mission](https://cset.georgetown.edu/article/biodata-matters-for-the-genesis-mission/)
+
+### Industry & Labs
+
+- **[MIT Technology Review]** [The Download: a living liver, a billion-dollar battery deal, and AI hype](https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/)
+- **[MIT Technology Review]** [What a billion-dollar deal says about the US battery market](https://www.technologyreview.com/2026/11/19/1148922/sila-panasonic-battery-deal/)
+- **[OpenAI News]** [Managing frontier AI risk: From training to deployment](https://openai.com/index/managing-frontier-ai-risk)
+
+---
+
 ## 2026-11-18
 
 ### Research & Evaluation
