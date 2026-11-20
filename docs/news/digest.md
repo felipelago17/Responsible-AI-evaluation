@@ -9,6 +9,33 @@ Roughly 90 days of history are kept on this page; the latest run is also written
 ---
 
 <!-- DIGEST_START -->
+## 2026-11-20
+
+### Official & Regulatory
+
+- **[NIST News]** [NIST Project Aims to Accelerate Mobile Driver’s License Adoption](https://www.nist.gov/news-events/news/2026/11/nist-project-aims-accelerate-mobile-drivers-license-adoption)
+
+### Research & Evaluation
+
+- **[arXiv cs.CY]** [Asymmetric rhetorical strategies drive partisanship in television news](https://arxiv.org/abs/2611.25140)
+- **[arXiv cs.CY]** [Crisis Governance at the Joints. Mapping the Ethical and Societal Territory of Crisis Management Technologies: The Case of Human-Swarm Teaming](https://arxiv.org/abs/2611.25202)
+- **[arXiv cs.CY]** [Whose Safety? Addressing Anti-Blackness in the Age of AI Safety](https://arxiv.org/abs/2611.25302)
+- **[arXiv cs.CY]** [KeyMem: Temporal Occupancy Control for Robust Streaming VideoLLM Memory](https://arxiv.org/abs/2611.25649)
+- **[arXiv cs.CY]** [Neighbourhood Walkability and Cardiometabolic Morbidity in Greater London: A Fine-Grained Spatial Analysis](https://arxiv.org/abs/2611.26573)
+- **[arXiv cs.CY]** [HireWatch: Evaluating LLM Compliance with U.S. Employment Law Under Contextual Pressure](https://arxiv.org/abs/2611.24970)
+- **[arXiv cs.CY]** [Trace2ST: Recovering PLC Structured Text from I/O Traces with LLM Generation and Verification](https://arxiv.org/abs/2611.24979)
+- **[arXiv cs.CY]** [When Objectives and Evaluators Disagree: Evaluating Transfer for Post-hoc Demographic Framing Mitigation](https://arxiv.org/abs/2611.25258)
+- **[arXiv cs.CY]** [AI Deactivation Reduces Loneliness and Increases Social Interaction](https://arxiv.org/abs/2611.25263)
+- **[arXiv cs.CY]** [Verifiable Logic in Medical LLMs: A Critical Review of Agentic Clinical Reasoning Optimization and Neuro-Symbolic Grounding](https://arxiv.org/abs/2611.25898)
+- **[arXiv cs.CY]** [Web search in Latin America: language models use less local and diverse news than search engines](https://arxiv.org/abs/2611.25955)
+- **[arXiv cs.CY]** [SST-Guard: Detecting and Characterizing Server-Side Google Analytics in the Wild](https://arxiv.org/abs/2604.27497)
+
+### Industry & Labs
+
+- **[MIT Technology Review]** [The Download: inside the quest to make our minds immortal](https://www.technologyreview.com/2026/11/20/1149371/the-download-quest-to-make-minds-immortal/)
+
+---
+
 ## 2026-11-19
 
 ### Official & Regulatory
