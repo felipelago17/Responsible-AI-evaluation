@@ -9,6 +9,19 @@ Roughly 90 days of history are kept on this page; the latest run is also written
 ---
 
 <!-- DIGEST_START -->
+## 2026-11-21
+
+### Official & Regulatory
+
+- **[EU Digital Strategy — AI]** [The AI Act Advisory Forum holds its second meeting](https://digital-strategy.ec.europa.eu/en/news/ai-act-advisory-forum-holds-its-second-meeting)
+
+### Industry & Labs
+
+- **[MIT Technology Review]** [The most misunderstood graph in AI just got a major update](https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/)
+- **[OpenAI News]** [Combatting adversarial distillation](https://openai.com/index/combatting-adversarial-distillation)
+
+---
+
 ## 2026-11-20
 
 ### Official & Regulatory
