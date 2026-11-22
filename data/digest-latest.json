@@ -1,23 +1,4 @@
 {
-  "date": "2026-11-21",
-  "items": [
-    {
-      "title": "The most misunderstood graph in AI just got a major update",
-      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
-      "source": "MIT Technology Review",
-      "category": "Industry & Labs"
-    },
-    {
-      "title": "Combatting adversarial distillation",
-      "url": "https://openai.com/index/combatting-adversarial-distillation",
-      "source": "OpenAI News",
-      "category": "Industry & Labs"
-    },
-    {
-      "title": "The AI Act Advisory Forum holds its second meeting",
-      "url": "https://digital-strategy.ec.europa.eu/en/news/ai-act-advisory-forum-holds-its-second-meeting",
-      "source": "EU Digital Strategy — AI",
-      "category": "Official & Regulatory"
-    }
-  ]
+  "date": "2026-11-22",
+  "items": []
 }
