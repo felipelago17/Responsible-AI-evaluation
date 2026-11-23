@@ -9,6 +9,37 @@ Roughly 90 days of history are kept on this page; the latest run is also written
 ---
 
 <!-- DIGEST_START -->
+## 2026-11-23
+
+### Official & Regulatory
+
+- **[UK AI Security Institute]** [Attack policy selection can make monitor evaluations misleading](https://www.aisi.gov.uk/blog/attack-policy-selection-can-make-monitor-evaluations-misleading)
+
+### Research & Evaluation
+
+- **[arXiv cs.CY]** [The Illusion of Evaluation: Challenges in Agentic Product Evaluation Practice](https://arxiv.org/abs/2611.26923)
+- **[arXiv cs.CY]** [A Frugal AI Framework for India: Responsible and Right-sized AI](https://arxiv.org/abs/2611.27189)
+- **[arXiv cs.CY]** [On the Challenges of Using LLMs in High-Risk AI Recruitment: Guiding Questions for Legal Conformity with the AI Act](https://arxiv.org/abs/2611.27462)
+- **[arXiv cs.CY]** [Modeling Attributional Style at Scale: A Dataset and Analysis for Psychological Attribution Assessment and Reframing](https://arxiv.org/abs/2611.26900)
+- **[arXiv cs.CY]** [What Does Matching a Human Intervention Effect Establish? Benchmark Checks for LLM Simulations](https://arxiv.org/abs/2611.27186)
+- **[arXiv cs.CY]** [Standard-Anchored Delegation in Teachers' Use of Generative AI](https://arxiv.org/abs/2611.27533)
+- **[arXiv cs.CY]** [The Landscape of Generative AI in Information Systems: A Synthesis of Secondary Reviews and Research Agendas](https://arxiv.org/abs/2603.11842)
+- **[arXiv cs.CY]** [Probabilistic "Copies" in Generative AI Models](https://arxiv.org/abs/2607.14532)
+- **[arXiv cs.CY]** [OpinionGPT: Modelling Explicit Biases in Instruction-Tuned LLMs](https://arxiv.org/abs/2309.03876)
+- **[arXiv cs.CY]** [Bridging the Mobile Trust Gap: A Zero Trust Framework for Consumer-Facing Applications](https://arxiv.org/abs/2508.16662)
+- **[arXiv cs.CY]** [Improving Consistency in Retrieval-Augmented Systems with Group Similarity Rewards](https://arxiv.org/abs/2510.04392)
+- **[arXiv cs.CY]** [What's on Your Mind? Exploring Privacy of Mental Health Apps](https://arxiv.org/abs/2605.02016)
+
+### Think Tanks & Policy
+
+- **[CSET]** [Judge the Cyber Apocalypse by the Data, Not the Headlines](https://cset.georgetown.edu/article/judge-the-cyber-apocalypse-by-the-data-not-the-headlines/)
+
+### Industry & Labs
+
+- **[MIT Technology Review]** [The Download: AI’s judgment problem and carbon removal’s crop threat](https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/)
+
+---
+
 ## 2026-11-22
 
 *No new relevant items retrieved today.*
