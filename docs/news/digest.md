@@ -9,6 +9,31 @@ Roughly 90 days of history are kept on this page; the latest run is also written
 ---
 
 <!-- DIGEST_START -->
+## 2026-11-24
+
+### Research & Evaluation
+
+- **[arXiv cs.CY]** [Frontier Open-Weight AI Risk Management Framework](https://arxiv.org/abs/2611.28082)
+- **[arXiv cs.CY]** [Investigating Shadow IT Use and Adoption in Educational Institutions and their Privacy Implications](https://arxiv.org/abs/2611.28280)
+- **[arXiv cs.CY]** [Who Gets Blamed for the Blackout? A Critical Incident Analysis of Clients, Reputation Systems, and Online Freelancers](https://arxiv.org/abs/2611.28365)
+- **[arXiv cs.CY]** [When AI Should Not Decide: Evidence Sufficiency and Decision Stability in Automated Job Interviews](https://arxiv.org/abs/2611.28426)
+- **[arXiv cs.CY]** [Can Ideologues Agree on Quality? From Non-identifiable Latent Factors to Collective Outcomes](https://arxiv.org/abs/2611.28615)
+- **[arXiv cs.CY]** [Operational Assurance for LLM-Based Systems under Governance Opacity](https://arxiv.org/abs/2611.28834)
+- **[arXiv cs.CY]** [Bias Cascade: Understanding the Gap Between Knowledge Alignment and Effect Replication in LLM-based Social Simulation](https://arxiv.org/abs/2611.28854)
+- **[arXiv cs.CY]** [Managing Verification Debt: A Framework for Responsible Human-AI Research Partnerships](https://arxiv.org/abs/2611.29434)
+- **[arXiv cs.CY]** [Can LLMs Understand Human Rules?](https://arxiv.org/abs/2611.30522)
+- **[arXiv cs.CY]** [Handoff at Frontier AI Companies](https://arxiv.org/abs/2611.30711)
+- **[arXiv cs.CY]** [Deviant Machines: Innovation, Containment, and the Prevention of Autonomous Misalignment](https://arxiv.org/abs/2611.30848)
+- **[arXiv cs.CY]** [The AMPEL Platform: An Open-Source Project for Developing Hospital-Wide Clinical Decision Support Systems under EU-Regulation](https://arxiv.org/abs/2611.30990)
+
+### Industry & Labs
+
+- **[MIT Technology Review]** [Raising the stakes for enterprise networks with AI modernization](https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/)
+- **[MIT Technology Review]** [The Download: AI’s gas power boom and a consciousness reality check](https://www.technologyreview.com/2026/11/24/1149669/the-download-data-centers-gas-ai-consciousness/)
+- **[MIT Technology Review]** [Data centers are getting their own natural gas power plants](https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/)
+
+---
+
 ## 2026-11-23
 
 ### Official & Regulatory
