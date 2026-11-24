@@ -51,6 +51,7 @@ nav:
     - Test Catalogue: evaluation/test-catalogue.md
     - 'Metrics & KPIs': evaluation/metrics.md
     - Hands-on AI Security Labs: evaluation/hands-on-ai-security-labs.md
+    - Probe-based Agent Monitoring (Kimi K3): evaluation/probe-based-agent-monitoring-kimi-k3.md
   - Supply Chain:
     - AI Bill of Materials: supply-chain/ai-bom.md
   - Governance:
