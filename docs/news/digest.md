@@ -9,6 +9,34 @@ Roughly 90 days of history are kept on this page; the latest run is also written
 ---
 
 <!-- DIGEST_START -->
+## 2026-11-25
+
+### Official & Regulatory
+
+- **[EU Digital Strategy — AI]** [AI Act scientific panel holds second regular meeting](https://digital-strategy.ec.europa.eu/en/news/ai-act-scientific-panel-holds-second-regular-meeting)
+
+### Research & Evaluation
+
+- **[arXiv cs.CY]** [Rapid Exploratory Maps and their potential role in supporting evidence-to-policy dialogues and processes](https://arxiv.org/abs/2611.31693)
+- **[arXiv cs.CY]** [Audits Need Access, Data, and Compute. But How Much?](https://arxiv.org/abs/2611.31968)
+- **[arXiv cs.CY]** [AI, Bias, and Inclusion: A Two-Phase Mixed-Methods Study of Gender Bias, Awareness, and Trust in Artificial Intelligence](https://arxiv.org/abs/2611.32869)
+- **[arXiv cs.CY]** [Who decides the norms in TCS? Analysing the composition of the STOC 2027 committees and of the Simons Institute "AI+TCS" working group](https://arxiv.org/abs/2611.33082)
+- **[arXiv cs.CY]** [(No) Separation of Concerns: Philosophical Concerns about Agent Ethics and Implications for SE Practitioners](https://arxiv.org/abs/2611.31927)
+- **[arXiv cs.CY]** [Unjamming Deferrals: Supporting Students Through JAMN Bot, a Mobile RAG-Grounded Policy Assistant](https://arxiv.org/abs/2611.32266)
+- **[arXiv cs.CY]** [Gamification in the age of AI: surveying player perceptions of motivation, manipulation, and data protection](https://arxiv.org/abs/2611.32464)
+- **[arXiv cs.CY]** [Red-Teaming a Sovereign LLM, Its Reasoning and Its Training Stages](https://arxiv.org/abs/2611.32710)
+- **[arXiv cs.CY]** [Virology Capabilities Test (VCT): A Multimodal Virology Q&A Benchmark](https://arxiv.org/abs/2504.16137)
+- **[arXiv cs.CY]** [The Hermon Moment: AI Self-Transcendence and Its Human Narration](https://arxiv.org/abs/2608.30971)
+- **[arXiv cs.CY]** [Differential Privacy for Network Connectedness Indices](https://arxiv.org/abs/2603.15609)
+- **[arXiv cs.CY]** [Fairness of Explanations in Artificial Intelligence (AI): A Unifying Framework, Axioms, and Future Direction toward Responsible AI](https://arxiv.org/abs/2605.09852)
+
+### Industry & Labs
+
+- **[MIT Technology Review]** [How data centers are driving a US natural-gas boom](https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/)
+- **[MIT Technology Review]** [AI is straining America’s open records systems](https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/)
+
+---
+
 ## 2026-11-24
 
 ### Research & Evaluation
