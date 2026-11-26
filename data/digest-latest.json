@@ -1,574 +1,568 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "items": [
     {
-      "title": "Rapid Exploratory Maps and their potential role in supporting evidence-to-policy dialogues and processes",
-      "url": "https://arxiv.org/abs/2611.31693",
+      "title": "Unpacking Digital Sovereignty: A Three-Pillar Framework and a Research Agenda",
+      "url": "https://arxiv.org/abs/2611.33397",
       "source": "arXiv cs.CY",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Audits Need Access, Data, and Compute. But How Much?",
-      "url": "https://arxiv.org/abs/2611.31968",
+      "title": "Designing an Integrated Learning Ecosystem for Introductory Python Programming: Scaffolded Problem Solving, Tablet-Inspired Navigation, and AI-Enhanced Instruction",
+      "url": "https://arxiv.org/abs/2611.33471",
       "source": "arXiv cs.CY",
       "category": "Research & Evaluation"
     },
     {
-      "title": "AI, Bias, and Inclusion: A Two-Phase Mixed-Methods Study of Gender Bias, Awareness, and Trust in Artificial Intelligence",
-      "url": "https://arxiv.org/abs/2611.32869",
+      "title": "Language models call themselves AI but do not favor AI over people",
+      "url": "https://arxiv.org/abs/2611.33851",
       "source": "arXiv cs.CY",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Who decides the norms in TCS? Analysing the composition of the STOC 2027 committees and of the Simons Institute \"AI+TCS\" working group",
-      "url": "https://arxiv.org/abs/2611.33082",
+      "title": "Decision and Support Mechanisms under Platform Information Overload: A Generative-Agent Experiment on College Application",
+      "url": "https://arxiv.org/abs/2611.34709",
       "source": "arXiv cs.CY",
       "category": "Research & Evaluation"
     },
     {
-      "title": "(No) Separation of Concerns: Philosophical Concerns about Agent Ethics and Implications for SE Practitioners",
-      "url": "https://arxiv.org/abs/2611.31927",
+      "title": "Learning the Platform, Not the Learner: Sequencing Shortcuts in the Offline Evaluation of Educational Recommender Systems and LLM Rankers",
+      "url": "https://arxiv.org/abs/2611.33240",
       "source": "arXiv cs.CY",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Unjamming Deferrals: Supporting Students Through JAMN Bot, a Mobile RAG-Grounded Policy Assistant",
-      "url": "https://arxiv.org/abs/2611.32266",
+      "title": "Using AI to Simulate the Behaviour of European Populations",
+      "url": "https://arxiv.org/abs/2611.33503",
       "source": "arXiv cs.CY",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Gamification in the age of AI: surveying player perceptions of motivation, manipulation, and data protection",
-      "url": "https://arxiv.org/abs/2611.32464",
+      "title": "Refusal Is Not Scored: A Coverage Limit in Content-Based Bias Evaluation",
+      "url": "https://arxiv.org/abs/2611.33690",
       "source": "arXiv cs.CY",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Red-Teaming a Sovereign LLM, Its Reasoning and Its Training Stages",
-      "url": "https://arxiv.org/abs/2611.32710",
+      "title": "Where Does the Asymmetry Enter? Staging a Fairness Audit Across a Fused Multimodal Moderation Pipeline",
+      "url": "https://arxiv.org/abs/2611.34491",
       "source": "arXiv cs.CY",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Virology Capabilities Test (VCT): A Multimodal Virology Q&A Benchmark",
-      "url": "https://arxiv.org/abs/2504.16137",
+      "title": "Atunda: Building an Afrogenic Dance Movement Dataset for AI-Driven Classification",
+      "url": "https://arxiv.org/abs/2611.34649",
       "source": "arXiv cs.CY",
       "category": "Research & Evaluation"
     },
     {
-      "title": "The Hermon Moment: AI Self-Transcendence and Its Human Narration",
-      "url": "https://arxiv.org/abs/2608.30971",
+      "title": "Model Weights, Airlocks and Sandboxes: A Call for Technical Validation of Re-identification Tests under the EDPB Anonymisation Guidelines",
+      "url": "https://arxiv.org/abs/2611.34859",
       "source": "arXiv cs.CY",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Differential Privacy for Network Connectedness Indices",
-      "url": "https://arxiv.org/abs/2603.15609",
+      "title": "United in Diversity? Contextual Biases in LLM-Based Predictions of the 2024 European Parliament Elections",
+      "url": "https://arxiv.org/abs/2409.09045",
       "source": "arXiv cs.CY",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Fairness of Explanations in Artificial Intelligence (AI): A Unifying Framework, Axioms, and Future Direction toward Responsible AI",
-      "url": "https://arxiv.org/abs/2605.09852",
+      "title": "A Tool to Map AI Programs in the U.S.: A Snapshot from April 2026 and an Analysis of Requirements for AI Majors and Minors",
+      "url": "https://arxiv.org/abs/2606.12428",
       "source": "arXiv cs.CY",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Training-Free Cultural Alignment of Large Language Models via Persona Disagreement",
-      "url": "https://arxiv.org/abs/2605.10843",
+      "title": "Consumer Search and Social Learning in Agentic Markets",
+      "url": "https://arxiv.org/abs/2603.25893",
       "source": "arXiv cs.CY",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Grounding Text Embeddings in Stakeholder Associations",
-      "url": "https://arxiv.org/abs/2605.27168",
+      "title": "Information Discernment in Large Language Models",
+      "url": "https://arxiv.org/abs/2607.19355",
       "source": "arXiv cs.CY",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Framing the Narrative: Ideological Mimicry in Large Language Models",
-      "url": "https://arxiv.org/abs/2609.38256",
+      "title": "MERIDIAN: Memory-Encoded Rituals for Intimacy across Distance in an Interactive, Asynchronous Neighbourhood",
+      "url": "https://arxiv.org/abs/2610.41776",
       "source": "arXiv cs.CY",
       "category": "Research & Evaluation"
     },
     {
-      "title": "InvestigationWorlds: An Agentic Environment for Legal Investigation",
-      "url": "https://arxiv.org/abs/2610.04129",
-      "source": "arXiv cs.CY",
-      "category": "Research & Evaluation"
-    },
-    {
-      "title": "Information Security Risk Preparedness in Electronic Data Interchange: A Comparative Assessment of General IT and Healthcare Environments",
-      "url": "https://arxiv.org/abs/2611.31294",
+      "title": "Beyond the Efficiency-Efficacy Dilemma: A Critical Analysis of Transferability in Adversarial Malware Detection",
+      "url": "https://arxiv.org/abs/2611.33243",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Scoring Recovery-Time Agent Security: Proposals, Effects, and Retry Instructions",
-      "url": "https://arxiv.org/abs/2611.31318",
+      "title": "Onnx2TEE: Automated Graph-Aware Model Partitioning for TEE-based Edge AI Protection",
+      "url": "https://arxiv.org/abs/2611.33262",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Trustworthy Edge AI: Security, Privacy, and Resilience for Distributed Intelligence",
-      "url": "https://arxiv.org/abs/2611.31331",
+      "title": "From Conversations to Commitments: A Design Study of Shared Records for Agent-to-Business Coordination",
+      "url": "https://arxiv.org/abs/2611.33373",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Per-Attack Blocking Hides Catalog Vulnerability: A Weakest-Link Analysis of Tool Manifests",
-      "url": "https://arxiv.org/abs/2611.31338",
+      "title": "Poisoning Self-Evolving Security Policies in LLM Agents",
+      "url": "https://arxiv.org/abs/2611.33385",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "The Fingerprinting Paradox: Why Sensitivity Undermines Black-Box Model Integrity Verification",
-      "url": "https://arxiv.org/abs/2611.31455",
+      "title": "SecID: An LLM-Guided Framework for Threat-Aware Secondary Asset Identification with Quantitative RTL Analysis",
+      "url": "https://arxiv.org/abs/2611.33453",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Aftershock: Yesterday's Linux Kernel Bugs, Tomorrow's Android Exploits",
-      "url": "https://arxiv.org/abs/2611.31547",
+      "title": "Benchmarking Open-Ended Vulnerability Discovery in Windows Kernel Binaries",
+      "url": "https://arxiv.org/abs/2611.33486",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Evaluating LLM Security Review Agents with Operationally Sourced Ground Truth",
-      "url": "https://arxiv.org/abs/2611.31606",
+      "title": "Merkle Trees Minimize Verifier Complexity in the ROM",
+      "url": "https://arxiv.org/abs/2611.33508",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Internal inconsistencies and unresolved experimental evidence in a quantum neurosecurity framework",
-      "url": "https://arxiv.org/abs/2611.31622",
+      "title": "The Detour Is the Danger: Preserving Security During LLM Agent Recovery",
+      "url": "https://arxiv.org/abs/2611.33605",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Open-Set Radio Frequency Fingerprint Identification with Feature Fusion and Vision Transformer",
-      "url": "https://arxiv.org/abs/2611.31636",
+      "title": "Bounding the security of the FALCON signature scheme in the quantum random oracle model",
+      "url": "https://arxiv.org/abs/2611.33666",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Harvesting Apple's Orchard: A Security Analysis of On-Device CoreML Models Across the Apple Ecosystem",
-      "url": "https://arxiv.org/abs/2611.31688",
+      "title": "Node Differential Privacy via Node-Stable Graph Projections",
+      "url": "https://arxiv.org/abs/2611.33672",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "SigK: rPPG-based key agreement scheme for mHealth",
-      "url": "https://arxiv.org/abs/2611.31721",
+      "title": "Agentic-Level Adversarial Purification: Revisiting Diffusion Purifiers on Native-Resolution Agentic Inputs",
+      "url": "https://arxiv.org/abs/2611.34181",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Mixed-Initiative Mining of Root-Cause Analyses into Audit Priors for C/C++ Vulnerability Hunting",
-      "url": "https://arxiv.org/abs/2611.31744",
+      "title": "Evaluating Post-Quantum and Hybrid Signatures for Blockchains: Performance, Storage and Ledger Growth",
+      "url": "https://arxiv.org/abs/2611.34229",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Separating Measurement Failures from Defence Failures in Split Language-Model Privacy",
-      "url": "https://arxiv.org/abs/2611.31752",
+      "title": "Latent-in-the-Middle: On the Security of Cross-Model Latent Communication in Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2611.34278",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "HDMark: Holographic Multi-Bit Model Watermarking for Intellectual Property Protection in Hyperdimensional Computing",
-      "url": "https://arxiv.org/abs/2611.31781",
+      "title": "Poisoning Attacks to Local Differential Privacy Protocols for Dynamic Graphs",
+      "url": "https://arxiv.org/abs/2611.34340",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "SwarmLeak: Does Coordination Improve Privacy Attacks on LLM Agents?",
-      "url": "https://arxiv.org/abs/2611.31791",
+      "title": "Fuel as Identity: Authenticating Inter-Satellite Laser Links after Total Key Compromise",
+      "url": "https://arxiv.org/abs/2611.34470",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "TopoCryptoEEG: End-to-End Encrypted Framework for Brainprint Authentication",
-      "url": "https://arxiv.org/abs/2611.31801",
+      "title": "Make the Adversary Spend More: Stateful Deception as a Cost-Exchange Primitive for AI-Era Cyber Defense",
+      "url": "https://arxiv.org/abs/2611.34770",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Agentic Discovery of Soundness Bugs in Safe Rust Bindings",
-      "url": "https://arxiv.org/abs/2611.31813",
+      "title": "Full Structure Recovery of Linearized Reed-Solomon Codes",
+      "url": "https://arxiv.org/abs/2611.34835",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Are Web Agents Still Detectable? Stress-Testing Bot Defenses with Coordinated Evasion",
-      "url": "https://arxiv.org/abs/2611.31962",
+      "title": "A comprehensive survey of deep face verification systems adversarial attacks and defense strategies",
+      "url": "https://arxiv.org/abs/2611.33231",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "LLM Agent Authorization Across Context Compaction",
-      "url": "https://arxiv.org/abs/2611.32194",
+      "title": "Anti-AI in the Wild: From Toxic Discourse to Action",
+      "url": "https://arxiv.org/abs/2611.33254",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "When Answering Is Administering: Permission Replies That Rewrite Coding-Agent Policy",
-      "url": "https://arxiv.org/abs/2611.32195",
+      "title": "Dynamic Reasoning in Next-Gen Detection and Response: An Empirical Study of LLM Triage, Reinforcement Tuning, and Adversarial Evasion",
+      "url": "https://arxiv.org/abs/2611.33470",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Spoofing Wireless Sensing with Metasurfase-based Physical Deepfakes",
-      "url": "https://arxiv.org/abs/2611.32386",
+      "title": "Train-Only-Constrained LM for Synthetic Clinical Trajectories: Leak-Safe Calibration and Auditable Dynamics",
+      "url": "https://arxiv.org/abs/2611.34258",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "AgentBank: Banking on Blockchain Agentic Payments",
-      "url": "https://arxiv.org/abs/2611.32389",
+      "title": "Know the Design, Pick the Attack: Sentence-Keyed Watermarks for LLMs",
+      "url": "https://arxiv.org/abs/2611.34505",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Analyzing Single-Bit Flips on LLMs and Their Backbone-Matched VLMs",
-      "url": "https://arxiv.org/abs/2611.32503",
+      "title": "SoK: A Defense-Oriented Evaluation of Software Supply Chain Security",
+      "url": "https://arxiv.org/abs/2405.14993",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Privacy Disclosure Control Benchmark (PDC-Bench): How Faithfully Do LLMs Keep Privacy Constraints on In-Context Disclosure Granularity?",
-      "url": "https://arxiv.org/abs/2611.32610",
+      "title": "Shadows in the Code: Exploring the Risks and Defenses of LLM-based Multi-Agent Software Development Systems",
+      "url": "https://arxiv.org/abs/2511.18467",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Power Side-Channel Evaluation using Multi-FPGA Systems",
-      "url": "https://arxiv.org/abs/2611.32652",
+      "title": "ACE-GF: A Generative Framework for Atomic Cryptographic Entities",
+      "url": "https://arxiv.org/abs/2511.20505",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "C3H: Compression-to-Consensus Criteria Hijacking in Multimodal LLM Recommender Systems",
-      "url": "https://arxiv.org/abs/2611.32780",
+      "title": "IntentMiner: Intent Inversion Attack via Tool Call Analysis in the Model Context Protocol",
+      "url": "https://arxiv.org/abs/2512.14166",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Attestation is All You Need: Toward a Zero-Trust Architecture for HPC AI Agents",
-      "url": "https://arxiv.org/abs/2611.32958",
+      "title": "AESP: A Human-Sovereign Economic Protocol for AI Agents with Privacy-Preserving Settlement",
+      "url": "https://arxiv.org/abs/2603.00318",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "The Date You Didn't Set: The System-Prompt Date as a Hidden Variable in LLM Evaluation",
-      "url": "https://arxiv.org/abs/2611.31254",
+      "title": "VA-DAR: A PQC-Ready, Vendor-Agnostic Deterministic Artifact Resolution for Serverless, Enumeration-Resistant Wallet Recovery",
+      "url": "https://arxiv.org/abs/2603.02690",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "When Successful Collaboration Becomes an Attack Surface: Insider Memory Poisoning in Multi-Agent Systems",
-      "url": "https://arxiv.org/abs/2611.31307",
+      "title": "Condition-Triggered Cryptographic Asset Control via Dormant Authorization Paths",
+      "url": "https://arxiv.org/abs/2603.07933",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Pearl: TEE-Enabled Fair Ordering with Minimal Replication",
-      "url": "https://arxiv.org/abs/2611.31468",
+      "title": "ZK-ACE: Identity-Centric Zero-Knowledge Authorization for Post-Quantum Blockchain Systems",
+      "url": "https://arxiv.org/abs/2603.07974",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Your bids are showing: re-identifying power plants in anonymized market data, and a differentially private alternative",
-      "url": "https://arxiv.org/abs/2611.31681",
+      "title": "Architecture-Agnostic Feature Synergy for Universal Defense Against Heterogeneous Generative Threats",
+      "url": "https://arxiv.org/abs/2603.14860",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "TACT-Bench: Testing Adaptive Conversational Threats against Tool-Use Agents",
-      "url": "https://arxiv.org/abs/2611.31756",
+      "title": "HFIPay: Privacy-Preserving, Cross-Chain Cryptocurrency Payments to Human-Friendly Identifiers",
+      "url": "https://arxiv.org/abs/2603.26970",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "BODYBENCH: Evaluating Adversarial Image Defenses Against AI Nudification Inpainting",
-      "url": "https://arxiv.org/abs/2611.31774",
+      "title": "MEV-ACE: Identity-Authenticated Fair Ordering for Proposer-Controlled MEV Mitigation",
+      "url": "https://arxiv.org/abs/2604.07568",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Query-Guided Visual Minimization for Selective Disclosure to Cloud VLMs",
-      "url": "https://arxiv.org/abs/2611.32302",
+      "title": "VirusCascade: Hijacking Collaborative Reflection in LLM-Powered Recommender Agents",
+      "url": "https://arxiv.org/abs/2609.38270",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "ArabFake: A multitask deep learning framework for Arabic fake news Detection, Categorization, and risk prediction",
-      "url": "https://arxiv.org/abs/2611.32303",
+      "title": "Hardware-Aware Model Inversion in Memristive Spiking Neural Networks",
+      "url": "https://arxiv.org/abs/2610.39688",
       "source": "arXiv cs.CR",
       "category": "Research & Evaluation"
     },
     {
-      "title": "CAPTA: Identifying LLMs Behind AI Agents",
-      "url": "https://arxiv.org/abs/2611.32686",
-      "source": "arXiv cs.CR",
-      "category": "Research & Evaluation"
-    },
-    {
-      "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
-      "url": "https://arxiv.org/abs/2611.31284",
+      "title": "Context Scaling: A New Frontier of AI Scaling",
+      "url": "https://arxiv.org/abs/2611.33160",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
-      "url": "https://arxiv.org/abs/2611.31301",
+      "title": "AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics",
+      "url": "https://arxiv.org/abs/2611.33165",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Conservative Overlap Fuzzy Rough Sets for Incomplete Data",
-      "url": "https://arxiv.org/abs/2611.31329",
+      "title": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
+      "url": "https://arxiv.org/abs/2611.33263",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Beyond Static Charts: Benchmarking Interactive Chart-to-Code Generation for MLLMs",
-      "url": "https://arxiv.org/abs/2611.31345",
+      "title": "Confidence scores for gated automation of large language models",
+      "url": "https://arxiv.org/abs/2611.33394",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "What People Choose Not to Say: A Multimodal Benchmark for Fine-Grained Information Manipulation in Conversations",
-      "url": "https://arxiv.org/abs/2611.31346",
+      "title": "Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows",
+      "url": "https://arxiv.org/abs/2611.33402",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Antares-Smaug: Adversarial Names, Tokens and Attack Rewrites: Sanitisers Miss Unseen Generalisations",
-      "url": "https://arxiv.org/abs/2611.31347",
+      "title": "Collaborative Language Models for Semantic IoT Data Processing: Validation through Zero-Shot Human Activity Recognition",
+      "url": "https://arxiv.org/abs/2611.33411",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "ContextLure: Exploiting Benign Conversation History for Indirect Prompt Injection",
-      "url": "https://arxiv.org/abs/2611.31424",
+      "title": "CA-RAG: Constraint-Aligned Retrieval for Structurally Faithful Long-Form Generation",
+      "url": "https://arxiv.org/abs/2611.33497",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
-      "url": "https://arxiv.org/abs/2611.31427",
+      "title": "Learning to Reason in Real-Time",
+      "url": "https://arxiv.org/abs/2611.33513",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Taxi: Analyzing Agents at (Real) Scale",
-      "url": "https://arxiv.org/abs/2611.31457",
+      "title": "PeerReveal: Learning to Generalize in AI Peer Review Detection",
+      "url": "https://arxiv.org/abs/2611.33555",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "SpatialCraft: Evolving Procedural Intelligence from Experience and Skills for Spatial Reasoning Agents",
-      "url": "https://arxiv.org/abs/2611.31475",
+      "title": "FIG-MAC: A Fine-grained Inspiration Graph Empowered Multi-Agent Collaboration for Automated Scientific Hypothesis Generation",
+      "url": "https://arxiv.org/abs/2611.33563",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Evaluating Frontier-Model Agent Skills with Open-Weight Models in a Science Gateway",
-      "url": "https://arxiv.org/abs/2611.31480",
+      "title": "Aligned Machine: A Benchmark for Evaluating Multimodal Embedding Similarity via Human Comparative Judgements",
+      "url": "https://arxiv.org/abs/2611.33594",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "XRL4T1D: A Post-hoc Explainability Framework for Reinforcement Learning in Type 1 Diabetes Management",
-      "url": "https://arxiv.org/abs/2611.31498",
+      "title": "How Much Effort Does an AI Code Reviewer Need? Evidence from Claude 5.5 Models on Plausible-but-Wrong Patches",
+      "url": "https://arxiv.org/abs/2611.33639",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Agent Evaluation Without Ground Truth: A Null Proportion Perspective",
-      "url": "https://arxiv.org/abs/2611.31539",
+      "title": "SlicePlanner: Logic-Guided Agentic AI for Online QoS-Aware Network Slicing in Open RAN",
+      "url": "https://arxiv.org/abs/2611.33664",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "COGENT: A Modular Cognitive Architecture for Agentic User Simulation",
-      "url": "https://arxiv.org/abs/2611.31559",
+      "title": "EVA: Evidence-seeking Visual Agent for Hallucination-Resistant Multimodal Reasoning",
+      "url": "https://arxiv.org/abs/2611.33706",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Monitorable-by-design architectures for a post-Astra world: a compartmentalization-based approach",
-      "url": "https://arxiv.org/abs/2611.31610",
+      "title": "PowerFix: Physics-Guided Iterative Repair for LLM-Assisted Power Converter Design",
+      "url": "https://arxiv.org/abs/2611.33712",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Self-Improving Long-Horizon Reasoning by Learning Summaries from Local Continuations",
-      "url": "https://arxiv.org/abs/2611.31621",
+      "title": "KeyDeck: Multi-Paper-to-Slide Generation via Cross-Paper Synthesis and Reference-Guided Personalization",
+      "url": "https://arxiv.org/abs/2611.33715",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Wavefront: Low-Rank Drafting with Parallel Causal Refinement for Speculative Decoding",
-      "url": "https://arxiv.org/abs/2611.31638",
+      "title": "Asset4D-Bench: Benchmarking Coding Agents for Editable 3D and 4D Reconstruction",
+      "url": "https://arxiv.org/abs/2611.33728",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "E2SIM: Long-Horizon Simulation of Everyday Human Behavior with Evolving States",
-      "url": "https://arxiv.org/abs/2611.31641",
+      "title": "JOVE ICE: Intent Guided Cloud Edge Device Collaboration for AI Glasses",
+      "url": "https://arxiv.org/abs/2611.33735",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Constructing physical mechanisms with artificial intelligence",
-      "url": "https://arxiv.org/abs/2611.31653",
+      "title": "REFORGE: LLM-Assisted RTL Bug Repair with Structured Context and Verification Feedback",
+      "url": "https://arxiv.org/abs/2611.33748",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "BRAG: Bayesian Retrieval Augmented Generation",
-      "url": "https://arxiv.org/abs/2611.31656",
+      "title": "TransHarness: From Benchmark Overfitting to Transferable Harness Evolution",
+      "url": "https://arxiv.org/abs/2611.33757",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Look Before You Commit: Visual-Evidence-Guided Decoding for Multimodal Diffusion Language Models",
-      "url": "https://arxiv.org/abs/2611.31677",
+      "title": "CHD-Bench: Diagnosing Congenital Heart Disease through Interactive Examination",
+      "url": "https://arxiv.org/abs/2611.33775",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "LimoBench: How Street Smart Are Large Language Models?",
-      "url": "https://arxiv.org/abs/2611.31682",
+      "title": "InterGenEHR$^+$: An Interactive Framework for Natural Language-Conditioned Generation of Longitudinal Patient Trajectories",
+      "url": "https://arxiv.org/abs/2611.33788",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "PRETZEL: A Benchmark for Cyclic Peptide Structure Prediction",
-      "url": "https://arxiv.org/abs/2611.31708",
+      "title": "ExtractBench Pro: The Long Tail of Document Extraction",
+      "url": "https://arxiv.org/abs/2611.33791",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "GreenDynaMix: Thermal-Aware Dynamic Mixed-Precision MoE LLM Inference Systems",
-      "url": "https://arxiv.org/abs/2611.31737",
+      "title": "Keep or Roll Back? Out-of-Loop Judges for Self-Improving VLA and End-to-End Embodied Policies",
+      "url": "https://arxiv.org/abs/2611.33794",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Verified Proof Refactoring with Codex and Qwen",
-      "url": "https://arxiv.org/abs/2611.31762",
+      "title": "Ensuring Deployment-Time Safety of Neural Network Controlled Systems via Localized Certificate Repair",
+      "url": "https://arxiv.org/abs/2611.33813",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "AGL-SKILL: Coding Harnesses as Agentic Optimizers",
-      "url": "https://arxiv.org/abs/2611.31794",
+      "title": "Spectral Optimal Transport for Dynamics-Aware Sign Language Generation",
+      "url": "https://arxiv.org/abs/2611.33818",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Constructive Causal Abstraction and a Case Study in Mechanistic Interpretability",
-      "url": "https://arxiv.org/abs/2611.31795",
+      "title": "RadOncGym: An Agent-Based Framework for Radiotherapy Dose-Mimicking Optimization",
+      "url": "https://arxiv.org/abs/2611.33821",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "A Generative AI Agent to Emulate Interactive Human-driven Vehicles for Automated Driving Testing in Urban Areas",
-      "url": "https://arxiv.org/abs/2611.31797",
+      "title": "MetaDecomp: Adaptive Task Decomposition via Meta-Learned Procedural Memory",
+      "url": "https://arxiv.org/abs/2611.33822",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Compressible Representations: Functional Spines in Deep Neural Networks",
-      "url": "https://arxiv.org/abs/2611.31817",
+      "title": "FORK: Co-Evolving Safe Disclosure and Decision Skills Against Attackers Who Read Every Refusal",
+      "url": "https://arxiv.org/abs/2611.33879",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Not All Interpretation Methods Are Created Equal: Tiered Evaluation of AI Interpretability",
-      "url": "https://arxiv.org/abs/2611.31833",
+      "title": "EATS: Scaling Tool-Use Experience for Medical Reasoning Agents",
+      "url": "https://arxiv.org/abs/2611.33897",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Modeling Event-Conditioned Emotional Expression Response with LLM Agents in a Synthetic Social Simulation",
-      "url": "https://arxiv.org/abs/2611.31851",
+      "title": "EGSE: Evidence-Grounded Skill Evolution for Medical Reasoning Agents",
+      "url": "https://arxiv.org/abs/2611.33909",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Explainable Deep Learning for Malaria Parasite Detection and Species Differentiation in Thick Blood Smear Images: A Pilot Feasibility Study",
-      "url": "https://arxiv.org/abs/2611.31855",
+      "title": "What Does Skill Lift Actually Measure? A Source-Code-Level Audit and Noise-Aware Reanalysis of SkillsBench",
+      "url": "https://arxiv.org/abs/2611.33943",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "RepoEviAgent: Scalable Synthesis of Evidence-Grounded Repository-Level Question Answering Tasks",
-      "url": "https://arxiv.org/abs/2611.31873",
+      "title": "Should Service Requirements Be Scalarized or Constrained When Minimizing Costs? A Case Study on HVAC Control",
+      "url": "https://arxiv.org/abs/2611.33946",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Cheap Memory Costs Future Compute: Co-Designing Persistent KV and GPU Execution for Efficient Streaming Video Diffusion",
-      "url": "https://arxiv.org/abs/2611.31892",
+      "title": "PatternMiner: Automated Mathematical Discovery Through LLM-Guided Training and Interpretation of Small Models",
+      "url": "https://arxiv.org/abs/2611.33966",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Perception Is Enough, at the Right Scale: Scale-Adaptive Token Pruning for Vision-Language-Action Models",
-      "url": "https://arxiv.org/abs/2611.31954",
+      "title": "Few-Shot Adaptation of Vision-Language Models via Agentic Model Editing",
+      "url": "https://arxiv.org/abs/2611.34036",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "DexOPD: Dual-Extrapolation On-Policy Distillation for Diffusion Models",
-      "url": "https://arxiv.org/abs/2611.31969",
+      "title": "Not Every Input Needs Everything: Unifying Expert Gating, Model Cascades, and Agent Orchestration",
+      "url": "https://arxiv.org/abs/2611.34112",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Coding4Games: Can Modern Coding Agents Play Modern Video Games?",
-      "url": "https://arxiv.org/abs/2611.31974",
+      "title": "SOLO: Towards Sample-Faithful and Detectable LLM Watermarking under Repeated Sampling via Content-Anchored Single-Owner Contexts",
+      "url": "https://arxiv.org/abs/2611.34190",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Discovering Bandwidth-Efficient Prefetchers to Shrink the Cache Hierarchy",
-      "url": "https://arxiv.org/abs/2611.31983",
+      "title": "PROVE: Mitigating Long-Horizon LLM Collusion with Reinforcement Learning from Verified Evidence",
+      "url": "https://arxiv.org/abs/2611.34215",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "TableRouter: Query-Aware Evidence Construction for Long-Table Question Answering",
-      "url": "https://arxiv.org/abs/2611.32006",
+      "title": "Did the Model Forecast It, or Already Know It? Evaluating Large Language Models for Novel Drug-Target Prioritisation with a Temporal Knowledge-Graph Oracle",
+      "url": "https://arxiv.org/abs/2611.34247",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "Marketing-Bench: Evaluating Frontier Models and Agents on Real-World Marketing Capabilities",
-      "url": "https://arxiv.org/abs/2611.32012",
+      "title": "Navigent: A Geometry-Grounded Agentic Framework for Vision Language Navigation",
+      "url": "https://arxiv.org/abs/2611.34249",
       "source": "arXiv cs.AI",
       "category": "Research & Evaluation"
     },
     {
-      "title": "How data centers are driving a US natural-gas boom",
-      "url": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/",
+      "title": "MedSkill-E$^{2}$: Evaluating and Evolving Skills for Medical Agents",
+      "url": "https://arxiv.org/abs/2611.34250",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "Crucible: Evaluating LLM Agents in Executable Chemistry Research Environments",
+      "url": "https://arxiv.org/abs/2611.34254",
+      "source": "arXiv cs.AI",
+      "category": "Research & Evaluation"
+    },
+    {
+      "title": "The next generation of bionic hands is here—and they can feel",
+      "url": "https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/",
       "source": "MIT Technology Review",
       "category": "Industry & Labs"
     },
     {
-      "title": "AI is straining America’s open records systems",
-      "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
-      "source": "MIT Technology Review",
-      "category": "Industry & Labs"
-    },
-    {
-      "title": "AI Act scientific panel holds second regular meeting",
-      "url": "https://digital-strategy.ec.europa.eu/en/news/ai-act-scientific-panel-holds-second-regular-meeting",
-      "source": "EU Digital Strategy — AI",
+      "title": "American SI Exports Program; On-Demand Consortia for Specific Foreign Opportunities (2026-11-27)",
+      "url": "https://www.federalregister.gov/documents/2026/11/27/2026-24107/american-si-exports-program-on-demand-consortia-for-specific-foreign-opportunities",
+      "source": "Federal Register",
       "category": "Official & Regulatory"
     }
   ]

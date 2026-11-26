@@ -9,6 +9,33 @@ Roughly 90 days of history are kept on this page; the latest run is also written
 ---
 
 <!-- DIGEST_START -->
+## 2026-11-26
+
+### Official & Regulatory
+
+- **[Federal Register]** [American SI Exports Program; On-Demand Consortia for Specific Foreign Opportunities (2026-11-27)](https://www.federalregister.gov/documents/2026/11/27/2026-24107/american-si-exports-program-on-demand-consortia-for-specific-foreign-opportunities)
+
+### Research & Evaluation
+
+- **[arXiv cs.CY]** [Unpacking Digital Sovereignty: A Three-Pillar Framework and a Research Agenda](https://arxiv.org/abs/2611.33397)
+- **[arXiv cs.CY]** [Designing an Integrated Learning Ecosystem for Introductory Python Programming: Scaffolded Problem Solving, Tablet-Inspired Navigation, and AI-Enhanced Instruction](https://arxiv.org/abs/2611.33471)
+- **[arXiv cs.CY]** [Language models call themselves AI but do not favor AI over people](https://arxiv.org/abs/2611.33851)
+- **[arXiv cs.CY]** [Decision and Support Mechanisms under Platform Information Overload: A Generative-Agent Experiment on College Application](https://arxiv.org/abs/2611.34709)
+- **[arXiv cs.CY]** [Learning the Platform, Not the Learner: Sequencing Shortcuts in the Offline Evaluation of Educational Recommender Systems and LLM Rankers](https://arxiv.org/abs/2611.33240)
+- **[arXiv cs.CY]** [Using AI to Simulate the Behaviour of European Populations](https://arxiv.org/abs/2611.33503)
+- **[arXiv cs.CY]** [Refusal Is Not Scored: A Coverage Limit in Content-Based Bias Evaluation](https://arxiv.org/abs/2611.33690)
+- **[arXiv cs.CY]** [Where Does the Asymmetry Enter? Staging a Fairness Audit Across a Fused Multimodal Moderation Pipeline](https://arxiv.org/abs/2611.34491)
+- **[arXiv cs.CY]** [Atunda: Building an Afrogenic Dance Movement Dataset for AI-Driven Classification](https://arxiv.org/abs/2611.34649)
+- **[arXiv cs.CY]** [Model Weights, Airlocks and Sandboxes: A Call for Technical Validation of Re-identification Tests under the EDPB Anonymisation Guidelines](https://arxiv.org/abs/2611.34859)
+- **[arXiv cs.CY]** [United in Diversity? Contextual Biases in LLM-Based Predictions of the 2024 European Parliament Elections](https://arxiv.org/abs/2409.09045)
+- **[arXiv cs.CY]** [A Tool to Map AI Programs in the U.S.: A Snapshot from April 2026 and an Analysis of Requirements for AI Majors and Minors](https://arxiv.org/abs/2606.12428)
+
+### Industry & Labs
+
+- **[MIT Technology Review]** [The next generation of bionic hands is here—and they can feel](https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/)
+
+---
+
 ## 2026-11-25
 
 ### Official & Regulatory
