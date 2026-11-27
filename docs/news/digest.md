@@ -9,6 +9,18 @@ Roughly 90 days of history are kept on this page; the latest run is also written
 ---
 
 <!-- DIGEST_START -->
+## 2026-11-27
+
+### Official & Regulatory
+
+- **[EU Digital Strategy — AI]** [Call for participants: workshop on embedded evaluations of GPAI models with systemic risk](https://digital-strategy.ec.europa.eu/en/news/call-participants-workshop-embedded-evaluations-gpai-models-systemic-risk)
+
+### Industry & Labs
+
+- **[MIT Technology Review]** [The Download: Innovators Under 35 nominations are open, and a bionic window into the mind](https://www.technologyreview.com/2026/11/27/1149960/the-download-the-download-innovators-under-35-nominations-bionic-hand/)
+
+---
+
 ## 2026-11-26
 
 ### Official & Regulatory
