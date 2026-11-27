@@ -54,6 +54,7 @@ nav:
     - Probe-based Agent Monitoring (Kimi K3): evaluation/probe-based-agent-monitoring-kimi-k3.md
   - Supply Chain:
     - AI Bill of Materials: supply-chain/ai-bom.md
+    - 'Agent Tooling Scan (MCP & Skills)': supply-chain/agent-tooling-scan.md
   - Governance:
     - Overview: governance.md
     - Release Governance: governance/release-governance.md

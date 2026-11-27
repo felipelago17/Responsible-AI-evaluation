@@ -71,7 +71,8 @@ benchmarks/          # Dataset adapters and benchmark implementations
 ├── truthfulness/    # TruthfulQA (MC1 / MC2)
 ├── truthfulqa/      # TruthfulQA re-export (BenchmarkAdapter-conformant)
 ├── membench_rai.py  # MemBench-RAI (Safety Consistency Under Memory)
-└── cybergym_glasswing.py  # CyberGym-Glasswing (Zero-Day Autonomous Risk)
+├── cybergym_glasswing.py  # CyberGym-Glasswing (Zero-Day Autonomous Risk)
+└── agent_supply_chain.py  # Agent tooling scan ingestion (MCP servers, skills)
 
 evaluation/          # Evaluation harness and auxiliary modules
 ├── runner.py        # EvaluationRunner — orchestrates benchmark execution
