@@ -43,7 +43,7 @@ He closes by saying principles need technical and legal infrastructure, and that
 | Monitoring limits | If an AI monitor is part of the control, evaluate the monitor as well as the agent, and test for shared failure modes |
 | Enforcement and shutdown | Include interruption and shutdown tests in the [test catalogue](../evaluation/test-catalogue.md), and record the cost of stopping an agent in a high-stakes deployment |
 | Inclusivity | Add third-party and societal impact to scoring, not only user task success; the [UNESCO EIA](../eia/index.md) material is a starting point for impact mapping |
-| Visibility | Logging, identifiers and auditor access belong in release criteria; see [Release Governance](release-governance.md) and the [AI Bill of Materials](../supply-chain/ai-bom.md) |
+| Visibility | Logging, identifiers and auditor access belong in release criteria; see [Release Governance](release-governance.md) and the [AI Bill of Materials](../supply-chain/ai-bom.md). For the tools and skills an agent can call, add the [Agent Tooling Scan](../supply-chain/agent-tooling-scan.md) as a release gate |
 | Liability | Record who could have prevented a failure and who could remedy it. This supports the accountability fields in the [governance mapping](../governance_mapping.md) |
 
 For which binding laws and standards apply, see [Choosing a Framework](choosing-a-framework.md). Kolt cites EU AI Act provisions on monitoring (art. 72), human oversight (art. 14), record-keeping and transparency (arts. 11–13, 18–20, 50) as examples; check their current status and the Digital Omnibus changes there before relying on them.
